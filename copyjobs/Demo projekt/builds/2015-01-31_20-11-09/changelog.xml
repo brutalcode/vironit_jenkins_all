@@ -1,0 +1,9 @@
+commit d0ddbddcdb032c9cd724bd4f0b29127634b35a09
+tree 35ee05b84c079620e299f60596235c7a13663be1
+parent 6a1da784c44ed5f30ba15935040173902cbc4160
+author Dado <dado@hotmail.com> 1422735004 +0000
+committer Dado <dado@hotmail.com> 1422735004 +0000
+
+    Fixed universe size
+
+:100644 100644 0f7e333c088e7923f81fd7d79b1f439581552c29 33e4623f105c40e2045ed4910f457fbf21483769 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateANewUniverse.java

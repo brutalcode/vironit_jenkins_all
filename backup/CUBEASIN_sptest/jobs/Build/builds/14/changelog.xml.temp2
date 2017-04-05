@@ -1,0 +1,13 @@
+commit 6a1cdc51154f28e0c70616941049eaddf5f5a709
+tree c66f1c0abd276ed6904ccd2bc0bfe614087fb9eb
+parent 40c2971716f410039b73c6d479ff7eb68b007ec5
+author Pratik Ghodekar <pratikg@citiustech.com> 2017-02-23 14:55:17 +0530
+committer Pratik Ghodekar <pratikg@citiustech.com> 2017-02-23 14:55:17 +0530
+
+    adding servlet-api.jar
+
+
+
+:100644 100644 a12e72fdc4f87e91de25dffab6b22dd6a59705d4 b08f95a57998a8cb4848b4fd48185cf6c91b1d49 M	pom.xml
+:100644 100644 f0ae02faba19bd072bd8445aa96d7421692067ea f00ff5152dd2cfb256eb76a23a87fd7211f38362 M	target/m2e-wtp/web-resources/META-INF/maven/com.calc.service/CalculatorApplication/pom.properties
+:100644 100644 a12e72fdc4f87e91de25dffab6b22dd6a59705d4 b08f95a57998a8cb4848b4fd48185cf6c91b1d49 M	target/m2e-wtp/web-resources/META-INF/maven/com.calc.service/CalculatorApplication/pom.xml

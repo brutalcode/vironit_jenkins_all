@@ -1,0 +1,24 @@
+Started by user [8mha:////4GzYkEdYOd+GIEtNxkqbhfJlCs+pK8Swg0U/X/Gu1h02AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:////4H5t9npfqLkMgcrAif8JATEQ9QrkMoYEkgUdfsHa7WCLAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/eT83ILSktQi/ZTUgpz8St3i1KKy1CLdoozUHAB7JhMb0QAAAA==[0mdeploy-server-rhel (deploy-server) in workspace /var/jenkins_service/workspace/CI-CD/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson7007328155028191961.sh
++ rm -f CalculatorApplication.war
++ wget http://citius-jenkins.westus2.cloudapp.azure.com/job/CI-CD/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-03-07 09:11:38--  http://citius-jenkins.westus2.cloudapp.azure.com/job/CI-CD/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war
+Resolving citius-jenkins.westus2.cloudapp.azure.com (citius-jenkins.westus2.cloudapp.azure.com)... 52.229.36.41
+Connecting to citius-jenkins.westus2.cloudapp.azure.com (citius-jenkins.westus2.cloudapp.azure.com)|52.229.36.41|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6756 (6.6K) [application/octet-stream]
+Saving to: ‘CalculatorApplication-0.0.1.war’
+
+     0K ......                                                100% 49.1M=0s
+
+2017-03-07 09:11:38 (49.1 MB/s) - ‘CalculatorApplication-0.0.1.war’ saved [6756/6756]
+
++ mv CalculatorApplication-0.0.1.war CalculatorApplication.war
++ cd /opt/tomcat_CalculatorApplication/bin
++ ./shutdown.sh
++ rm -rf /opt/tomcat_CalculatorApplication/webapps/CalculatorApplication /opt/tomcat_CalculatorApplication/webapps/CalculatorApplication.war
++ cp /var/jenkins_service/workspace/CI-CD/Deploy/CalculatorApplication.war /opt/tomcat_CalculatorApplication/webapps
++ nohup ./startup.sh
+Tomcat started.
+Finished: SUCCESS

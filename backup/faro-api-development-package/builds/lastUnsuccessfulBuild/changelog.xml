@@ -1,0 +1,54 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between 58b7b0435ab30e81907f981040fcda5a1e3ec6d5 and 9d538b3ad65bd8f71aa071e4882799313a3ee225
+commit ae3c7fb38af474013510ffbba5831d4c3d62a5b0
+tree 5e511166e15bb868fc475c8bf2db848a7cf70d5f
+parent 40b16937cfb4a997ecde1f7689123c71acf80b37
+author Justin Hammond <justin.hammond@rackspace.com> 1375152890 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375152890 +0000
+
+    Modified tox to use new requirements
+
+:100644 100644 477182065020178babdc3697b0aaff07293b3771 c77caf74b007cb616067c8671da13c02adf05e47 M	tox.ini
+
+commit 40b16937cfb4a997ecde1f7689123c71acf80b37
+tree e02a14a8c213abff755e09348027777ed5cea915
+parent f86621d2932ca14278e41b69532fcba29834f898
+author Justin Hammond <justin.hammond@rackspace.com> 1375152543 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375152543 +0000
+
+    moving things around and fixing db sync
+
+:100644 100644 65607e3d6af3f1fcfb69e73d86b24d3a6805b135 325c32e0354968efe0de6c52040164d7f3cf6419 M	faro_api/__init__.py
+:100644 100644 90884d549a17c0c9eb5cb1bc1ecddf220766981a 90884d549a17c0c9eb5cb1bc1ecddf220766981a R100	pip-requirements.txt	requirements/pip-requirements.txt
+:100644 100644 790766d42700dd6e3cfb7e04fc6b2c243c011121 790766d42700dd6e3cfb7e04fc6b2c243c011121 R100	test-requirements.txt	requirements/test-requirements.txt
+:100644 100644 63529466bf0159e1f4a187685a9c4d03738fd23c aa04d5918968b2b4e9fdd5b5490879ccbd7b2521 M	run.py
+:000000 100755 0000000000000000000000000000000000000000 bcabbc51e1641940ece4d91e4941bb51240f36c7 A	scripts/service-database-sync.sh
+:100755 100755 7e93c1a1db5f9495fd5a6b656258fa155fd2aae4 7e93c1a1db5f9495fd5a6b656258fa155fd2aae4 R100	service-setup.sh	scripts/service-setup.sh
+:100755 100755 177b3955ae1d9435aff98979b1a055a7118b6ff2 177b3955ae1d9435aff98979b1a055a7118b6ff2 R100	service-start.sh	scripts/service-start.sh
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between c41cc470508b38c414a128b755674d6f4dec499d and 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+commit ae442936d79b1ffb19f1cc3296f71d58d8a101b0
+tree 9b6ca9c0bf89b33ca54aa9bf15725bd2c2ad68e5
+parent 67405c385a177b2b30030091657c8279f585b717
+author Justin Hammond <justin.hammond@rackspace.com> 1375152810 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375152810 +0000
+
+    Handling moving of requirements
+
+:100644 100644 0b2cbf48ee7ebfd634a88f03e11980ff1acd59b7 6ab3d92451a7d2029d3849a62d004f10274e946d M	scripts/deploy/faro-deploy.sh
+Changes in branch origin/HEAD, between c41cc470508b38c414a128b755674d6f4dec499d and 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+commit ae442936d79b1ffb19f1cc3296f71d58d8a101b0
+tree 9b6ca9c0bf89b33ca54aa9bf15725bd2c2ad68e5
+parent 67405c385a177b2b30030091657c8279f585b717
+author Justin Hammond <justin.hammond@rackspace.com> 1375152810 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375152810 +0000
+
+    Handling moving of requirements
+
+:100644 100644 0b2cbf48ee7ebfd634a88f03e11980ff1acd59b7 6ab3d92451a7d2029d3849a62d004f10274e946d M	scripts/deploy/faro-deploy.sh
+]]>
+</sub-log>
+</multi-scm-log>

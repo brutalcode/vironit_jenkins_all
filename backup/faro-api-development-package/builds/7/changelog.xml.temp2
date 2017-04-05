@@ -1,0 +1,21 @@
+Changes in branch origin/HEAD, between 57c0e7c81753a6bcd1b075b467eacc58c3a969cd and e8ac3724d70d7d47cdcfd47b759bfd68ae91549e
+commit e8ac3724d70d7d47cdcfd47b759bfd68ae91549e
+tree d98efe38aaa78df37f8e16b52a5147790177dc05
+parent 57c0e7c81753a6bcd1b075b467eacc58c3a969cd
+author Justin Hammond <justin.hammond@rackspace.com> 1374865287 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1374865287 +0000
+
+    Changing the owner of the deployed files
+
+:100644 100644 0b2cbf48ee7ebfd634a88f03e11980ff1acd59b7 033d111eb67939c19c917099eb38825d5fe80944 M	scripts/deploy/faro-deploy.sh
+Changes in branch origin/master, between 57c0e7c81753a6bcd1b075b467eacc58c3a969cd and e8ac3724d70d7d47cdcfd47b759bfd68ae91549e
+commit e8ac3724d70d7d47cdcfd47b759bfd68ae91549e
+tree d98efe38aaa78df37f8e16b52a5147790177dc05
+parent 57c0e7c81753a6bcd1b075b467eacc58c3a969cd
+author Justin Hammond <justin.hammond@rackspace.com> 1374865287 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1374865287 +0000
+
+    Changing the owner of the deployed files
+
+:100644 100644 0b2cbf48ee7ebfd634a88f03e11980ff1acd59b7 033d111eb67939c19c917099eb38825d5fe80944 M	scripts/deploy/faro-deploy.sh
+

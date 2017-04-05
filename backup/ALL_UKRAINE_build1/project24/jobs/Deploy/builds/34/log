@@ -1,0 +1,46 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/CI-CD/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson8361173398796380075.sh
++ rm -f CalculatorApplication.war
++ wget http://ec2-52-42-45-208.us-west-2.compute.amazonaws.com/jenkins/job/CI-CD/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-02-24 12:20:40--  http://ec2-52-42-45-208.us-west-2.compute.amazonaws.com/jenkins/job/CI-CD/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war
+Resolving ec2-52-42-45-208.us-west-2.compute.amazonaws.com (ec2-52-42-45-208.us-west-2.compute.amazonaws.com)... 172.31.19.217
+Connecting to ec2-52-42-45-208.us-west-2.compute.amazonaws.com (ec2-52-42-45-208.us-west-2.compute.amazonaws.com)|172.31.19.217|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6767 (6.6K) [application/octet-stream]
+Saving to: ‘CalculatorApplication-0.0.1.war’
+
+     0K ......                                                100% 27.5M=0s
+
+2017-02-24 12:20:40 (27.5 MB/s) - ‘CalculatorApplication-0.0.1.war’ saved [6767/6767]
+
++ mv CalculatorApplication-0.0.1.war CalculatorApplication.war
++ cd /tools/apache-tomcat-7.0.75/bin
++ ./shutdown.sh
+Feb 24, 2017 12:20:41 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact localhost:8005. Tomcat may not be running.
+Feb 24, 2017 12:20:41 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.<init>(Socket.java:429)
+	at java.net.Socket.<init>(Socket.java:209)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+
++ rm -rf /tools/apache-tomcat-7.0.75/webapps/CalculatorApplication /tools/apache-tomcat-7.0.75/webapps/CalculatorApplication.war
++ cp /var/lib/jenkins/workspace/CI-CD/Deploy/CalculatorApplication.war /tools/apache-tomcat-7.0.75/webapps
++ nohup ./startup.sh
+Tomcat started.
+Finished: SUCCESS

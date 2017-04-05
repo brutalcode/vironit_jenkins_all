@@ -1,0 +1,9 @@
+commit 6a1da784c44ed5f30ba15935040173902cbc4160
+tree 10e45781da9187683631dc86debce893d014a8eb
+parent 270a55d8161f1f3edc2ffb17fd5a0d515b438e4d
+author Dado <dado@hotmail.com> 1422734862 +0000
+committer Dado <dado@hotmail.com> 1422734862 +0000
+
+    Fixed line separator in universe and changed universe size
+
+:100644 100644 d9f1019f2ad53fbcf31e04daa553bd56c9c6be24 0f7e333c088e7923f81fd7d79b1f439581552c29 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateANewUniverse.java

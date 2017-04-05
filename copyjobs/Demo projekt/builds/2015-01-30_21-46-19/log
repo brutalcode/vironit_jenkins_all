@@ -1,0 +1,504 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/Java TestNG project/workspace
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url /home/dado/git/game-of-life/ # timeout=10
+Fetching upstream changes from /home/dado/git/game-of-life/
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress /home/dado/git/game-of-life/ +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7673a40ba0d8499f4344b223f37eabdc051b4c6c (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 7673a40ba0d8499f4344b223f37eabdc051b4c6c
+ > /usr/bin/git rev-list 7673a40ba0d8499f4344b223f37eabdc051b4c6c # timeout=10
+[workspace] $ mvn clean package
+[INFO] Scanning for projects...
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'reporting.plugins.plugin.version' for org.apache.maven.plugins:maven-project-info-reports-plugin is missing. @ line 16, column 21
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] gameoflife
+[INFO] gameoflife-build
+[INFO] gameoflife-core
+[INFO] gameoflife-web
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife ---
+[INFO] Deleting /var/lib/jenkins/jobs/Java TestNG project/workspace/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Java TestNG project/workspace/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Java TestNG project/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife ---
+[INFO] /var/lib/jenkins/jobs/Java TestNG project/workspace/src/test/stories does not exists.  Skipping easyb testing
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-build 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-build ---
+[INFO] Deleting /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-build/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-build ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-build ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-build/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-build ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-build/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-build ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-build ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-build ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-build/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-build ---
+[INFO] /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-build/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ gameoflife-build ---
+[INFO] Building jar: /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-build/target/gameoflife-build-1.0-SNAPSHOT.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-core 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-core ---
+[INFO] Deleting /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-core ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/src/main/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-core ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-core ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.domain.WhenYouCreateANewUniverse
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.429 sec
+Running com.wakaleo.gameoflife.domain.WhenYouReadAGridFromAString
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.wakaleo.gameoflife.domain.WhenYouCreateACell
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.wakaleo.gameoflife.domain.WhenYouPrintAGrid
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.wakaleo.gameoflife.domain.WhenYouPlayTheGameOfLife
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-core ---
+[INFO] Using easyb dependency org.easyb:easyb-core:jar:1.6:compile
+[INFO] Using easyb dependency org.easyb:easyb-composite-groovy:pom:1.2:compile
+[INFO] Using easyb dependency org.codehaus.groovy:groovy-all:jar:2.3.6:compile
+[INFO] Using easyb dependency org.easyb:easyb-ast:jar:1.1:compile
+[INFO] Using easyb dependency commons-cli:commons-cli:jar:1.2:compile
+[INFO] Using easyb dependency commons-lang:commons-lang:jar:2.5:compile
+     [java] Running counting things story (/var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/src/test/stories/CountingThings.story)
+     [java] Scenarios run: 1, Failures: 0, Pending: 0, Time elapsed: 0.964 sec
+     [java] Running multiplying things story (/var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/src/test/stories/MultiplyingThings.story)
+     [java] Scenarios run: 1, Failures: 0, Pending: 1, Time elapsed: 0.093 sec
+     [java] 2 total behaviors ran with no failures
+     [java] Writing JUnit report to /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+     [java] JUnit report written to /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+     [java] Writing JUnit report to /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+     [java] JUnit report written to /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ gameoflife-core ---
+[INFO] Building jar: /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/gameoflife-core-1.0-SNAPSHOT.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-web ---
+[INFO] Deleting /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-web ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-web ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/target/classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/target/test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-web ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-web ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.webtests.controllers.WhenCreatingANewGame
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.556 sec
+Running com.wakaleo.gameoflife.webtests.controllers.WhenSpawningANewGeneration
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+Running com.wakaleo.gameoflife.webtests.controllers.WhenDisplayingTheHomePage
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-web ---
+[INFO] /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ gameoflife-web ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [gameoflife-web] in [/var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/target/gameoflife]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/src/main/webapp]
+[INFO] Webapp assembled in [58 msecs]
+[INFO] Building war: /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-web/target/gameoflife.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] gameoflife ........................................ SUCCESS [4.120s]
+[INFO] gameoflife-build .................................. SUCCESS [2.031s]
+[INFO] gameoflife-core ................................... SUCCESS [8.007s]
+[INFO] gameoflife-web .................................... SUCCESS [4.133s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 19.521s
+[INFO] Finished at: Fri Jan 30 21:46:41 UTC 2015
+[INFO] Final Memory: 20M/49M
+[INFO] ------------------------------------------------------------------------
+[workspace] $ mvn javadoc:javadoc
+[INFO] Scanning for projects...
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'reporting.plugins.plugin.version' for org.apache.maven.plugins:maven-project-info-reports-plugin is missing. @ line 16, column 21
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] gameoflife
+[INFO] gameoflife-build
+[INFO] gameoflife-core
+[INFO] gameoflife-web
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5/maven-release-plugin-2.5.pom
+4/11 KB   8/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5/maven-release-plugin-2.5.pom (11 KB at 62.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5/maven-release-2.5.pom
+4/5 KB     5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5/maven-release-2.5.pom (5 KB at 124.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5/maven-release-plugin-2.5.jar
+4/50 KB   8/50 KB   9/50 KB   13/50 KB   17/50 KB   20/50 KB   23/50 KB   27/50 KB   31/50 KB   34/50 KB   38/50 KB   42/50 KB   46/50 KB   50/50 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5/maven-release-plugin-2.5.jar (50 KB at 553.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom
+2/7 KB     6/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom (7 KB at 162.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+4/10 KB   8/10 KB   10/10 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom (10 KB at 252.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom
+4/37 KB    8/37 KB   12/37 KB   16/37 KB   20/37 KB   24/37 KB   28/37 KB   32/37 KB   36/37 KB   37/37 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/24/maven-parent-24.pom (37 KB at 692.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom
+4/15 KB    8/15 KB   12/15 KB   15/15 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/apache/14/apache-14.pom (15 KB at 377.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar
+4/34 KB    6/34 KB   10/34 KB   14/34 KB   18/34 KB   22/34 KB   23/34 KB   26/34 KB   30/34 KB   34/34 KB   34/34 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar (34 KB at 641.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/jelastic/jelastic-maven-plugin/1.6/jelastic-maven-plugin-1.6.pom
+4/11 KB    8/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/com/jelastic/jelastic-maven-plugin/1.6/jelastic-maven-plugin-1.6.pom (11 KB at 264.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/jelastic/jelastic-maven-plugin/1.6/jelastic-maven-plugin-1.6.jar
+4/30 KB    8/30 KB   12/30 KB   16/30 KB   20/30 KB   24/30 KB   27/30 KB   30/30 KB              Downloaded: http://repo.maven.apache.org/maven2/com/jelastic/jelastic-maven-plugin/1.6/jelastic-maven-plugin-1.6.jar (30 KB at 746.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom
+4/21 KB    8/21 KB   12/21 KB   16/21 KB   20/21 KB   21/21 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom (21 KB at 655.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+4/122 KB   6/122 KB   10/122 KB   14/122 KB   18/122 KB   22/122 KB   26/122 KB   30/122 KB   30/122 KB   34/122 KB   37/122 KB   41/122 KB   45/122 KB   49/122 KB   53/122 KB   57/122 KB   61/122 KB   62/122 KB   66/122 KB   70/122 KB   71/122 KB   75/122 KB   79/122 KB   83/122 KB   87/122 KB   91/122 KB   95/122 KB   99/122 KB   100/122 KB   104/122 KB   108/122 KB   112/122 KB   116/122 KB   120/122 KB   122/122 KB                Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar (122 KB at 1990.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.3/maven-install-plugin-2.3.pom
+4/5 KB       5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.3/maven-install-plugin-2.3.pom (5 KB at 148.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/13/maven-plugins-13.pom
+4/12 KB   8/12 KB   12/12 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/13/maven-plugins-13.pom (12 KB at 396.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.3/maven-install-plugin-2.3.jar
+4/23 KB    8/23 KB   12/23 KB   16/23 KB   20/23 KB   23/23 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.3/maven-install-plugin-2.3.jar (23 KB at 634.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom
+4/5 KB     5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom (5 KB at 140.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar
+4/24 KB   8/24 KB   12/24 KB   16/24 KB   20/24 KB   24/24 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar (24 KB at 622.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom
+3/15 KB    7/15 KB   11/15 KB   15/15 KB   15/15 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom (15 KB at 510.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom (13 KB at 451.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+4/204 KB   6/204 KB   10/204 KB   14/204 KB   18/204 KB   22/204 KB   26/204 KB   30/204 KB   34/204 KB   38/204 KB   42/204 KB   44/204 KB   48/204 KB   51/204 KB   55/204 KB   59/204 KB   63/204 KB   67/204 KB   71/204 KB   75/204 KB   79/204 KB   83/204 KB   87/204 KB   91/204 KB   95/204 KB   99/204 KB   100/204 KB   104/204 KB   108/204 KB   112/204 KB   116/204 KB   120/204 KB   124/204 KB   128/204 KB   132/204 KB   136/204 KB   140/204 KB   143/204 KB   147/204 KB   151/204 KB   155/204 KB   159/204 KB   163/204 KB   167/204 KB   171/204 KB   175/204 KB   179/204 KB   183/204 KB   187/204 KB   191/204 KB   195/204 KB   199/204 KB   203/204 KB   204/204 KB                Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar (204 KB at 2648.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.1/maven-dependency-plugin-2.1.pom
+2/8 KB       6/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.1/maven-dependency-plugin-2.1.pom (8 KB at 283.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.1/maven-dependency-plugin-2.1.jar
+4/104 KB   7/104 KB   11/104 KB   15/104 KB   19/104 KB   23/104 KB   27/104 KB   31/104 KB   35/104 KB   39/104 KB   43/104 KB   47/104 KB   51/104 KB   55/104 KB   59/104 KB   62/104 KB   66/104 KB   70/104 KB   71/104 KB   75/104 KB   79/104 KB   83/104 KB   87/104 KB   91/104 KB   95/104 KB   99/104 KB   103/104 KB   104/104 KB                Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.1/maven-dependency-plugin-2.1.jar (104 KB at 2354.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.0/maven-release-plugin-2.0.pom
+4/8 KB       8/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.0/maven-release-plugin-2.0.pom (8 KB at 254.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.0/maven-release-2.0.pom
+3/7 KB   7/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.0/maven-release-2.0.pom (7 KB at 239.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.0/maven-release-plugin-2.0.jar
+4/38 KB   8/38 KB   12/38 KB   16/38 KB   20/38 KB   24/38 KB   28/38 KB   32/38 KB   36/38 KB   38/38 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.0/maven-release-plugin-2.0.jar (38 KB at 1343.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+3/13 KB    7/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (13 KB at 421.2 KB/sec)
+4/20 KB    8/20 KB   12/20 KB   14/20 KB   18/20 KB   20/20 KB              Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 KB at 396.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml
+846/846 B               Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml (846 B at 30.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.1/maven-javadoc-plugin-2.10.1.pom
+4/17 KB     8/17 KB   12/17 KB   16/17 KB   17/17 KB   17/17 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.1/maven-javadoc-plugin-2.10.1.pom (17 KB at 443.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.1/maven-javadoc-plugin-2.10.1.jar
+4/401 KB   8/401 KB   12/401 KB   16/401 KB   20/401 KB   24/401 KB   28/401 KB   32/401 KB   36/401 KB   40/401 KB   41/401 KB   45/401 KB   49/401 KB   53/401 KB   57/401 KB   61/401 KB   65/401 KB   65/401 KB   69/401 KB   73/401 KB   77/401 KB   81/401 KB   85/401 KB   89/401 KB   92/401 KB   96/401 KB   100/401 KB   104/401 KB   108/401 KB   112/401 KB   116/401 KB   120/401 KB   122/401 KB   126/401 KB   127/401 KB   131/401 KB   135/401 KB   139/401 KB   143/401 KB   147/401 KB   151/401 KB   154/401 KB   158/401 KB   160/401 KB   164/401 KB   168/401 KB   172/401 KB   176/401 KB   180/401 KB   184/401 KB   188/401 KB   190/401 KB   194/401 KB   198/401 KB   198/401 KB   199/401 KB   203/401 KB   207/401 KB   211/401 KB   215/401 KB   219/401 KB   223/401 KB   227/401 KB   231/401 KB   233/401 KB   237/401 KB   241/401 KB   242/401 KB   246/401 KB   250/401 KB   252/401 KB   256/401 KB   260/401 KB   264/401 KB   268/401 KB   272/401 KB   276/401 KB   277/401 KB   281/401 KB   285/401 KB   289/401 KB   291/401 KB   295/401 KB   299/401 KB   303/401 KB   307/401 KB   311/401 KB   315/401 KB   319/401 KB   323/401 KB   327/401 KB   331/401 KB   332/401 KB   334/401 KB   338/401 KB   342/401 KB   346/401 KB   349/401 KB   353/401 KB   357/401 KB   361/401 KB   365/401 KB   369/401 KB   373/401 KB   377/401 KB   381/401 KB   385/401 KB   389/401 KB   393/401 KB   397/401 KB   397/401 KB   401/401 KB                Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.1/maven-javadoc-plugin-2.10.1.jar (401 KB at 2704.7 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife ---
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.pom
+3/6 KB       6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.pom (6 KB at 188.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom (2 KB at 61.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom
+3/13 KB   7/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom (13 KB at 417.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom
+4/11 KB    8/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom (11 KB at 399.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
+4/47 KB    6/47 KB   10/47 KB   14/47 KB   17/47 KB   21/47 KB   24/47 KB   28/47 KB   32/47 KB   36/47 KB   37/47 KB   41/47 KB   45/47 KB   45/47 KB   47/47 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom (47 KB at 923.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.pom
+4/6 KB     6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.pom (6 KB at 213.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.2.3/httpcomponents-client-4.2.3.pom
+4/15 KB   8/15 KB   12/15 KB   15/15 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.2.3/httpcomponents-client-4.2.3.pom (15 KB at 528.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/6/project-6.pom
+4/24 KB    8/24 KB   12/24 KB   16/24 KB   20/24 KB   23/24 KB   24/24 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/6/project-6.pom (24 KB at 585.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom
+4/6 KB     6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom (6 KB at 205.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom
+4/12 KB   8/12 KB   12/12 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom (12 KB at 415.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+4/11 KB    8/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (11 KB at 403.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.pom
+3/3 KB              Downloaded: http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.pom (3 KB at 85.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom
+4/18 KB   8/18 KB   12/18 KB   16/18 KB   18/18 KB              Downloaded: http://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom (18 KB at 452.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.5/plexus-archiver-2.5.pom
+4/4 KB              Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.5/plexus-archiver-2.5.pom (4 KB at 127.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom (4 KB at 113.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.12/plexus-io-2.0.12.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.12/plexus-io-2.0.12.pom (3 KB at 84.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom
+4/12 KB   8/12 KB   12/12 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom (12 KB at 413.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+4/52 KB    7/52 KB   11/52 KB   15/52 KB   19/52 KB   23/52 KB   26/52 KB   30/52 KB   34/52 KB   34/52 KB   35/52 KB   39/52 KB   43/52 KB   47/52 KB   51/52 KB   52/52 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom (52 KB at 1364.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.jar
+Downloading: http://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar
+Downloading: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+4/28 KB    8/28 KB   12/28 KB   16/28 KB   20/28 KB   24/28 KB   28/28 KB   28/28 KB   28/28 KB   1/170 KB   28/28 KB   5/170 KB   28/28 KB   9/170 KB   28/28 KB   13/170 KB   28/28 KB   17/170 KB   28/28 KB   21/170 KB   28/28 KB   25/170 KB   28/28 KB   29/170 KB   28/28 KB   33/170 KB   28/28 KB   37/170 KB   28/28 KB   41/170 KB   28/28 KB   45/170 KB   28/28 KB   49/170 KB   28/28 KB   53/170 KB   28/28 KB   57/170 KB   28/28 KB   61/170 KB   28/28 KB   65/170 KB                          Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.jar (28 KB at 986.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.jar
+65/170 KB   4/423 KB   65/170 KB   8/423 KB   65/170 KB   12/423 KB   65/170 KB   14/423 KB   65/170 KB   4/219 KB   14/423 KB   65/170 KB   8/219 KB   14/423 KB   65/170 KB   12/219 KB   14/423 KB   65/170 KB   14/219 KB   14/423 KB   69/170 KB   14/219 KB   14/423 KB   73/170 KB   14/219 KB   14/423 KB   77/170 KB   14/219 KB   14/423 KB   81/170 KB   14/219 KB   14/423 KB   85/170 KB   14/219 KB   14/423 KB   89/170 KB   14/219 KB   14/423 KB   93/170 KB   14/219 KB   14/423 KB   97/170 KB   14/219 KB   14/423 KB   101/170 KB   14/219 KB   14/423 KB   105/170 KB   14/219 KB   14/423 KB   109/170 KB   14/219 KB   14/423 KB   113/170 KB   14/219 KB   14/423 KB   117/170 KB   14/219 KB   14/423 KB   121/170 KB   14/219 KB   14/423 KB   125/170 KB   14/219 KB   14/423 KB   129/170 KB   14/219 KB   14/423 KB   133/170 KB   14/219 KB   14/423 KB   137/170 KB   14/219 KB   14/423 KB   139/170 KB   14/219 KB   14/423 KB   3/228 KB   139/170 KB   14/219 KB   14/423 KB   7/228 KB   139/170 KB   14/219 KB   14/423 KB   11/228 KB   139/170 KB   14/219 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   4/359 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   8/359 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   12/359 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   16/359 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   20/359 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   24/359 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   28/359 KB   14/423 KB   14/228 KB   139/170 KB   14/219 KB   28/359 KB   18/423 KB   14/228 KB   139/170 KB   14/219 KB   28/359 KB   22/423 KB   14/228 KB   139/170 KB   14/219 KB   28/359 KB   26/423 KB   14/228 KB   139/170 KB   14/219 KB   28/359 KB   30/423 KB   14/228 KB   139/170 KB   14/219 KB   31/359 KB   30/423 KB   14/228 KB   139/170 KB   18/219 KB   31/359 KB   30/423 KB   14/228 KB   139/170 KB   22/219 KB   31/359 KB   30/423 KB   14/228 KB   139/170 KB   26/219 KB   31/359 KB   30/423 KB   14/228 KB   139/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   141/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   145/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   149/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   153/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   157/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   161/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   165/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   169/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   31/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   35/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   37/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   41/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   45/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   49/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   53/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   57/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   61/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   65/359 KB   30/423 KB   14/228 KB   170/170 KB   30/219 KB   65/359 KB   31/423 KB   14/228 KB   170/170 KB   30/219 KB   65/359 KB   35/423 KB   14/228 KB   170/170 KB   30/219 KB   65/359 KB   39/423 KB   14/228 KB   170/170 KB   30/219 KB   65/359 KB   43/423 KB   14/228 KB   170/170 KB   30/219 KB   65/359 KB   47/423 KB   14/228 KB   170/170 KB   30/219 KB   65/359 KB   50/423 KB   14/228 KB   170/170 KB   30/219 KB   65/359 KB   50/423 KB   17/228 KB   170/170 KB   30/219 KB   65/359 KB   50/423 KB   21/228 KB   170/170 KB   30/219 KB   65/359 KB   50/423 KB   25/228 KB   170/170 KB   30/219 KB   65/359 KB   50/423 KB   29/228 KB   170/170 KB   30/219 KB   65/359 KB   50/423 KB   31/228 KB   170/170 KB   30/219 KB   65/359 KB   50/423 KB   31/228 KB   170/170 KB   34/219 KB   65/359 KB   50/423 KB   31/228 KB   170/170 KB   38/219 KB   65/359 KB   50/423 KB   31/228 KB   170/170 KB   38/219 KB   65/359 KB   50/423 KB   31/228 KB   170/170 KB   42/219 KB   65/359 KB   50/423 KB   31/228 KB   170/170 KB   46/219 KB   65/359 KB   50/423 KB   31/228 KB   170/170 KB   50/219 KB   65/359 KB   50/423 KB   31/228 KB   170/170 KB   50/219 KB   69/359 KB   50/423 KB   31/228 KB   170/170 KB   50/219 KB   71/359 KB   50/423 KB   31/228 KB   170/170 KB   50/219 KB   74/359 KB   50/423 KB   31/228 KB   170/170 KB   50/219 KB   78/359 KB   50/423 KB   31/228 KB   170/170 KB   50/219 KB   82/359 KB   50/423 KB   31/228 KB   170/170 KB   50/219 KB   86/359 KB   50/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   51/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   52/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   52/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   56/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   60/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   64/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   68/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   72/423 KB   31/228 KB   170/170 KB   50/219 KB   90/359 KB   75/423 KB   31/228 KB   170/170 KB   50/219 KB   94/359 KB   75/423 KB   31/228 KB   170/170 KB   50/219 KB   98/359 KB   75/423 KB   31/228 KB   170/170 KB   50/219 KB   102/359 KB   75/423 KB   31/228 KB   170/170 KB   50/219 KB   103/359 KB   75/423 KB   31/228 KB   170/170 KB   54/219 KB   103/359 KB   75/423 KB   31/228 KB   170/170 KB   58/219 KB   103/359 KB   75/423 KB   31/228 KB   170/170 KB   62/219 KB   103/359 KB   75/423 KB   31/228 KB   170/170 KB   66/219 KB   103/359 KB   75/423 KB   31/228 KB   170/170 KB   70/219 KB   103/359 KB   75/423 KB   31/228 KB   170/170 KB   74/219 KB   103/359 KB   75/423 KB   31/228 KB   170/170 KB   75/219 KB   103/359 KB   75/423 KB   35/228 KB   170/170 KB   75/219 KB   103/359 KB   75/423 KB   39/228 KB   170/170 KB   75/219 KB   103/359 KB   75/423 KB   43/228 KB   170/170 KB   75/219 KB   103/359 KB   75/423 KB   47/228 KB   170/170 KB   75/219 KB   103/359 KB   75/423 KB   51/228 KB   170/170 KB   75/219 KB   103/359 KB   75/423 KB   54/228 KB   170/170 KB   75/219 KB   103/359 KB   75/423 KB                                                                 54/228 KB   75/219 KB   103/359 KB   78/423 KB                Downloaded: http://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar (170 KB at 2354.4 KB/sec)
+54/228 KB   75/219 KB   103/359 KB   81/423 KB   Downloading: http://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar
+54/228 KB   75/219 KB   103/359 KB   85/423 KB   54/228 KB   75/219 KB   103/359 KB   89/423 KB   54/228 KB   75/219 KB   103/359 KB   93/423 KB   54/228 KB   75/219 KB   103/359 KB   97/423 KB   54/228 KB   75/219 KB   103/359 KB   101/423 KB   54/228 KB   75/219 KB   103/359 KB   105/423 KB   54/228 KB   75/219 KB   103/359 KB   109/423 KB   54/228 KB   75/219 KB   103/359 KB   109/423 KB   54/228 KB   75/219 KB   107/359 KB   109/423 KB   54/228 KB   75/219 KB   111/359 KB   109/423 KB   54/228 KB   75/219 KB   115/359 KB   109/423 KB   54/228 KB   75/219 KB   119/359 KB   109/423 KB   54/228 KB   75/219 KB   123/359 KB   109/423 KB   54/228 KB   75/219 KB   127/359 KB   109/423 KB   54/228 KB   75/219 KB   131/359 KB   109/423 KB   54/228 KB   75/219 KB   135/359 KB   109/423 KB   54/228 KB   75/219 KB   139/359 KB   109/423 KB   54/228 KB   75/219 KB   143/359 KB   109/423 KB   54/228 KB   75/219 KB   147/359 KB   109/423 KB   54/228 KB   78/219 KB   147/359 KB   109/423 KB   54/228 KB   81/219 KB   147/359 KB   109/423 KB   54/228 KB   82/219 KB   147/359 KB   109/423 KB   54/228 KB   86/219 KB   147/359 KB   109/423 KB   54/228 KB   90/219 KB   147/359 KB   109/423 KB   54/228 KB   94/219 KB   147/359 KB   109/423 KB   54/228 KB   98/219 KB   147/359 KB   109/423 KB   54/228 KB   102/219 KB   147/359 KB   109/423 KB   54/228 KB   106/219 KB   147/359 KB   109/423 KB   54/228 KB   106/219 KB   147/359 KB   109/423 KB   55/228 KB   106/219 KB   147/359 KB   109/423 KB   57/228 KB   106/219 KB   147/359 KB   109/423 KB   61/228 KB   106/219 KB   147/359 KB   109/423 KB   65/228 KB   106/219 KB   147/359 KB   109/423 KB   69/228 KB   106/219 KB   147/359 KB   109/423 KB   73/228 KB   106/219 KB   147/359 KB   109/423 KB   77/228 KB   106/219 KB   147/359 KB   109/423 KB   81/228 KB   106/219 KB   147/359 KB   109/423 KB   81/228 KB   106/219 KB   147/359 KB   109/423 KB   81/228 KB   106/219 KB   151/359 KB   109/423 KB   81/228 KB   106/219 KB   154/359 KB   109/423 KB   81/228 KB   106/219 KB   154/359 KB   113/423 KB   81/228 KB   106/219 KB   154/359 KB   113/423 KB   81/228 KB   106/219 KB   154/359 KB   117/423 KB   81/228 KB   106/219 KB   154/359 KB   117/423 KB   81/228 KB   106/219 KB   154/359 KB   121/423 KB   81/228 KB   106/219 KB   154/359 KB   125/423 KB   81/228 KB   106/219 KB   154/359 KB   129/423 KB   81/228 KB   106/219 KB   154/359 KB   133/423 KB   81/228 KB   106/219 KB   154/359 KB   137/423 KB   81/228 KB   106/219 KB   154/359 KB   141/423 KB   81/228 KB   106/219 KB   154/359 KB   145/423 KB   81/228 KB   106/219 KB   154/359 KB   149/423 KB   81/228 KB   106/219 KB   158/359 KB   149/423 KB   81/228 KB   106/219 KB   158/359 KB   149/423 KB   81/228 KB   106/219 KB   162/359 KB   149/423 KB   81/228 KB   106/219 KB   166/359 KB   149/423 KB   81/228 KB   106/219 KB   170/359 KB   149/423 KB   81/228 KB   106/219 KB   174/359 KB   149/423 KB   81/228 KB   106/219 KB   178/359 KB   149/423 KB   81/228 KB   106/219 KB   182/359 KB   149/423 KB   81/228 KB   106/219 KB   186/359 KB   149/423 KB   81/228 KB   106/219 KB   190/359 KB   149/423 KB   81/228 KB   106/219 KB   194/359 KB   149/423 KB   81/228 KB   109/219 KB   194/359 KB   149/423 KB   81/228 KB   110/219 KB   194/359 KB   149/423 KB   81/228 KB   114/219 KB   194/359 KB   149/423 KB   81/228 KB   118/219 KB   194/359 KB   149/423 KB   81/228 KB   122/219 KB   194/359 KB   149/423 KB   81/228 KB   126/219 KB   194/359 KB   149/423 KB   81/228 KB   130/219 KB   194/359 KB   149/423 KB   81/228 KB   134/219 KB   194/359 KB   149/423 KB   81/228 KB   138/219 KB   194/359 KB   149/423 KB   81/228 KB   142/219 KB   194/359 KB   149/423 KB   81/228 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   3/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   7/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   11/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   15/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   19/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   23/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   27/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   31/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   35/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   39/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   43/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   47/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   51/176 KB   144/219 KB   194/359 KB   149/423 KB   81/228 KB   55/176 KB   144/219 KB   198/359 KB   149/423 KB   81/228 KB   55/176 KB   144/219 KB   202/359 KB   149/423 KB   81/228 KB   55/176 KB   144/219 KB   202/359 KB   149/423 KB   81/228 KB   55/176 KB   144/219 KB   202/359 KB   153/423 KB   81/228 KB   55/176 KB   144/219 KB   202/359 KB   157/423 KB   81/228 KB   55/176 KB   144/219 KB   202/359 KB   161/423 KB   81/228 KB   55/176 KB   144/219 KB   202/359 KB   165/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   169/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   173/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   177/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   181/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   185/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   189/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   193/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   197/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   198/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   165/423 KB   81/228 KB   55/176 KB   144/219 KB   210/359 KB   198/423 KB   84/228 KB   55/176 KB   144/219 KB   214/359 KB   198/423 KB   84/228 KB   55/176 KB   144/219 KB   218/359 KB   198/423 KB   84/228 KB   55/176 KB   144/219 KB   222/359 KB   198/423 KB   84/228 KB   55/176 KB   148/219 KB   222/359 KB   198/423 KB   84/228 KB   55/176 KB   151/219 KB   222/359 KB   198/423 KB   81/228 KB   55/176 KB   144/219 KB   206/359 KB   177/423 KB   84/228 KB   59/176 KB   151/219 KB   222/359 KB   198/423 KB   84/228 KB   63/176 KB   151/219 KB   222/359 KB   198/423 KB   84/228 KB   55/176 KB   144/219 KB   210/359 KB   198/423 KB   88/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   92/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   96/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   100/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   104/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   108/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   112/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   84/228 KB   63/176 KB   155/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   159/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   163/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   167/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   171/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   175/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   179/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   183/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   187/219 KB   222/359 KB   198/423 KB   113/228 KB   63/176 KB   191/219 KB   222/359 KB   198/423 KB   113/228 KB   67/176 KB   191/219 KB   222/359 KB   198/423 KB   113/228 KB   71/176 KB   191/219 KB   226/359 KB   198/423 KB   113/228 KB   75/176 KB   191/219 KB   226/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   226/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   226/359 KB   198/423 KB   113/228 KB   67/176 KB   191/219 KB   226/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   230/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   234/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   238/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   242/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   245/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   249/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   250/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   253/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   198/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   202/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   202/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   206/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   210/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   214/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   218/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   219/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   223/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   227/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   231/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   235/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   239/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   243/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   247/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   251/423 KB   113/228 KB   79/176 KB   191/219 KB   256/359 KB   253/423 KB   113/228 KB   79/176 KB   191/219 KB   260/359 KB   253/423 KB   113/228 KB   79/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   83/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   84/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   86/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   90/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   94/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   98/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   102/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   106/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   110/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   114/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   118/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   122/176 KB   191/219 KB   263/359 KB   253/423 KB   113/228 KB   122/176 KB   194/219 KB   263/359 KB   253/423 KB   113/228 KB   122/176 KB   194/219 KB   267/359 KB   253/423 KB   113/228 KB   122/176 KB   194/219 KB   271/359 KB   253/423 KB   113/228 KB   122/176 KB   194/219 KB   275/359 KB   253/423 KB   113/228 KB   122/176 KB   194/219 KB   279/359 KB   253/423 KB   113/228 KB   122/176 KB   198/219 KB   279/359 KB   253/423 KB   113/228 KB   122/176 KB   202/219 KB   279/359 KB   253/423 KB   113/228 KB   122/176 KB   206/219 KB   279/359 KB   253/423 KB   113/228 KB   122/176 KB   210/219 KB   279/359 KB   253/423 KB   113/228 KB   122/176 KB   214/219 KB   279/359 KB   253/423 KB   113/228 KB   122/176 KB   218/219 KB   279/359 KB   253/423 KB   113/228 KB   122/176 KB   219/219 KB   279/359 KB   253/423 KB   113/228 KB   122/176 KB   219/219 KB   283/359 KB   253/423 KB   113/228 KB   122/176 KB   219/219 KB   287/359 KB   253/423 KB   113/228 KB   122/176 KB   219/219 KB   291/359 KB   253/423 KB   113/228 KB   122/176 KB   219/219 KB   295/359 KB   253/423 KB   113/228 KB   122/176 KB   219/219 KB   299/359 KB   253/423 KB   113/228 KB   122/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   126/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   130/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   134/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   138/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   142/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   146/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   150/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   154/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   158/176 KB   219/219 KB   301/359 KB   253/423 KB   113/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   115/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   119/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   123/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   127/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   131/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   135/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   139/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   143/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   147/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   151/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   151/228 KB   160/176 KB   219/219 KB   301/359 KB   253/423 KB   151/228 KB   160/176 KB   219/219 KB   305/359 KB   253/423 KB   151/228 KB   160/176 KB   219/219 KB   308/359 KB   253/423 KB   151/228 KB   160/176 KB   219/219 KB   310/359 KB   253/423 KB   151/228 KB   160/176 KB   219/219 KB   314/359 KB   253/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   253/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   257/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   259/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   263/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   267/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   271/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   275/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   279/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   280/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   283/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   287/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   291/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   295/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   299/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   303/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   307/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   311/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   315/423 KB   151/228 KB   160/176 KB   219/219 KB   317/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   321/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   325/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   325/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   328/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   331/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   335/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   339/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   343/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   347/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   351/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   355/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   359/359 KB   317/423 KB   151/228 KB   160/176 KB   219/219 KB   359/359 KB   317/423 KB   151/228 KB   163/176 KB   219/219 KB   359/359 KB   317/423 KB   151/228 KB   167/176 KB   219/219 KB   359/359 KB   317/423 KB   151/228 KB   171/176 KB   219/219 KB   359/359 KB   317/423 KB   151/228 KB   175/176 KB   219/219 KB   359/359 KB   317/423 KB   151/228 KB   176/176 KB   219/219 KB   359/359 KB   317/423 KB                                                                    Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar (219 KB at 1834.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.5/plexus-archiver-2.5.jar
+151/228 KB   176/176 KB   359/359 KB   321/423 KB                151/228 KB   176/176 KB   359/359 KB   324/423 KB   151/228 KB   176/176 KB   359/359 KB   328/423 KB   151/228 KB   176/176 KB   359/359 KB   332/423 KB   151/228 KB   176/176 KB   359/359 KB   336/423 KB   151/228 KB   176/176 KB   359/359 KB   340/423 KB   151/228 KB   176/176 KB   359/359 KB   344/423 KB   151/228 KB   176/176 KB   359/359 KB   348/423 KB   151/228 KB   176/176 KB   359/359 KB   348/423 KB   155/228 KB   176/176 KB   359/359 KB   348/423 KB   159/228 KB   176/176 KB   359/359 KB   348/423 KB   163/228 KB   176/176 KB   359/359 KB   348/423 KB   167/228 KB   176/176 KB   359/359 KB   348/423 KB   171/228 KB   176/176 KB   359/359 KB   348/423 KB   175/228 KB   176/176 KB   359/359 KB   348/423 KB   179/228 KB   176/176 KB   359/359 KB   348/423 KB   183/228 KB   176/176 KB   359/359 KB   348/423 KB   187/228 KB   176/176 KB   359/359 KB   348/423 KB   191/228 KB   176/176 KB   359/359 KB   348/423 KB   191/228 KB   176/176 KB   359/359 KB   352/423 KB   191/228 KB   176/176 KB   359/359 KB   356/423 KB   191/228 KB   176/176 KB   359/359 KB   360/423 KB   195/228 KB   176/176 KB   359/359 KB   364/423 KB   195/228 KB   176/176 KB   359/359 KB   368/423 KB   195/228 KB   176/176 KB   359/359 KB   372/423 KB   195/228 KB   176/176 KB   359/359 KB   376/423 KB   195/228 KB   176/176 KB   359/359 KB   380/423 KB   195/228 KB   176/176 KB   359/359 KB   384/423 KB   195/228 KB   176/176 KB   359/359 KB   388/423 KB   195/228 KB   176/176 KB   359/359 KB   389/423 KB   195/228 KB   176/176 KB   359/359 KB   360/423 KB   197/228 KB   176/176 KB   359/359 KB   389/423 KB                                                       Downloaded: http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.jar (359 KB at 3417.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.12/plexus-io-2.0.12.jar
+197/228 KB   176/176 KB   4/124 KB   389/423 KB     197/228 KB   176/176 KB   7/124 KB   389/423 KB   197/228 KB   176/176 KB   11/124 KB   389/423 KB   197/228 KB   176/176 KB   15/124 KB   389/423 KB   197/228 KB   176/176 KB   19/124 KB   389/423 KB   197/228 KB   176/176 KB   23/124 KB   389/423 KB   197/228 KB   176/176 KB   27/124 KB   389/423 KB   197/228 KB   176/176 KB   31/124 KB   389/423 KB   197/228 KB   176/176 KB   35/124 KB   389/423 KB   197/228 KB   176/176 KB   39/124 KB   389/423 KB   197/228 KB   176/176 KB   43/124 KB   389/423 KB   197/228 KB   176/176 KB   47/124 KB   393/423 KB   197/228 KB   176/176 KB   51/124 KB   393/423 KB   197/228 KB   176/176 KB   54/124 KB   393/423 KB   197/228 KB   176/176 KB   43/124 KB   393/423 KB   197/228 KB   176/176 KB   54/124 KB   397/423 KB   197/228 KB   176/176 KB   54/124 KB   401/423 KB   197/228 KB   176/176 KB   54/124 KB   405/423 KB   197/228 KB   176/176 KB   54/124 KB   409/423 KB   197/228 KB   176/176 KB   54/124 KB   413/423 KB   197/228 KB   176/176 KB   54/124 KB   417/423 KB   197/228 KB   176/176 KB   54/124 KB   421/423 KB   197/228 KB   176/176 KB   54/124 KB   423/423 KB                                                      Downloaded: http://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar (176 KB at 2660.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+199/228 KB   54/124 KB   423/423 KB                203/228 KB   54/124 KB   423/423 KB   207/228 KB   54/124 KB   423/423 KB   211/228 KB   54/124 KB   423/423 KB   215/228 KB   54/124 KB   423/423 KB   219/228 KB   54/124 KB   423/423 KB   223/228 KB   54/124 KB   423/423 KB   227/228 KB   54/124 KB   423/423 KB   228/228 KB   54/124 KB   423/423 KB   3/60 KB   228/228 KB   54/124 KB   423/423 KB   7/60 KB   228/228 KB   54/124 KB   423/423 KB   11/60 KB   228/228 KB   58/124 KB   423/423 KB   15/60 KB   228/228 KB   58/124 KB   423/423 KB   19/60 KB   228/228 KB   58/124 KB   423/423 KB   23/60 KB   228/228 KB   58/124 KB   423/423 KB   27/60 KB   228/228 KB   58/124 KB   423/423 KB   31/60 KB   228/228 KB   58/124 KB   423/423 KB   35/60 KB   228/228 KB   58/124 KB   423/423 KB   39/60 KB   228/228 KB   58/124 KB   423/423 KB   43/60 KB   228/228 KB   58/124 KB   423/423 KB   47/60 KB   228/228 KB   58/124 KB   423/423 KB   51/60 KB   228/228 KB   58/124 KB   423/423 KB   55/60 KB   228/228 KB   58/124 KB   423/423 KB   7/60 KB   228/228 KB   58/124 KB   423/423 KB   55/60 KB   228/228 KB   62/124 KB   423/423 KB   55/60 KB   228/228 KB   66/124 KB   423/423 KB   55/60 KB   228/228 KB   70/124 KB   423/423 KB   55/60 KB   228/228 KB   74/124 KB   423/423 KB   55/60 KB   228/228 KB   78/124 KB   423/423 KB   55/60 KB   228/228 KB   82/124 KB   423/423 KB   55/60 KB   228/228 KB   86/124 KB   423/423 KB   55/60 KB   228/228 KB   90/124 KB   423/423 KB   55/60 KB   228/228 KB   94/124 KB   423/423 KB   55/60 KB   228/228 KB   98/124 KB   423/423 KB   55/60 KB   228/228 KB   102/124 KB   423/423 KB   55/60 KB   228/228 KB   106/124 KB   423/423 KB   59/60 KB   228/228 KB   110/124 KB   423/423 KB   59/60 KB   228/228 KB   112/124 KB   423/423 KB   59/60 KB   228/228 KB   106/124 KB   423/423 KB   60/60 KB   228/228 KB   112/124 KB                                                                  Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar (423 KB at 2764.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar
+60/60 KB   228/228 KB   116/124 KB   60/60 KB   228/228 KB   117/124 KB   60/60 KB   228/228 KB   117/124 KB   4/357 KB   60/60 KB   228/228 KB   117/124 KB   7/357 KB   60/60 KB   228/228 KB   117/124 KB   11/357 KB   60/60 KB   228/228 KB   117/124 KB   15/357 KB   60/60 KB   228/228 KB   117/124 KB   19/357 KB   60/60 KB   228/228 KB   117/124 KB   23/357 KB   60/60 KB   228/228 KB   117/124 KB   27/357 KB   60/60 KB   228/228 KB   117/124 KB   31/357 KB   60/60 KB   228/228 KB   117/124 KB   35/357 KB   60/60 KB   228/228 KB   117/124 KB   39/357 KB   60/60 KB   228/228 KB   117/124 KB   43/357 KB   60/60 KB   228/228 KB   117/124 KB   47/357 KB   60/60 KB   228/228 KB   117/124 KB   51/357 KB   60/60 KB   228/228 KB   117/124 KB   55/357 KB   60/60 KB   228/228 KB   117/124 KB   59/357 KB   60/60 KB   228/228 KB   117/124 KB   63/357 KB   60/60 KB   228/228 KB   121/124 KB   63/357 KB   60/60 KB   228/228 KB   124/124 KB   63/357 KB                                                    Downloaded: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (228 KB at 1466.6 KB/sec)
+60/60 KB   124/124 KB   67/357 KB                60/60 KB   124/124 KB   71/357 KB   60/60 KB   124/124 KB   75/357 KB   60/60 KB   124/124 KB   79/357 KB   60/60 KB   124/124 KB   82/357 KB                                       Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.12/plexus-io-2.0.12.jar (60 KB at 1692.0 KB/sec)
+124/124 KB   4/234 KB   82/357 KB   124/124 KB   6/234 KB   82/357 KB   124/124 KB   10/234 KB   82/357 KB   124/124 KB   14/234 KB   82/357 KB   124/124 KB   18/234 KB   82/357 KB   124/124 KB   22/234 KB   82/357 KB   124/124 KB   26/234 KB   82/357 KB   124/124 KB   30/234 KB   82/357 KB   124/124 KB   34/234 KB   82/357 KB   124/124 KB   38/234 KB   82/357 KB   124/124 KB   42/234 KB   82/357 KB   124/124 KB   46/234 KB   82/357 KB   124/124 KB   50/234 KB   82/357 KB   124/124 KB   54/234 KB   82/357 KB   124/124 KB   58/234 KB   82/357 KB   124/124 KB   62/234 KB   82/357 KB   124/124 KB   66/234 KB   82/357 KB   124/124 KB   70/234 KB   82/357 KB   124/124 KB   74/234 KB   82/357 KB   124/124 KB   78/234 KB   82/357 KB   124/124 KB   79/234 KB   82/357 KB                                        Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.5/plexus-archiver-2.5.jar (124 KB at 2520.1 KB/sec)
+79/234 KB   86/357 KB                79/234 KB   89/357 KB   79/234 KB   92/357 KB   79/234 KB   96/357 KB   79/234 KB   100/357 KB   79/234 KB   104/357 KB   79/234 KB   108/357 KB   79/234 KB   112/357 KB   79/234 KB   116/357 KB   79/234 KB   120/357 KB   79/234 KB   124/357 KB   79/234 KB   128/357 KB   79/234 KB   132/357 KB   79/234 KB   136/357 KB   79/234 KB   140/357 KB   79/234 KB   144/357 KB   79/234 KB   148/357 KB   79/234 KB   152/357 KB   79/234 KB   156/357 KB   79/234 KB   160/357 KB   79/234 KB   164/357 KB   79/234 KB   166/357 KB   83/234 KB   166/357 KB   86/234 KB   166/357 KB   90/234 KB   166/357 KB   92/234 KB   166/357 KB   96/234 KB   166/357 KB   100/234 KB   166/357 KB   104/234 KB   166/357 KB   108/234 KB   166/357 KB   112/234 KB   166/357 KB   116/234 KB   166/357 KB   120/234 KB   166/357 KB   124/234 KB   166/357 KB   128/234 KB   166/357 KB   132/234 KB   166/357 KB   136/234 KB   166/357 KB   140/234 KB   166/357 KB   144/234 KB   166/357 KB   148/234 KB   166/357 KB   152/234 KB   166/357 KB   156/234 KB   166/357 KB   160/234 KB   166/357 KB   161/234 KB   166/357 KB   161/234 KB   170/357 KB   161/234 KB   170/357 KB   161/234 KB   174/357 KB   161/234 KB   174/357 KB   161/234 KB   175/357 KB   161/234 KB   177/357 KB   161/234 KB   180/357 KB   161/234 KB   184/357 KB   161/234 KB   188/357 KB   161/234 KB   192/357 KB   161/234 KB   196/357 KB   161/234 KB   200/357 KB   161/234 KB   204/357 KB   161/234 KB   208/357 KB   161/234 KB   212/357 KB   161/234 KB   216/357 KB   161/234 KB   220/357 KB   161/234 KB   224/357 KB   161/234 KB   228/357 KB   161/234 KB   232/357 KB   161/234 KB   236/357 KB   161/234 KB   240/357 KB   161/234 KB   244/357 KB   161/234 KB   248/357 KB   161/234 KB   252/357 KB   161/234 KB   252/357 KB   165/234 KB   252/357 KB   169/234 KB   252/357 KB   171/234 KB   252/357 KB   175/234 KB   252/357 KB   178/234 KB   252/357 KB   182/234 KB   252/357 KB   182/234 KB   252/357 KB   186/234 KB   252/357 KB   190/234 KB   252/357 KB   194/234 KB   252/357 KB   198/234 KB   252/357 KB   202/234 KB   252/357 KB   206/234 KB   252/357 KB   210/234 KB   252/357 KB   214/234 KB   252/357 KB   218/234 KB   252/357 KB   222/234 KB   252/357 KB   226/234 KB   252/357 KB   230/234 KB   252/357 KB   234/234 KB   252/357 KB   234/234 KB   256/357 KB   234/234 KB   257/357 KB   234/234 KB   261/357 KB   234/234 KB   262/357 KB   234/234 KB   266/357 KB   234/234 KB   269/357 KB   234/234 KB   272/357 KB   234/234 KB   276/357 KB   234/234 KB   280/357 KB   234/234 KB   284/357 KB   234/234 KB   288/357 KB   234/234 KB   292/357 KB   234/234 KB   296/357 KB   234/234 KB   300/357 KB   234/234 KB   304/357 KB   234/234 KB   308/357 KB   234/234 KB   312/357 KB   234/234 KB   316/357 KB   234/234 KB   320/357 KB   234/234 KB   324/357 KB   234/234 KB   328/357 KB   234/234 KB   332/357 KB   234/234 KB   336/357 KB   234/234 KB   340/357 KB   234/234 KB   342/357 KB                             Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar (234 KB at 4667.0 KB/sec)
+346/357 KB                349/357 KB   353/357 KB   354/357 KB   357/357 KB                Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar (357 KB at 3757.7 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-build 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-build >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-build ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-build <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-build ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-core 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-core >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-core ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-core <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-core ---
+[INFO] 
+Loading source files for package com.wakaleo.gameoflife.domain...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_65
+Building tree for all the packages and classes...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/Cell.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/Grid.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/GridReader.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/GridWriter.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/Universe.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/package-frame.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/package-summary.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/package-tree.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/constant-values.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/Grid.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/Cell.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/GridReader.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/Universe.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/GridWriter.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/package-use.html...
+Building index for all the packages and classes...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/overview-tree.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/index-all.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/allclasses-frame.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/allclasses-noframe.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/index.html...
+Generating /var/lib/jenkins/jobs/Java TestNG project/workspace/gameoflife-core/target/site/apidocs/help-doc.html...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-maven-plugin/7.1.0.v20100505/jetty-maven-plugin-7.1.0.v20100505.pom
+4/5 KB       5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-maven-plugin/7.1.0.v20100505/jetty-maven-plugin-7.1.0.v20100505.pom (5 KB at 116.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-integration-project/7.1.0.v20100505/jetty-integration-project-7.1.0.v20100505.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-integration-project/7.1.0.v20100505/jetty-integration-project-7.1.0.v20100505.pom (5 KB at 18.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom
+4/17 KB   8/17 KB   12/17 KB   16/17 KB   17/17 KB              Downloaded: http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom (17 KB at 402.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-maven-plugin/7.1.0.v20100505/jetty-maven-plugin-7.1.0.v20100505.jar
+1/53 KB    5/53 KB   9/53 KB   13/53 KB   17/53 KB   21/53 KB   25/53 KB   29/53 KB   33/53 KB   37/53 KB   41/53 KB   45/53 KB   49/53 KB   53/53 KB              Downloaded: http://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-maven-plugin/7.1.0.v20100505/jetty-maven-plugin-7.1.0.v20100505.jar (53 KB at 1336.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/net/thucydides/maven/plugins/maven-thucydides-plugin/0.9.268/maven-thucydides-plugin-0.9.268.pom
+3/3 KB              Downloaded: http://repo.maven.apache.org/maven2/net/thucydides/maven/plugins/maven-thucydides-plugin/0.9.268/maven-thucydides-plugin-0.9.268.pom (3 KB at 47.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/net/thucydides/thucydides/0.9.268/thucydides-0.9.268.pom
+4/22 KB   8/22 KB   12/22 KB   16/22 KB   20/22 KB   22/22 KB              Downloaded: http://repo.maven.apache.org/maven2/net/thucydides/thucydides/0.9.268/thucydides-0.9.268.pom (22 KB at 590.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/net/thucydides/maven/plugins/maven-thucydides-plugin/0.9.268/maven-thucydides-plugin-0.9.268.jar
+4/14 KB    8/14 KB   12/14 KB   14/14 KB              Downloaded: http://repo.maven.apache.org/maven2/net/thucydides/maven/plugins/maven-thucydides-plugin/0.9.268/maven-thucydides-plugin-0.9.268.jar (14 KB at 394.4 KB/sec)
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-web >>>
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] gameoflife ........................................ SUCCESS [2.813s]
+[INFO] gameoflife-build .................................. SUCCESS [0.038s]
+[INFO] gameoflife-core ................................... SUCCESS [1.755s]
+[INFO] gameoflife-web .................................... FAILURE [0.590s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.971s
+[INFO] Finished at: Fri Jan 30 21:46:52 UTC 2015
+[INFO] Final Memory: 16M/38M
+[INFO] ------------------------------------------------------------------------
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal on project gameoflife-web: Could not resolve dependencies for project com.wakaleo.gameoflife:gameoflife-web:war:1.0-SNAPSHOT: Could not find artifact com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT -> [Help 1]
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] After correcting the problems, you can resume the build with the command
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   mvn <goals> -rf :gameoflife-web
+Build step 'Invoke top-level Maven targets' marked build as failure
+Archiving artifacts
+Recording test results
+Publishing Javadoc
+Finished: FAILURE

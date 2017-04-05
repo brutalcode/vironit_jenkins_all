@@ -1,0 +1,26 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Temp1
+Cloning the remote Git repository
+Cloning repository https://github.com/pratikghodekar/CrunchifyMavenTutorial.git
+ > git init /var/lib/jenkins/workspace/Temp1 # timeout=10
+Fetching upstream changes from https://github.com/pratikghodekar/CrunchifyMavenTutorial.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/pratikghodekar/CrunchifyMavenTutorial.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/pratikghodekar/CrunchifyMavenTutorial.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/pratikghodekar/CrunchifyMavenTutorial.git # timeout=10
+Fetching upstream changes from https://github.com/pratikghodekar/CrunchifyMavenTutorial.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/pratikghodekar/CrunchifyMavenTutorial.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c9015a05355caceac54942924da4a215d09ed71a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c9015a05355caceac54942924da4a215d09ed71a
+First time build. Skipping changelog.
+[Temp1] $ /bin/sh -xe /tmp/hudson250512276261221455.sh
++ ll
+/tmp/hudson250512276261221455.sh: line 2: ll: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

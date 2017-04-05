@@ -1,0 +1,14 @@
+commit 01fae7a85062e1ade6485e5e286b7fecf9d8f607
+tree 11fa85ca757593d022063ad3d9916b4090f9de6d
+parent fb77ca38e9b5c3907204feaba6921e52a1b1bd83
+author Pratik Ghodekar <pratikg@citiustech.com> 2017-02-24 17:45:10 +0530
+committer Pratik Ghodekar <pratikg@citiustech.com> 2017-02-24 17:45:10 +0530
+
+    ingnore failure
+
+
+
+:100644 100644 fae1a2b37d5e3386c9651caedb78b9bd107715bd 4efd5ceafb4228c0f59d693518a9db389c121593 M	.classpath
+:100644 100644 bb182e0edb9756a3959337984010b21c0a9f8be8 5796d9a94858aea30dd522a2af9eae0245589635 M	pom.xml
+:100644 100644 33488fc002c319a4d70ee943e9a6f617441c721f f4ead4213258bbed1a4ddaa865817402794ac0cd M	target/classes/META-INF/maven/WebdriverTest/WebdriverTest/pom.properties
+:100644 100644 bb182e0edb9756a3959337984010b21c0a9f8be8 5796d9a94858aea30dd522a2af9eae0245589635 M	target/classes/META-INF/maven/WebdriverTest/WebdriverTest/pom.xml

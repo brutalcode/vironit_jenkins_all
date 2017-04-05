@@ -1,0 +1,21 @@
+Changes in branch origin/master, between d1bd288182002962f6cf83c6da853de7db7c3acc and 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+commit 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+tree 1838ebce949f336c3d54e97ea87651c73c19ef0b
+parent d1bd288182002962f6cf83c6da853de7db7c3acc
+author Justin Hammond <justin.hammond@rackspace.com> 1375204044 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375204044 +0000
+
+    Reimplemented auto-restart on update
+
+:100644 100644 e41c35b8d9dbd60dc797f8c260d6e985dc2fe27a 3163beffa075654a6d46a1e60eda947ddaa19c86 M	puppet/modules/faro_api/manifests/init.pp
+Changes in branch origin/HEAD, between d1bd288182002962f6cf83c6da853de7db7c3acc and 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+commit 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+tree 1838ebce949f336c3d54e97ea87651c73c19ef0b
+parent d1bd288182002962f6cf83c6da853de7db7c3acc
+author Justin Hammond <justin.hammond@rackspace.com> 1375204044 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375204044 +0000
+
+    Reimplemented auto-restart on update
+
+:100644 100644 e41c35b8d9dbd60dc797f8c260d6e985dc2fe27a 3163beffa075654a6d46a1e60eda947ddaa19c86 M	puppet/modules/faro_api/manifests/init.pp
+

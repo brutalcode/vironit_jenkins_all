@@ -1,0 +1,775 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/Demo projekt/workspace
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url /home/dado/git/game-of-life/ # timeout=10
+Fetching upstream changes from /home/dado/git/game-of-life/
+ > /usr/bin/git --version # timeout=10
+ > /usr/bin/git fetch --tags --progress /home/dado/git/game-of-life/ +refs/heads/*:refs/remotes/origin/*
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 40f62e0598643eea9ace2ae0fb175ff3c89b10ab (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 40f62e0598643eea9ace2ae0fb175ff3c89b10ab
+ > /usr/bin/git rev-list 40f62e0598643eea9ace2ae0fb175ff3c89b10ab # timeout=10
+[workspace] $ mvn clean install
+[INFO] Scanning for projects...
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'reporting.plugins.plugin.version' for org.apache.maven.plugins:maven-project-info-reports-plugin is missing. @ line 16, column 21
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] gameoflife
+[INFO] gameoflife-build
+[INFO] gameoflife-core
+[INFO] gameoflife-web
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife ---
+[INFO] Deleting /var/lib/jenkins/jobs/Demo projekt/workspace/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Demo projekt/workspace/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife ---
+[INFO] /var/lib/jenkins/jobs/Demo projekt/workspace/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (integration-tests) @ gameoflife ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:report (jacoco-site) @ gameoflife ---
+[INFO] Skipping JaCoCo execution due to missing classes directory:/var/lib/jenkins/jobs/Demo projekt/workspace/target/classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.3:install (default-install) @ gameoflife ---
+[INFO] Installing /var/lib/jenkins/jobs/Demo projekt/workspace/pom.xml to /var/lib/jenkins/.m2/repository/com/wakaleo/gameoflife/gameoflife/1.0-SNAPSHOT/gameoflife-1.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-build 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-build ---
+[INFO] Deleting /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-build ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-build ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-build ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-build ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-build ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-build ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-build ---
+[INFO] /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ gameoflife-build ---
+[INFO] Building jar: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/gameoflife-build-1.0-SNAPSHOT.jar
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (integration-tests) @ gameoflife-build ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:report (jacoco-site) @ gameoflife-build ---
+[INFO] Analyzed bundle 'gameoflife-build' with 0 classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.3:install (default-install) @ gameoflife-build ---
+[INFO] Installing /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/gameoflife-build-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/wakaleo/gameoflife/gameoflife-build/1.0-SNAPSHOT/gameoflife-build-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/pom.xml to /var/lib/jenkins/.m2/repository/com/wakaleo/gameoflife/gameoflife-build/1.0-SNAPSHOT/gameoflife-build-1.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-core 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-core ---
+[INFO] Deleting /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-core ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/main/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-core ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-core ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.domain.WhenYouReadAGridFromAString
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.404 sec
+Running com.wakaleo.gameoflife.domain.WhenYouCreateACell
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running com.wakaleo.gameoflife.domain.WhenYouPrintAGrid
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-core ---
+[INFO] Using easyb dependency org.easyb:easyb-core:jar:1.6:compile
+[INFO] Using easyb dependency org.easyb:easyb-composite-groovy:pom:1.2:compile
+[INFO] Using easyb dependency org.codehaus.groovy:groovy-all:jar:2.3.6:compile
+[INFO] Using easyb dependency org.easyb:easyb-ast:jar:1.1:compile
+[INFO] Using easyb dependency commons-cli:commons-cli:jar:1.2:compile
+[INFO] Using easyb dependency commons-lang:commons-lang:jar:2.5:compile
+     [java] Running counting things story (/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/test/stories/CountingThings.story)
+     [java] Scenarios run: 1, Failures: 0, Pending: 0, Time elapsed: 0.991 sec
+     [java] Running multiplying things story (/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/test/stories/MultiplyingThings.story)
+     [java] Scenarios run: 1, Failures: 0, Pending: 1, Time elapsed: 0.093 sec
+     [java] 2 total behaviors ran with no failures
+     [java] Writing JUnit report to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+     [java] JUnit report written to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+     [java] Writing JUnit report to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+     [java] JUnit report written to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ gameoflife-core ---
+[INFO] Building jar: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/gameoflife-core-1.0-SNAPSHOT.jar
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (integration-tests) @ gameoflife-core ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.integration.WhenYouStoreGamesInADatabase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.315 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:report (jacoco-site) @ gameoflife-core ---
+[INFO] Analyzed bundle 'gameoflife-core' with 5 classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.3:install (default-install) @ gameoflife-core ---
+[INFO] Installing /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/gameoflife-core-1.0-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/wakaleo/gameoflife/gameoflife-core/1.0-SNAPSHOT/gameoflife-core-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/pom.xml to /var/lib/jenkins/.m2/repository/com/wakaleo/gameoflife/gameoflife-core/1.0-SNAPSHOT/gameoflife-core-1.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gameoflife-web ---
+[INFO] Deleting /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-web ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-web ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-web ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-web ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.webtests.controllers.WhenCreatingANewGame
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.597 sec
+Running com.wakaleo.gameoflife.webtests.controllers.WhenSpawningANewGeneration
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running com.wakaleo.gameoflife.webtests.controllers.WhenDisplayingTheHomePage
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-web ---
+[INFO] /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ gameoflife-web ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [gameoflife-web] in [/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/gameoflife]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/src/main/webapp]
+[INFO] Webapp assembled in [52 msecs]
+[INFO] Building war: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/gameoflife.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (integration-tests) @ gameoflife-web ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:report (jacoco-site) @ gameoflife-web ---
+[INFO] Analyzed bundle 'gameoflife-web' with 2 classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-thucydides-plugin:0.9.268:aggregate (thucydides-reports) @ gameoflife-web ---
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.3:install (default-install) @ gameoflife-web ---
+[INFO] Installing /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/gameoflife.war to /var/lib/jenkins/.m2/repository/com/wakaleo/gameoflife/gameoflife-web/1.0-SNAPSHOT/gameoflife-web-1.0-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/pom.xml to /var/lib/jenkins/.m2/repository/com/wakaleo/gameoflife/gameoflife-web/1.0-SNAPSHOT/gameoflife-web-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] gameoflife ........................................ SUCCESS [5.186s]
+[INFO] gameoflife-build .................................. SUCCESS [3.069s]
+[INFO] gameoflife-core ................................... SUCCESS [8.881s]
+[INFO] gameoflife-web .................................... SUCCESS [9.106s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 27.417s
+[INFO] Finished at: Wed Apr 08 14:41:27 UTC 2015
+[INFO] Final Memory: 32M/76M
+[INFO] ------------------------------------------------------------------------
+[workspace] $ mvn javadoc:javadoc
+[INFO] Scanning for projects...
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'reporting.plugins.plugin.version' for org.apache.maven.plugins:maven-project-info-reports-plugin is missing. @ line 16, column 21
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] gameoflife
+[INFO] gameoflife-build
+[INFO] gameoflife-core
+[INFO] gameoflife-web
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-build 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-build >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-build ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-build <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-build ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-core 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-core >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-core ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-core <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-core ---
+[INFO] 
+Loading source files for package com.wakaleo.gameoflife.domain...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_65
+Building tree for all the packages and classes...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/Cell.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/Grid.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/GridReader.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/GridWriter.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/Universe.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/package-frame.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/package-summary.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/package-tree.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/constant-values.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/Grid.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/Cell.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/GridReader.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/Universe.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/class-use/GridWriter.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/com/wakaleo/gameoflife/domain/package-use.html...
+Building index for all the packages and classes...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/overview-tree.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/index-all.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/allclasses-frame.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/allclasses-noframe.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/index.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/site/apidocs/help-doc.html...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-web >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-web ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-web <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:2.10.1:javadoc (default-cli) @ gameoflife-web ---
+[INFO] 
+Loading source files for package com.wakaleo.gameoflife.webtests.controllers...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_65
+Building tree for all the packages and classes...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/com/wakaleo/gameoflife/webtests/controllers/GameController.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/com/wakaleo/gameoflife/webtests/controllers/HomePageController.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/com/wakaleo/gameoflife/webtests/controllers/package-frame.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/com/wakaleo/gameoflife/webtests/controllers/package-summary.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/com/wakaleo/gameoflife/webtests/controllers/package-tree.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/constant-values.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/com/wakaleo/gameoflife/webtests/controllers/class-use/HomePageController.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/com/wakaleo/gameoflife/webtests/controllers/class-use/GameController.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/com/wakaleo/gameoflife/webtests/controllers/package-use.html...
+Building index for all the packages and classes...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/overview-tree.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/index-all.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/allclasses-frame.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/allclasses-noframe.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/index.html...
+Generating /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/site/apidocs/help-doc.html...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] gameoflife ........................................ SUCCESS [1.764s]
+[INFO] gameoflife-build .................................. SUCCESS [0.060s]
+[INFO] gameoflife-core ................................... SUCCESS [2.270s]
+[INFO] gameoflife-web .................................... SUCCESS [1.901s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.930s
+[INFO] Finished at: Wed Apr 08 14:41:37 UTC 2015
+[INFO] Final Memory: 14M/33M
+[INFO] ------------------------------------------------------------------------
+[workspace] $ mvn verify
+[INFO] Scanning for projects...
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.wakaleo.gameoflife:gameoflife-core:jar:1.0-SNAPSHOT
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'reporting.plugins.plugin.version' for org.apache.maven.plugins:maven-project-info-reports-plugin is missing. @ line 16, column 21
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] gameoflife
+[INFO] gameoflife-build
+[INFO] gameoflife-core
+[INFO] gameoflife-web
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Demo projekt/workspace/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife ---
+[INFO] /var/lib/jenkins/jobs/Demo projekt/workspace/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (integration-tests) @ gameoflife ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:report (jacoco-site) @ gameoflife ---
+[INFO] Skipping JaCoCo execution due to missing classes directory:/var/lib/jenkins/jobs/Demo projekt/workspace/target/classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-build 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-build ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-build ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-build ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-build ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-build ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-build ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-build ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-build ---
+[INFO] /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ gameoflife-build ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (integration-tests) @ gameoflife-build ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:report (jacoco-site) @ gameoflife-build ---
+[INFO] Analyzed bundle 'gameoflife-build' with 0 classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-core 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-core ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/main/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-core ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-core ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-core ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.domain.WhenYouReadAGridFromAString
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.401 sec
+Running com.wakaleo.gameoflife.domain.WhenYouCreateACell
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.wakaleo.gameoflife.domain.WhenYouPrintAGrid
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-core ---
+[INFO] Using easyb dependency org.easyb:easyb-core:jar:1.6:compile
+[INFO] Using easyb dependency org.easyb:easyb-composite-groovy:pom:1.2:compile
+[INFO] Using easyb dependency org.codehaus.groovy:groovy-all:jar:2.3.6:compile
+[INFO] Using easyb dependency org.easyb:easyb-ast:jar:1.1:compile
+[INFO] Using easyb dependency commons-cli:commons-cli:jar:1.2:compile
+[INFO] Using easyb dependency commons-lang:commons-lang:jar:2.5:compile
+     [java] Running counting things story (/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/test/stories/CountingThings.story)
+     [java] Scenarios run: 1, Failures: 0, Pending: 0, Time elapsed: 0.997 sec
+     [java] Running multiplying things story (/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/test/stories/MultiplyingThings.story)
+     [java] Scenarios run: 1, Failures: 0, Pending: 1, Time elapsed: 0.094 sec
+     [java] 2 total behaviors ran with no failures
+     [java] Writing JUnit report to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+     [java] JUnit report written to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.CountingThings.xml
+     [java] Writing JUnit report to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+     [java] JUnit report written to /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports/TEST-behavior.MultiplyingThings.xml
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.2:jar (default-jar) @ gameoflife-core ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (integration-tests) @ gameoflife-core ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.integration.WhenYouStoreGamesInADatabase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.322 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:report (jacoco-site) @ gameoflife-core ---
+[INFO] Analyzed bundle 'gameoflife-core' with 5 classes
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gameoflife-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-versions) @ gameoflife-web ---
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ gameoflife-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ gameoflife-web ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/jacoco.exec"
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gameoflife-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ gameoflife-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gameoflife-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ gameoflife-web ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (unit-tests) @ gameoflife-web ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.wakaleo.gameoflife.webtests.controllers.WhenCreatingANewGame
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.632 sec
+Running com.wakaleo.gameoflife.webtests.controllers.WhenSpawningANewGeneration
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.wakaleo.gameoflife.webtests.controllers.WhenDisplayingTheHomePage
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-easyb-plugin:1.4:test (default) @ gameoflife-web ---
+[INFO] /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/src/test/stories does not exists.  Skipping easyb testing
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ gameoflife-web ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [gameoflife-web] in [/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/gameoflife]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/src/main/webapp]
+[INFO] Webapp assembled in [53 msecs]
+[INFO] Building war: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/gameoflife.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (integration-tests) @ gameoflife-web ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:report (jacoco-site) @ gameoflife-web ---
+[INFO] Analyzed bundle 'gameoflife-web' with 2 classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-thucydides-plugin:0.9.268:aggregate (thucydides-reports) @ gameoflife-web ---
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] gameoflife ........................................ SUCCESS [5.133s]
+[INFO] gameoflife-build .................................. SUCCESS [2.986s]
+[INFO] gameoflife-core ................................... SUCCESS [7.482s]
+[INFO] gameoflife-web .................................... SUCCESS [9.114s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 25.930s
+[INFO] Finished at: Wed Apr 08 14:42:05 UTC 2015
+[INFO] Final Memory: 26M/63M
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Recording test results
+Publishing Javadoc
+[JaCoCo plugin] Collecting JaCoCo coverage data...
+[JaCoCo plugin] **/target/*.exec;**/target;**/src/main/java; locations are configured
+[JaCoCo plugin] Number of found exec files for pattern **/target/*.exec: 4
+[JaCoCo plugin] Saving matched execfiles:  /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target/jacoco.exec /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target/jacoco.exec /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target/jacoco.exec /var/lib/jenkins/jobs/Demo projekt/workspace/target/jacoco.exec
+[JaCoCo plugin] Saving matched class directories for class-pattern: **/target:  /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-build/target /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/target /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/target /var/lib/jenkins/jobs/Demo projekt/workspace/target
+[JaCoCo plugin] Saving matched source directories for source-pattern: **/src/main/java:  /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-core/src/main/java /var/lib/jenkins/jobs/Demo projekt/workspace/gameoflife-web/src/main/java
+[JaCoCo plugin] Loading inclusions files..
+[JaCoCo plugin] inclusions: [**/*.class]
+[JaCoCo plugin] exclusions: [**/When*]
+[JaCoCo plugin] Thresholds: JacocoHealthReportThresholds [minClass=0, maxClass=0, minMethod=0, maxMethod=0, minLine=0, maxLine=0, minBranch=0, maxBranch=0, minInstruction=0, maxInstruction=0, minComplexity=0, maxComplexity=0]
+[JaCoCo plugin] Publishing the results..
+[JaCoCo plugin] Loading packages..
+[JaCoCo plugin] Done.
+Finished: SUCCESS

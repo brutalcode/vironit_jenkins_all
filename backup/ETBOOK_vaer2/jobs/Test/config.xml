@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.25.1">
+      <projectUrl>https://github.com/ct-training/WebdriverTest/</projectUrl>
+      <displayName></displayName>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+  </properties>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.0.4">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/ct-training/WebdriverTest.git</url>
+        <credentialsId>3d009adc-7054-4475-82d9-c6d7189f8f00</credentialsId>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <assignedNode>test-server-windows</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <jdk>JDK_1.8_u121_win</jdk>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Maven>
+      <targets>clean test</targets>
+      <mavenName>Maven-3.3.9</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+      <injectBuildVariables>false</injectBuildVariables>
+    </hudson.tasks.Maven>
+  </builders>
+  <publishers>
+    <hudson.plugins.testng.Publisher plugin="testng-plugin@1.14">
+      <reportFilenamePattern>**/testng-results.xml</reportFilenamePattern>
+      <escapeTestDescp>true</escapeTestDescp>
+      <escapeExceptionMsg>true</escapeExceptionMsg>
+      <failureOnFailedTestConfig>false</failureOnFailedTestConfig>
+      <showFailedBuilds>false</showFailedBuilds>
+      <unstableSkips>100</unstableSkips>
+      <unstableFails>0</unstableFails>
+      <failedSkips>100</failedSkips>
+      <failedFails>100</failedFails>
+      <thresholdMode>2</thresholdMode>
+    </hudson.plugins.testng.Publisher>
+  </publishers>
+  <buildWrappers/>
+</project>

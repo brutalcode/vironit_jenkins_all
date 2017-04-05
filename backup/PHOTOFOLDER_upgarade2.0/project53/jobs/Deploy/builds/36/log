@@ -1,0 +1,13 @@
+Started by user [8mha:////4GzYkEdYOd+GIEtNxkqbhfJlCs+pK8Swg0U/X/Gu1h02AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:////4H5t9npfqLkMgcrAif8JATEQ9QrkMoYEkgUdfsHa7WCLAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/eT83ILSktQi/ZTUgpz8St3i1KKy1CLdoozUHAB7JhMb0QAAAA==[0mdeploy-server-rhel (deploy-server) in workspace /var/jenkins_service/workspace/CI-CD/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson3435842058177031842.sh
++ rm -f CalculatorApplication.war
++ wget http://citius-jenkins.westus2.cloudapp.azure.com/jenkins/job/CI-CD/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-03-07 06:47:52--  http://citius-jenkins.westus2.cloudapp.azure.com/jenkins/job/CI-CD/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war
+Resolving citius-jenkins.westus2.cloudapp.azure.com (citius-jenkins.westus2.cloudapp.azure.com)... 52.229.36.41
+Connecting to citius-jenkins.westus2.cloudapp.azure.com (citius-jenkins.westus2.cloudapp.azure.com)|52.229.36.41|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2017-03-07 06:47:52 ERROR 404: Not Found.
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

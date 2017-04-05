@@ -1,0 +1,20 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between e0dfd6272c6f13098e3b674dbe146ae780ca1bdb and 330e1c275709fc45d672723bf82128254adb1776
+commit b73b6ad2b4b35a1486632f61f2931c9a7cb1046d
+tree cbed6a384df56143f57368c32adb8542dbd267c3
+parent aae4bd67f0dcac35b4792b737d832e6bcd66a4c9
+author Justin Hammond <justin.hammond@rackspace.com> 1375045217 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375045217 +0000
+
+    DB_CHANGES: Testing db reloader
+
+:100644 100644 4b4963aa7bbd007f82e76ddb3dd0cdae1fd9627a f8d5c6bf5277966c24d383e0f8b2085c0875bebf M	README.rst
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between c41cc470508b38c414a128b755674d6f4dec499d and c41cc470508b38c414a128b755674d6f4dec499d
+Changes in branch origin/HEAD, between c41cc470508b38c414a128b755674d6f4dec499d and c41cc470508b38c414a128b755674d6f4dec499d
+]]>
+</sub-log>
+</multi-scm-log>

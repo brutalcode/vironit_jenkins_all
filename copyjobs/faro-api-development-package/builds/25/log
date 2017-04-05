@@ -1,0 +1,280 @@
+Started by upstream project "[8mha:AAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZV/az8JP20xKJ83cSCTN2U1LLUnPyC3NS8Et3SvMwS3ZLU4pJifQDaJGio2gAAAA==[0mfaro-api-development-unit-tests" build number [8mha:AAAAsx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ1/az8JP20xKJ83cSCTN2U1LLUnPyC3NS8Et3SvMwS3ZLU4pJifTMLAIyU013cAAAA[0m68
+originally caused by:
+ Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL9ovzE1BIAMCLkW8AAAAA=[0mJustin Hammond
+Building in workspace /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test
+Checkout:faro-api-development-deploy-multi-test / /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test - hudson.remoting.LocalChannel@261c8ea3
+Using strategy: Default
+Last Built Revision: Revision 560a66a943e9157cc91bafe7514343475c5bec12 (origin/development)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Seen branch in repository origin/HEAD
+Seen branch in repository origin/database_sync_fix
+Seen branch in repository origin/dataproviders
+Seen branch in repository origin/development
+Seen branch in repository origin/gunicorn_fix
+Seen branch in repository origin/master
+Seen branch in repository origin/model_work_pre_alpha
+Seen 7 remote branches
+Commencing build of Revision d123e1736a266b19fc97b4af690ac7bbdcbca0f4 (origin/development)
+Checking out Revision d123e1736a266b19fc97b4af690ac7bbdcbca0f4 (origin/development)
+Checkout:faro-api-development-deploy-multi-test / /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test - hudson.remoting.LocalChannel@261c8ea3
+Using strategy: Default
+Last Built Revision: Revision b5c1bccf7325c8bb13535508d35ce71116d7339f (origin/master, origin/HEAD)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Seen branch in repository origin/HEAD
+Seen branch in repository origin/master
+Seen 2 remote branches
+Commencing build of Revision 9ab3b0234f318c0e8a353b8acbd6db7747aa035f (origin/HEAD, origin/master)
+Checking out Revision 9ab3b0234f318c0e8a353b8acbd6db7747aa035f (origin/HEAD, origin/master)
+Warning : There are multiple branch changesets here
+[faro-api-development-deploy-multi-test] $ /bin/bash /tmp/hudson2303683277958440787.sh
+New python executable in /opt/faro/faro-api/.venv/bin/python
+Installing distribute...........................................................................................................................................................................................................................done.
+Installing pip................done.
+Downloading/unpacking flask==0.9 (from -r requirements/pip-requirements.txt (line 1))
+  Running setup.py egg_info for package flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+Downloading/unpacking sqlalchemy (from -r requirements/pip-requirements.txt (line 2))
+  Running setup.py egg_info for package sqlalchemy
+    
+    warning: no files found matching '*.jpg' under directory 'doc'
+    no previously-included directories found matching 'doc/build/output'
+Downloading/unpacking python-dateutil>=2.0 (from -r requirements/pip-requirements.txt (line 3))
+  Running setup.py egg_info for package python-dateutil
+    
+Downloading/unpacking flask-sqlalchemy (from -r requirements/pip-requirements.txt (line 4))
+  Running setup.py egg_info for package flask-sqlalchemy
+    
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+Downloading/unpacking flask-jsonpify (from -r requirements/pip-requirements.txt (line 5))
+  Downloading Flask-Jsonpify-1.1.tar.gz
+  Running setup.py egg_info for package flask-jsonpify
+    
+Downloading/unpacking mysql-python (from -r requirements/pip-requirements.txt (line 6))
+  Running setup.py egg_info for package mysql-python
+    
+Downloading/unpacking gunicorn (from -r requirements/pip-requirements.txt (line 7))
+  Running setup.py egg_info for package gunicorn
+    
+Downloading/unpacking Werkzeug>=0.7 (from flask==0.9->-r requirements/pip-requirements.txt (line 1))
+  Running setup.py egg_info for package Werkzeug
+    
+    warning: no files found matching '*' under directory 'werkzeug/debug/templates'
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+Downloading/unpacking Jinja2>=2.4 (from flask==0.9->-r requirements/pip-requirements.txt (line 1))
+  Running setup.py egg_info for package Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+Downloading/unpacking six (from python-dateutil>=2.0->-r requirements/pip-requirements.txt (line 3))
+  Downloading six-1.3.0.tar.gz
+  Running setup.py egg_info for package six
+    
+Requirement already satisfied (use --upgrade to upgrade): distribute in /opt/faro/faro-api/.venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg (from flask-sqlalchemy->-r requirements/pip-requirements.txt (line 4))
+Downloading/unpacking markupsafe (from Jinja2>=2.4->flask==0.9->-r requirements/pip-requirements.txt (line 1))
+  Downloading MarkupSafe-0.18.tar.gz
+  Running setup.py egg_info for package markupsafe
+    
+Installing collected packages: flask, sqlalchemy, python-dateutil, flask-sqlalchemy, flask-jsonpify, mysql-python, gunicorn, Werkzeug, Jinja2, six, markupsafe
+  Running setup.py install for flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+  Running setup.py install for sqlalchemy
+    building 'sqlalchemy.cprocessors' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/processors.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/processors.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/processors.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cprocessors.so
+    building 'sqlalchemy.cresultproxy' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/resultproxy.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cresultproxy.so
+    building 'sqlalchemy.cutils' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c lib/sqlalchemy/cextension/utils.c -o build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/utils.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/lib/sqlalchemy/cextension/utils.o -o build/lib.linux-x86_64-2.7/sqlalchemy/cutils.so
+    
+    warning: no files found matching '*.jpg' under directory 'doc'
+    no previously-included directories found matching 'doc/build/output'
+  Running setup.py install for python-dateutil
+    
+  Running setup.py install for flask-sqlalchemy
+    
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+  Running setup.py install for flask-jsonpify
+    
+  Running setup.py install for mysql-python
+    building '_mysql' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -Dversion_info=(1,2,4,'final',1) -D__version__=1.2.4 -I/usr/include/mysql -I/usr/include/python2.7 -c _mysql.c -o build/temp.linux-x86_64-2.7/_mysql.o -DBIG_JOINS=1 -fno-strict-aliasing -g -DNDEBUG
+    In file included from _mysql.c:44:0:
+    /usr/include/mysql/my_config.h:422:0: warning: "HAVE_WCSCOLL" redefined [enabled by default]
+    In file included from /usr/include/python2.7/pyconfig.h:3:0,
+                     from /usr/include/python2.7/Python.h:8,
+                     from _mysql.c:29:
+    /usr/include/x86_64-linux-gnu/python2.7/pyconfig.h:902:0: note: this is the location of the previous definition
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/_mysql.o -L/usr/lib/x86_64-linux-gnu -lmysqlclient_r -lpthread -lz -lm -ldl -o build/lib.linux-x86_64-2.7/_mysql.so
+    
+  Running setup.py install for gunicorn
+    
+    Installing gunicorn_paster script to /opt/faro/faro-api/.venv/bin
+    Installing gunicorn script to /opt/faro/faro-api/.venv/bin
+    Installing gunicorn_django script to /opt/faro/faro-api/.venv/bin
+  Running setup.py install for Werkzeug
+    
+    warning: no files found matching '*' under directory 'werkzeug/debug/templates'
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+  Running setup.py install for Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+  Running setup.py install for six
+    
+  Running setup.py install for markupsafe
+    
+    building 'markupsafe._speedups' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c markupsafe/_speedups.c -o build/temp.linux-x86_64-2.7/markupsafe/_speedups.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/markupsafe/_speedups.o -o build/lib.linux-x86_64-2.7/markupsafe/_speedups.so
+Successfully installed flask sqlalchemy python-dateutil flask-sqlalchemy flask-jsonpify mysql-python gunicorn Werkzeug Jinja2 six markupsafe
+Cleaning up...
+Downloading/unpacking nose (from -r requirements/test-requirements.txt (line 1))
+  Running setup.py egg_info for package nose
+    
+    no previously-included directories found matching 'doc/.build'
+Downloading/unpacking flake8 (from -r requirements/test-requirements.txt (line 2))
+  Downloading flake8-2.0.tar.gz
+  Running setup.py egg_info for package flake8
+    
+Downloading/unpacking tox (from -r requirements/test-requirements.txt (line 3))
+  Running setup.py egg_info for package tox
+    
+    warning: no files found matching 'README.txt'
+Downloading/unpacking coverage (from -r requirements/test-requirements.txt (line 4))
+  Running setup.py egg_info for package coverage
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Requirement already satisfied (use --upgrade to upgrade): distribute in /opt/faro/faro-api/.venv/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg (from flake8->-r requirements/test-requirements.txt (line 2))
+Downloading/unpacking pyflakes>=0.6.1 (from flake8->-r requirements/test-requirements.txt (line 2))
+  Downloading pyflakes-0.7.3.tar.gz
+  Running setup.py egg_info for package pyflakes
+    
+Downloading/unpacking pep8>=1.4.3 (from flake8->-r requirements/test-requirements.txt (line 2))
+  Running setup.py egg_info for package pep8
+    
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'testsuite'
+    warning: no previously-included files matching '*.pyo' found under directory 'testsuite'
+    no previously-included directories found matching 'docs/_build'
+Downloading/unpacking mccabe>=0.2 (from flake8->-r requirements/test-requirements.txt (line 2))
+  Downloading mccabe-0.2.1.tar.gz
+  Running setup.py egg_info for package mccabe
+    
+Downloading/unpacking virtualenv>=1.9.1 (from tox->-r requirements/test-requirements.txt (line 3))
+  Running setup.py egg_info for package virtualenv
+    
+    warning: no files found matching '*.egg' under directory 'virtualenv_support'
+    warning: no previously-included files matching '*' found under directory 'docs/_templates'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+Downloading/unpacking py>=1.4.15 (from tox->-r requirements/test-requirements.txt (line 3))
+  Running setup.py egg_info for package py
+    
+Installing collected packages: nose, flake8, tox, coverage, pyflakes, pep8, mccabe, virtualenv, py
+  Running setup.py install for nose
+    
+    no previously-included directories found matching 'doc/.build'
+    Installing nosetests script to /opt/faro/faro-api/.venv/bin
+    Installing nosetests-2.7 script to /opt/faro/faro-api/.venv/bin
+  Running setup.py install for flake8
+    
+    Installing flake8 script to /opt/faro/faro-api/.venv/bin
+  Running setup.py install for tox
+    
+    warning: no files found matching 'README.txt'
+    Installing tox script to /opt/faro/faro-api/.venv/bin
+    Installing tox-quickstart script to /opt/faro/faro-api/.venv/bin
+  Running setup.py install for coverage
+    building 'coverage.tracer' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -I/usr/include/python2.7 -c coverage/tracer.c -o build/temp.linux-x86_64-2.7/coverage/tracer.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/coverage/tracer.o -o build/lib.linux-x86_64-2.7/coverage/tracer.so
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    Installing coverage2 script to /opt/faro/faro-api/.venv/bin
+    Installing coverage-2.7 script to /opt/faro/faro-api/.venv/bin
+    Installing coverage script to /opt/faro/faro-api/.venv/bin
+  Running setup.py install for pyflakes
+    
+    Installing pyflakes script to /opt/faro/faro-api/.venv/bin
+  Running setup.py install for pep8
+    
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'testsuite'
+    warning: no previously-included files matching '*.pyo' found under directory 'testsuite'
+    no previously-included directories found matching 'docs/_build'
+    Installing pep8 script to /opt/faro/faro-api/.venv/bin
+  Running setup.py install for mccabe
+    
+  Running setup.py install for virtualenv
+    
+    warning: no files found matching '*.egg' under directory 'virtualenv_support'
+    warning: no previously-included files matching '*' found under directory 'docs/_templates'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    Installing virtualenv script to /opt/faro/faro-api/.venv/bin
+    Installing virtualenv-2.7 script to /opt/faro/faro-api/.venv/bin
+  Running setup.py install for py
+    
+Successfully installed nose flake8 tox coverage pyflakes pep8 mccabe virtualenv py
+Cleaning up...
+Requirement already satisfied (use --upgrade to upgrade): tox in /opt/faro/faro-api/.venv/lib/python2.7/site-packages
+Requirement already satisfied (use --upgrade to upgrade): virtualenv>=1.9.1 in /opt/faro/faro-api/.venv/lib/python2.7/site-packages (from tox)
+Requirement already satisfied (use --upgrade to upgrade): py>=1.4.15 in /opt/faro/faro-api/.venv/lib/python2.7/site-packages (from tox)
+Cleaning up...
+Created deb: /var/deploys/faro-api/faro-api_0.1-68_amd64.deb
+# [freight] added /var/deploys/faro-api/faro-api_0.1-68_amd64.deb to apt/saucy
+# [freight] added /var/deploys/faro-api/faro-api_0.1-68_amd64.deb to apt/raring
+# [freight] adding faro-api_0.1-68_amd64.deb to pool
+# [freight] adding faro-api_0.1-68_amd64.deb to pool
+Triggering a new build of [8mha:AAAAvB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAytEgYD/az8JP20xKJ83cSCTN2U1LLUnPyC3NS8Et2C0uIMXVe/MM8gfz9fV7+QeBf/cD99AH7ojNXlAAAA[0mfaro-api-development-push-ENVIRONMENT_DOWN #24
+Finished: SUCCESS

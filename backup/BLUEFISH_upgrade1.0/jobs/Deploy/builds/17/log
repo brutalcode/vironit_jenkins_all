@@ -1,0 +1,29 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson99229415971844885.sh
++ rm -f CrunchifyMavenTutorial.war
++ wget http://ec2-52-33-236-215.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/target/CrunchifyMavenTutorial.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-02-17 06:30:22--  http://ec2-52-33-236-215.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/target/CrunchifyMavenTutorial.war
+Resolving ec2-52-33-236-215.us-west-2.compute.amazonaws.com (ec2-52-33-236-215.us-west-2.compute.amazonaws.com)... 172.31.19.217
+Connecting to ec2-52-33-236-215.us-west-2.compute.amazonaws.com (ec2-52-33-236-215.us-west-2.compute.amazonaws.com)|172.31.19.217|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 86897 (85K) [application/octet-stream]
+Saving to: ‘CrunchifyMavenTutorial.war’
+
+     0K .......... .......... .......... .......... .......... 58%  150M 0s
+    50K .......... .......... .......... ....                 100%  103M=0.001s
+
+2017-02-17 06:30:22 (126 MB/s) - ‘CrunchifyMavenTutorial.war’ saved [86897/86897]
+
++ cd /tools/apache-tomcat-7.0.75/bin
++ ./shutdown.sh
++ rm -rf /tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial /tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial.war
+rm: cannot remove ‘/tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial/index.jsp’: Permission denied
+rm: cannot remove ‘/tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial/META-INF/MANIFEST.MF’: Permission denied
+rm: cannot remove ‘/tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial/META-INF/maven/com.crunchify/CrunchifyMavenTutorial/pom.properties’: Permission denied
+rm: cannot remove ‘/tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial/META-INF/maven/com.crunchify/CrunchifyMavenTutorial/pom.xml’: Permission denied
+rm: cannot remove ‘/tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial/WEB-INF/lib/javax.servlet-api-3.1.0.jar’: Permission denied
+rm: cannot remove ‘/tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial/WEB-INF/web.xml’: Permission denied
+rm: cannot remove ‘/tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial/WEB-INF/classes’: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

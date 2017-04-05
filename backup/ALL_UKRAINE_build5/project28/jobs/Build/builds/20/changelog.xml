@@ -1,0 +1,21 @@
+<multi-scm-log>
+<sub-log scm="git git@github.com:ct-training/CalculatorService.git">
+<![CDATA[commit 9bf2f227d033b1c44ca5e6cfb82f4d90065136e1
+tree 47ca03212c372925cac0d20eb73f9869d6556863
+parent 6a0b95682768e7a7efaec9263925415d46a3ac19
+author Pratik Ghodekar &lt;pratikg@citiustech.com&gt; 2017-02-23 18:50:23 +0530
+committer Pratik Ghodekar &lt;pratikg@citiustech.com&gt; 2017-02-23 18:50:23 +0530
+
+    test commit
+
+
+
+:100644 100644 6fd3fd6171601695bd35321d99fa0df654d582a1 de1bafed888a9ddb869dcb84a09ebe80a87dee43 M	pom.xml
+:100644 100644 d4ceb34e72635d67716bd4b626872acdd7ad688e c40142f6b91b2c77f45ef52bc9242170816bec12 M	target/classes/META-INF/maven/com.calc.service/Calculator/pom.properties
+:100644 100644 6fd3fd6171601695bd35321d99fa0df654d582a1 de1bafed888a9ddb869dcb84a09ebe80a87dee43 M	target/classes/META-INF/maven/com.calc.service/Calculator/pom.xml
+]]>
+</sub-log>
+<sub-log scm="git git@github.com:ct-training/CalculatorApplication.git">
+<![CDATA[]]>
+</sub-log>
+</multi-scm-log>

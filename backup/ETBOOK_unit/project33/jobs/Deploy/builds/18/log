@@ -1,0 +1,46 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson5707334765549831446.sh
++ rm -f CrunchifyMavenTutorial.war
++ wget http://ec2-52-33-236-215.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/target/CrunchifyMavenTutorial.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-02-17 06:31:51--  http://ec2-52-33-236-215.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/target/CrunchifyMavenTutorial.war
+Resolving ec2-52-33-236-215.us-west-2.compute.amazonaws.com (ec2-52-33-236-215.us-west-2.compute.amazonaws.com)... 172.31.19.217
+Connecting to ec2-52-33-236-215.us-west-2.compute.amazonaws.com (ec2-52-33-236-215.us-west-2.compute.amazonaws.com)|172.31.19.217|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 86897 (85K) [application/octet-stream]
+Saving to: ‘CrunchifyMavenTutorial.war’
+
+     0K .......... .......... .......... .......... .......... 58%  144M 0s
+    50K .......... .......... .......... ....                 100% 92.6M=0.001s
+
+2017-02-17 06:31:52 (117 MB/s) - ‘CrunchifyMavenTutorial.war’ saved [86897/86897]
+
++ cd /tools/apache-tomcat-7.0.75/bin
++ ./shutdown.sh
+Feb 17, 2017 6:31:52 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact localhost:8005. Tomcat may not be running.
+Feb 17, 2017 6:31:52 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.<init>(Socket.java:429)
+	at java.net.Socket.<init>(Socket.java:209)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+
++ rm -rf '/tools/apache-tomcat-7.0.75/webapps/CrunchifyMavenTutorial*'
++ cp /var/lib/jenkins/workspace/Deploy/CrunchifyMavenTutorial.war /tools/apache-tomcat-7.0.75/webapps
++ ./startup.sh
+Tomcat started.
+Finished: SUCCESS

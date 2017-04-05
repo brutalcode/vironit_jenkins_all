@@ -1,0 +1,13 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson4479780953677379378.sh
++ rm -f CrunchifyMavenTutorial.war
++ wget http://ec2-35-166-101-227.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/target/CalculatorApplication.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-02-23 09:31:19--  http://ec2-35-166-101-227.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/target/CalculatorApplication.war
+Resolving ec2-35-166-101-227.us-west-2.compute.amazonaws.com (ec2-35-166-101-227.us-west-2.compute.amazonaws.com)... 172.31.19.217
+Connecting to ec2-35-166-101-227.us-west-2.compute.amazonaws.com (ec2-35-166-101-227.us-west-2.compute.amazonaws.com)|172.31.19.217|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2017-02-23 09:31:19 ERROR 404: Not Found.
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.9">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers/>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.26">
+    <script>pipeline {
+    agent { label &apos;build-server&apos; }
+    stages {
+        stage(&apos;Checkout&apos;) {
+        steps{
+            checkout([$class: &apos;GitSCM&apos;, 
+        branches: [[name: &apos;*/master&apos;]], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [[$class: &apos;RelativeTargetDirectory&apos;, 
+            relativeTargetDir: &apos;CalculatorService&apos;]], 
+        submoduleCfg: [], 
+        userRemoteConfigs: [[url: &apos;https://github.com/ct-training/CalculatorService.git&apos;]]])
+        
+         checkout([$class: &apos;GitSCM&apos;, 
+        branches: [[name: &apos;*/master&apos;]], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [[$class: &apos;RelativeTargetDirectory&apos;, 
+            relativeTargetDir: &apos;CalculatorApplication&apos;]], 
+        submoduleCfg: [], 
+        userRemoteConfigs: [[url: &apos;https://github.com/ct-training/CalculatorApplication.git&apos;]]])
+        }
+        }
+    }
+}
+pipeline {
+    agent { label &apos;build-server&apos; }
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                sh &apos;echo &quot;Hello World&quot;&apos;
+                sh &apos;&apos;&apos;
+                    echo &quot;Multiline shell steps works too&quot;
+                    ls -lah
+                &apos;&apos;&apos;
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+</flow-definition>

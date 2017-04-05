@@ -1,0 +1,9 @@
+commit 10332fa5d687bbcce3b85e731ca01ec507abe731
+tree 686e16e3c0c3271d83dcb1f83e72c4a97a798b56
+parent 7673a40ba0d8499f4344b223f37eabdc051b4c6c
+author Dado <dado@hotmail.com> 1422733721 +0000
+committer Dado <dado@hotmail.com> 1422733721 +0000
+
+    Changed empty game board
+
+:100644 100644 f60304fc598c185d801d9b0614380cf9518a78a7 0ad47f0486a5fd0eb8e047225a526b0dca02d27f M	gameoflife-acceptance-tests/src/test/java/com/wakaleo/gameoflife/webtests/WhenTheUserEntersAnInitialGrid.java

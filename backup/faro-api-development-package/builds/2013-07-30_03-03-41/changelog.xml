@@ -1,0 +1,20 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between 9d538b3ad65bd8f71aa071e4882799313a3ee225 and 536d6d5cf23722d5bb30562043c62432800a4d4f
+commit aaf825ee7b8f62a5876d754c0cb0eca5a0ec0f23
+tree 1c94518af104cabec5f88e5b5ee71e14366ffeda
+parent bcefa89360f9e0fa7d85988bc7de228a9960e983
+author Justin Hammond <justin.hammond@rackspace.com> 1375153277 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375153277 +0000
+
+    Updated manifest
+
+:100644 100644 b110c4445f6d4e7d9740e6a59671dc472e8f5f44 a4aae4bf04d35ceb372e4183a2d4f2f04e616e92 M	MANIFEST
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b and 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+Changes in branch origin/HEAD, between 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b and 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+]]>
+</sub-log>
+</multi-scm-log>

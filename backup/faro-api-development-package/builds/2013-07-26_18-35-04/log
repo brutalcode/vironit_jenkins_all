@@ -1,0 +1,31 @@
+Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL9ovzE1BIAMCLkW8AAAAA=[0mJustin Hammond
+Building in workspace /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test
+Checkout:faro-api-development-deploy-multi-test / /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test - hudson.remoting.LocalChannel@53cc177d
+Using strategy: Default
+Last Built Revision: Revision e4f36f200969d384de5dc149db436e15ddd27c94 (origin/development)
+Cloning the remote Git repository
+Cloning repository ssh://git@faro-api.github.com/Wakemakin/faro-api.git
+git --version
+git version 1.8.1.2
+Fetching upstream changes from origin
+Seen branch in repository origin/HEAD
+Seen branch in repository origin/development
+Seen branch in repository origin/master
+Seen 3 remote branches
+Commencing build of Revision e4f36f200969d384de5dc149db436e15ddd27c94 (origin/development)
+Checking out Revision e4f36f200969d384de5dc149db436e15ddd27c94 (origin/development)
+Checkout:faro-api-development-deploy-multi-test / /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test - hudson.remoting.LocalChannel@53cc177d
+Using strategy: Default
+Last Built Revision: Revision 812affb9e1732a4c88ccabea4d6127225b7f5264 (origin/HEAD, origin/master)
+Cloning the remote Git repository
+Cloning repository ssh://git@wakemakin-ci.github.com/Wakemakin/wakemakin-ci.git
+git --version
+git version 1.8.1.2
+Fetching upstream changes from origin
+Seen branch in repository origin/HEAD
+Seen branch in repository origin/master
+Seen 2 remote branches
+Commencing build of Revision 812affb9e1732a4c88ccabea4d6127225b7f5264 (origin/HEAD, origin/master)
+Checking out Revision 812affb9e1732a4c88ccabea4d6127225b7f5264 (origin/HEAD, origin/master)
+Warning : There are multiple branch changesets here
+Finished: SUCCESS

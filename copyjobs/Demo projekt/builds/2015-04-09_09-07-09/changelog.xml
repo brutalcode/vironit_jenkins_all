@@ -1,0 +1,9 @@
+commit de83160d8032959900df0fb0f6f1f0049b5fd9ae
+tree 709e2b5487d6b88650a4e02b1b7d3d5b7d645600
+parent 40f62e0598643eea9ace2ae0fb175ff3c89b10ab
+author Dado <dado@hotmail.com> 1428570365 +0000
+committer Dado <dado@hotmail.com> 1428570365 +0000
+
+    Added more comments
+
+:100644 100644 0e3adcc014398ec314cb73605fcfcae24f1e81da 060c050b2534041355d78eb5c5da3ccba1897a27 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouPlayTheGameOfLife.java

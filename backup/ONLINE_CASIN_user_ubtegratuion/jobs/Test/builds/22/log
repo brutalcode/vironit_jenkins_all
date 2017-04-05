@@ -1,0 +1,68 @@
+Started by user [8mha:////4GzYkEdYOd+GIEtNxkqbhfJlCs+pK8Swg0U/X/Gu1h02AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:////4BWAKg9/8TIxNbwuYQi6XlGtU1MW7BKMxB14jXiNgW0HAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZZ/eT83ILSktQi/ZLU4hLd4tSistQi3fLMvJT88mIARoS5F9IAAAA=[0mtest-server-windows (test-server) in workspace c:\jenkins_service\workspace\CI-CD\Test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ct-training/WebdriverTest.git # timeout=10
+Fetching upstream changes from https://github.com/ct-training/WebdriverTest.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ct-training/WebdriverTest.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision ad4b2fffed91930043900645a9f772196e262c2a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ad4b2fffed91930043900645a9f772196e262c2a
+ > git rev-list 9de0e8152fd4e9165b51ddb8d3b79198b8fb0a86 # timeout=10
+[Test] $ cmd.exe /C "c:\jenkins_service\tools\hudson.tasks.Maven_MavenInstallation\Maven-3.3.9\bin\mvn.cmd clean test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WebdriverTest 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ WebdriverTest ---
+[INFO] Deleting c:\jenkins_service\workspace\CI-CD\Test\target
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ WebdriverTest ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory c:\jenkins_service\workspace\CI-CD\Test\src\main\resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ WebdriverTest ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ WebdriverTest ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory c:\jenkins_service\workspace\CI-CD\Test\src\test\resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ WebdriverTest ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to c:\jenkins_service\workspace\CI-CD\Test\target\test-classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ WebdriverTest ---
+[INFO] Surefire report directory: c:\jenkins_service\workspace\CI-CD\Test\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 39186
+Only local connections are allowed.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.055 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.488 s
+[INFO] Finished at: 2017-03-10T12:04:36+00:00
+[INFO] Final Memory: 16M/54M
+[INFO] ------------------------------------------------------------------------
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Saving reports...
+Processing '/var/lib/jenkins/jobs/CI-CD/jobs/Test/builds/22/testng/testng-results.xml'
+TestNG Reports Processing: FINISH
+Finished: SUCCESS

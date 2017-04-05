@@ -1,0 +1,65 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Temp1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/pratikghodekar/CrunchifyMavenTutorial.git # timeout=10
+Fetching upstream changes from https://github.com/pratikghodekar/CrunchifyMavenTutorial.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/pratikghodekar/CrunchifyMavenTutorial.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4201cb9a73868fe7374be725a8332ec513fd659d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4201cb9a73868fe7374be725a8332ec513fd659d
+ > git rev-list 4201cb9a73868fe7374be725a8332ec513fd659d # timeout=10
+[Temp1] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn clean install
+which: no javac in (/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin:/sbin:/usr/sbin:/bin:/usr/bin)
+Warning: JAVA_HOME environment variable is not set.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CrunchifyMavenTutorial Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CrunchifyMavenTutorial ---
+[INFO] Deleting /var/lib/jenkins/workspace/Temp1/target
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CrunchifyMavenTutorial ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Temp1/src/main/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CrunchifyMavenTutorial ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CrunchifyMavenTutorial ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Temp1/src/test/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CrunchifyMavenTutorial ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CrunchifyMavenTutorial ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ CrunchifyMavenTutorial ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [CrunchifyMavenTutorial] in [/var/lib/jenkins/workspace/Temp1/target/CrunchifyMavenTutorial]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/Temp1/src/main/webapp]
+[INFO] Webapp assembled in [35 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/Temp1/target/CrunchifyMavenTutorial.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ CrunchifyMavenTutorial ---
+[INFO] Installing /var/lib/jenkins/workspace/Temp1/target/CrunchifyMavenTutorial.war to /var/lib/jenkins/.m2/repository/com/crunchify/CrunchifyMavenTutorial/0.0.1-SNAPSHOT/CrunchifyMavenTutorial-0.0.1-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/Temp1/pom.xml to /var/lib/jenkins/.m2/repository/com/crunchify/CrunchifyMavenTutorial/0.0.1-SNAPSHOT/CrunchifyMavenTutorial-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.445 s
+[INFO] Finished at: 2017-02-16T11:12:15+00:00
+[INFO] Final Memory: 9M/21M
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Finished: SUCCESS

@@ -1,0 +1,21 @@
+Changes in branch origin/master, between c41cc470508b38c414a128b755674d6f4dec499d and 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+commit ae442936d79b1ffb19f1cc3296f71d58d8a101b0
+tree 9b6ca9c0bf89b33ca54aa9bf15725bd2c2ad68e5
+parent 67405c385a177b2b30030091657c8279f585b717
+author Justin Hammond <justin.hammond@rackspace.com> 1375152810 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375152810 +0000
+
+    Handling moving of requirements
+
+:100644 100644 0b2cbf48ee7ebfd634a88f03e11980ff1acd59b7 6ab3d92451a7d2029d3849a62d004f10274e946d M	scripts/deploy/faro-deploy.sh
+Changes in branch origin/HEAD, between c41cc470508b38c414a128b755674d6f4dec499d and 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+commit ae442936d79b1ffb19f1cc3296f71d58d8a101b0
+tree 9b6ca9c0bf89b33ca54aa9bf15725bd2c2ad68e5
+parent 67405c385a177b2b30030091657c8279f585b717
+author Justin Hammond <justin.hammond@rackspace.com> 1375152810 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375152810 +0000
+
+    Handling moving of requirements
+
+:100644 100644 0b2cbf48ee7ebfd634a88f03e11980ff1acd59b7 6ab3d92451a7d2029d3849a62d004f10274e946d M	scripts/deploy/faro-deploy.sh
+

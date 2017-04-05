@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>master</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <jdk>(System)</jdk>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>rm -f CalculatorApplication.war
+wget http://citius-jenkins.westus2.cloudapp.azure.com/job/CI-CD/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+
+mv CalculatorApplication-0.0.1.war CalculatorApplication.war
+
+curl -T CalculatorApplication.war ftp://waws-prod-sn1-015.ftp.azurewebsites.windows.net --user citius\\ftp_new_pratikg:ftp@123! -Q &quot;+CWD site/wwwroot/webapps&quot;</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

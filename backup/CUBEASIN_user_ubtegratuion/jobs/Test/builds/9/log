@@ -1,0 +1,23 @@
+Started by user [8mha:////4GzYkEdYOd+GIEtNxkqbhfJlCs+pK8Swg0U/X/Gu1h02AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:////4Mx0HpboNrU6P1rXwy65oNVMJvKBxOLTtu0tWKRICSv1AAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/eT83ILSktQi/aTSzJwU3eLUorLUIt2ijNQcAEdQ51HQAAAA[0mbuild-server-rhel (build-server) in workspace /home/jenkins/workspace/CI-CD/Test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ct-training/WebdriverTest.git # timeout=10
+Fetching upstream changes from https://github.com/ct-training/WebdriverTest.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ct-training/WebdriverTest.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d5c2c264f5ecdff56ff924e4e4ad8772b2bdff11 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d5c2c264f5ecdff56ff924e4e4ad8772b2bdff11
+ > git rev-list d5c2c264f5ecdff56ff924e4e4ad8772b2bdff11 # timeout=10
+[Test] $ /home/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn clean test
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute C:\\Program Files\\Java\\jdk1.8.0_121/bin/java
+Build step 'Invoke top-level Maven targets' marked build as failure
+TestNG Reports Processing: START
+Looking for TestNG results report in workspace using pattern: **/testng-results.xml
+Did not find any matching files.
+Finished: FAILURE

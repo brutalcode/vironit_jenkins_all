@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.7">
+      <projectUrl>git@github.com/Wakemakin/faro-api/</projectUrl>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.TextParameterDefinition>
+          <name>REVISION</name>
+          <description>The revision of the build. Should come from the origin test that kicked this off.</description>
+          <defaultValue>0</defaultValue>
+        </hudson.model.TextParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="org.jenkinsci.plugins.multiplescms.MultiSCM" plugin="multiple-scms@0.2">
+    <scms>
+      <hudson.plugins.git.GitSCM plugin="git@1.4.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name></name>
+            <refspec></refspec>
+            <url>ssh://git@faro-api.github.com/Wakemakin/faro-api.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>**</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <disableSubmodules>false</disableSubmodules>
+        <recursiveSubmodules>false</recursiveSubmodules>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <authorOrCommitter>false</authorOrCommitter>
+        <clean>false</clean>
+        <wipeOutWorkspace>false</wipeOutWorkspace>
+        <pruneBranches>false</pruneBranches>
+        <remotePoll>false</remotePoll>
+        <ignoreNotifyCommit>false</ignoreNotifyCommit>
+        <useShallowClone>false</useShallowClone>
+        <buildChooser class="hudson.plugins.git.util.DefaultBuildChooser"/>
+        <gitTool>Default</gitTool>
+        <submoduleCfg class="list"/>
+        <relativeTargetDir>faro-api</relativeTargetDir>
+        <reference></reference>
+        <excludedRegions></excludedRegions>
+        <excludedUsers></excludedUsers>
+        <gitConfigName></gitConfigName>
+        <gitConfigEmail></gitConfigEmail>
+        <skipTag>false</skipTag>
+        <includedRegions></includedRegions>
+        <scmName></scmName>
+      </hudson.plugins.git.GitSCM>
+      <hudson.plugins.git.GitSCM plugin="git@1.4.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name></name>
+            <refspec></refspec>
+            <url>ssh://git@wakemakin-ci.github.com/Wakemakin/wakemakin-ci.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>**</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <disableSubmodules>false</disableSubmodules>
+        <recursiveSubmodules>false</recursiveSubmodules>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <authorOrCommitter>false</authorOrCommitter>
+        <clean>false</clean>
+        <wipeOutWorkspace>false</wipeOutWorkspace>
+        <pruneBranches>false</pruneBranches>
+        <remotePoll>false</remotePoll>
+        <ignoreNotifyCommit>false</ignoreNotifyCommit>
+        <useShallowClone>false</useShallowClone>
+        <buildChooser class="hudson.plugins.git.util.DefaultBuildChooser"/>
+        <gitTool>Default</gitTool>
+        <submoduleCfg class="list"/>
+        <relativeTargetDir>wakemakin-ci</relativeTargetDir>
+        <reference></reference>
+        <excludedRegions></excludedRegions>
+        <excludedUsers></excludedUsers>
+        <gitConfigName></gitConfigName>
+        <gitConfigEmail></gitConfigEmail>
+        <skipTag>false</skipTag>
+        <includedRegions></includedRegions>
+        <scmName></scmName>
+      </hudson.plugins.git.GitSCM>
+    </scms>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+export PROJECT=faro-api
+export EXT_BUILD=$REVISION
+rm -rf wakemakin-ci/puppet
+source wakemakin-ci/scripts/deploy/faro-deploy.sh</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.plugins.ircbot.IrcPublisher plugin="ircbot@2.23">
+      <targets>
+        <hudson.plugins.im.GroupChatIMMessageTarget plugin="instant-messaging@1.25">
+          <name>#wakemakin</name>
+          <notificationOnly>false</notificationOnly>
+        </hudson.plugins.im.GroupChatIMMessageTarget>
+      </targets>
+      <strategy>STATECHANGE_ONLY</strategy>
+      <notifyOnBuildStart>false</notifyOnBuildStart>
+      <notifySuspects>false</notifySuspects>
+      <notifyCulprits>false</notifyCulprits>
+      <notifyFixers>false</notifyFixers>
+      <notifyUpstreamCommitters>false</notifyUpstreamCommitters>
+      <buildToChatNotifier class="hudson.plugins.im.build_notify.DefaultBuildToChatNotifier" plugin="instant-messaging@1.25"/>
+      <matrixMultiplier>ONLY_CONFIGURATIONS</matrixMultiplier>
+      <channels/>
+    </hudson.plugins.ircbot.IrcPublisher>
+    <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.18">
+      <configs>
+        <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
+          <configs>
+            <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
+              <properties>DATABASE_WIPE=0
+REVISION=$REVISION</properties>
+            </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
+          </configs>
+          <projects>faro-api-development-push-ENVIRONMENT_DOWN, </projects>
+          <condition>SUCCESS</condition>
+          <triggerWithNoParameters>false</triggerWithNoParameters>
+        </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
+      </configs>
+    </hudson.plugins.parameterizedtrigger.BuildTrigger>
+  </publishers>
+  <buildWrappers/>
+</project>

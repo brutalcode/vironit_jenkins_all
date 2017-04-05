@@ -1,0 +1,9 @@
+commit d635596e82f31012e672eb064354deb71ea25681
+tree 913bf2cec6933424d501c3bf3125245684708826
+parent 91789d4a2e37e6b92a8ad3540e33c740460e32b7
+author Dado <chickenbit@gmail.com> 1421851747 +0000
+committer Dado <chickenbit@gmail.com> 1421851747 +0000
+
+    Added new function for handling line separators
+
+:100644 100644 c9ac04b2ca7a552008dc121051a3b27e59318da1 81151c6511ccf056a2abde33318899f2f8977ba2 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateAGrid.java

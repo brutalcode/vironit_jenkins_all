@@ -1,0 +1,24 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson7251617205516623101.sh
++ rm -f CalculatorApplication.war
++ wget http://ec2-35-166-101-227.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-02-23 10:50:15--  http://ec2-35-166-101-227.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war
+Resolving ec2-35-166-101-227.us-west-2.compute.amazonaws.com (ec2-35-166-101-227.us-west-2.compute.amazonaws.com)... 172.31.19.217
+Connecting to ec2-35-166-101-227.us-west-2.compute.amazonaws.com (ec2-35-166-101-227.us-west-2.compute.amazonaws.com)|172.31.19.217|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6764 (6.6K) [application/octet-stream]
+Saving to: ‘CalculatorApplication-0.0.1.war’
+
+     0K ......                                                100% 32.4M=0s
+
+2017-02-23 10:50:16 (32.4 MB/s) - ‘CalculatorApplication-0.0.1.war’ saved [6764/6764]
+
++ mv CalculatorApplication-0.0.1.war CalculatorApplication.war
++ cd /tools/apache-tomcat-7.0.75/bin
++ ./shutdown.sh
++ rm -rf /tools/apache-tomcat-7.0.75/webapps/CalculatorApplication /tools/apache-tomcat-7.0.75/webapps/CalculatorApplication.war
++ cp /var/lib/jenkins/workspace/Deploy/CalculatorApplication.war /tools/apache-tomcat-7.0.75/webapps
++ nohup ./startup.sh
+Tomcat started.
+Finished: SUCCESS

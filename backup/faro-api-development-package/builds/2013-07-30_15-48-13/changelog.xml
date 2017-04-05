@@ -1,0 +1,20 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between d123e1736a266b19fc97b4af690ac7bbdcbca0f4 and 4cba2b47737cce5890e634e5d665871bba431b0c
+commit fe0bd0148653eeaae0ce300b46313ddedd4f279b
+tree 7bcb2ef9df1af3e38bc2ff6145f7aec6aec8f6d9
+parent e2a11afed720c71b3e65d65b1e7a3cb9867b00e4
+author Justin Hammond <justin.hammond@rackspace.com> 1375199187 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375199187 +0000
+
+    Added gunicorn dir to MANIFESTS
+
+:100644 100644 a4aae4bf04d35ceb372e4183a2d4f2f04e616e92 82e8e47082df922edc773971660e933b3825161a M	MANIFEST
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/HEAD, between 9ab3b0234f318c0e8a353b8acbd6db7747aa035f and 9ab3b0234f318c0e8a353b8acbd6db7747aa035f
+Changes in branch origin/master, between 9ab3b0234f318c0e8a353b8acbd6db7747aa035f and 9ab3b0234f318c0e8a353b8acbd6db7747aa035f
+]]>
+</sub-log>
+</multi-scm-log>

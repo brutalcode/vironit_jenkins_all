@@ -1,0 +1,172 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Build
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:ct-training/CalculatorService.git # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorService.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorService.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6a0b95682768e7a7efaec9263925415d46a3ac19 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6a0b95682768e7a7efaec9263925415d46a3ac19
+ > git rev-list 6a0b95682768e7a7efaec9263925415d46a3ac19 # timeout=10
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:ct-training/CalculatorApplication.git # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorApplication.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6a1cdc51154f28e0c70616941049eaddf5f5a709 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6a1cdc51154f28e0c70616941049eaddf5f5a709
+ > git rev-list 40c2971716f410039b73c6d479ff7eb68b007ec5 # timeout=10
+[Build] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn -f CalculatorService/pom.xml clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Calculator 0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Calculator ---
+[INFO] Deleting /var/lib/jenkins/workspace/Build/CalculatorService/target
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Calculator ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/CalculatorService/src/main/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Calculator ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/Build/CalculatorService/target/classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Calculator ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/CalculatorService/src/test/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Calculator ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Build/CalculatorService/target/test-classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Calculator ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/Build/CalculatorService/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.calc.service.MyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Calculator ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Build/CalculatorService/target/Calculator-0.0.1.jar
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:test-jar (default) @ Calculator ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Build/CalculatorService/target/Calculator-0.0.1-tests.jar
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ Calculator ---
+[INFO] Installing /var/lib/jenkins/workspace/Build/CalculatorService/target/Calculator-0.0.1.jar to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1.jar
+[INFO] Installing /var/lib/jenkins/workspace/Build/CalculatorService/pom.xml to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1.pom
+[INFO] Installing /var/lib/jenkins/workspace/Build/CalculatorService/target/Calculator-0.0.1-tests.jar to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.576 s
+[INFO] Finished at: 2017-02-23T09:25:27+00:00
+[INFO] Final Memory: 14M/79M
+[INFO] ------------------------------------------------------------------------
+[Build] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn -f CalculatorApplication/pom.xml clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CalculatorApplication 0.0.1
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom
+3/13 KB   5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom (13 KB at 21.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+3/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom (5 KB at 191.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+3/84 KB   5/84 KB   8/84 KB   11/84 KB   13/84 KB   16/84 KB   19/84 KB   21/84 KB   24/84 KB   27/84 KB   29/84 KB   32/84 KB   36/84 KB   40/84 KB   44/84 KB   48/84 KB   52/84 KB   56/84 KB   60/84 KB   64/84 KB   68/84 KB   72/84 KB   76/84 KB   80/84 KB   84/84 KB              Downloaded: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar (84 KB at 1488.4 KB/sec)
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CalculatorApplication ---
+[INFO] Deleting /var/lib/jenkins/workspace/Build/CalculatorApplication/target
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CalculatorApplication ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ CalculatorApplication ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Build/CalculatorApplication/target/classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CalculatorApplication ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/CalculatorApplication/src/test/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ CalculatorApplication ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CalculatorApplication ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:3.0.0:war (default-war) @ CalculatorApplication ---
+Downloading: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.pom
+3/14 KB    5/14 KB   8/14 KB   11/14 KB   13/14 KB   14/14 KB              Downloaded: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.pom (14 KB at 422.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.9/xstream-parent-1.4.9.pom
+3/34 KB    5/34 KB   8/34 KB   11/34 KB   13/34 KB   16/34 KB   19/34 KB   21/34 KB   24/34 KB   27/34 KB   29/34 KB   32/34 KB   34/34 KB              Downloaded: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.9/xstream-parent-1.4.9.pom (34 KB at 900.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom
+386/386 B               Downloaded: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom (386 B at 18.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+3/6 KB      5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom (6 KB at 191.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom (4 KB at 149.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/15/spice-parent-15.pom
+3/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/15/spice-parent-15.pom (9 KB at 313.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.pom (5 KB at 161.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/22/maven-shared-components-22.pom
+3/5 KB   5/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/22/maven-shared-components-22.pom (5 KB at 237.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom (2 KB at 65.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.jar
+Downloading: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar
+Downloading: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+Downloading: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+3/76 KB   5/76 KB   8/76 KB   11/76 KB   13/76 KB   16/76 KB   19/76 KB   21/76 KB   24/76 KB   27/76 KB   29/76 KB   32/76 KB   36/76 KB   40/76 KB   44/76 KB   44/76 KB   3/8 KB   44/76 KB   5/8 KB   44/76 KB   8/8 KB   48/76 KB   8/8 KB   52/76 KB   8/8 KB   3/9 KB   52/76 KB   8/8 KB   3/537 KB   3/50 KB   3/9 KB   52/76 KB   8/8 KB   5/537 KB   3/50 KB   3/9 KB   52/76 KB   8/8 KB   8/537 KB   3/50 KB   3/9 KB   52/76 KB   8/8 KB   11/537 KB   3/50 KB   3/9 KB   52/76 KB   8/8 KB   13/537 KB   3/50 KB   3/9 KB   52/76 KB   8/8 KB   3/50 KB   6/9 KB   52/76 KB   8/8 KB   13/537 KB   3/50 KB   9/9 KB   52/76 KB   8/8 KB   13/537 KB   3/50 KB   9/9 KB   52/76 KB   8/8 KB   13/537 KB   3/50 KB   52/76 KB   8/8 KB   3/50 KB   9/9 KB   52/76 KB   8/8 KB   13/537 KB   5/50 KB   9/9 KB   52/76 KB   8/8 KB   13/537 KB   8/50 KB   9/9 KB   52/76 KB   8/8 KB   13/537 KB   11/50 KB   9/9 KB   52/76 KB   8/8 KB   13/537 KB   13/50 KB   9/9 KB   52/76 KB   8/8 KB   13/537 KB   16/50 KB                                                       9/9 KB   52/76 KB   13/537 KB   19/50 KB            9/9 KB   52/76 KB   13/537 KB   21/50 KB   Downloaded: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar (8 KB at 137.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.jar
+9/9 KB   52/76 KB   13/537 KB   24/50 KB   9/9 KB   56/76 KB   13/537 KB   24/50 KB   9/9 KB   60/76 KB   13/537 KB   24/50 KB   9/9 KB   64/76 KB   13/537 KB   27/50 KB   9/9 KB   64/76 KB   16/537 KB   27/50 KB   9/9 KB   60/76 KB   13/537 KB   27/50 KB   9/9 KB   64/76 KB   16/537 KB   29/50 KB   9/9 KB   64/76 KB   16/537 KB   32/50 KB   9/9 KB   68/76 KB   19/537 KB   32/50 KB   9/9 KB   64/76 KB   19/537 KB   32/50 KB   9/9 KB   68/76 KB   21/537 KB   32/50 KB   9/9 KB   68/76 KB   24/537 KB   32/50 KB   9/9 KB   68/76 KB   27/537 KB   32/50 KB   9/9 KB   68/76 KB   29/537 KB   32/50 KB   9/9 KB   72/76 KB   29/537 KB   32/50 KB   9/9 KB   76/76 KB   32/537 KB   32/50 KB   9/9 KB   72/76 KB   32/537 KB   32/50 KB   76/76 KB   32/537 KB   3/11 KB   36/50 KB   76/76 KB   32/537 KB   5/11 KB   36/50 KB   76/76 KB   32/537 KB   8/11 KB   36/50 KB   76/76 KB   36/537 KB   11/11 KB   36/50 KB   76/76 KB   36/537 KB   11/11 KB   36/50 KB   76/76 KB   32/537 KB   36/50 KB                                                       Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar (9 KB at 123.6 KB/sec)
+76/76 KB   36/537 KB   8/11 KB   36/50 KB   76/76 KB   40/537 KB   11/11 KB   36/50 KB   76/76 KB   44/537 KB   11/11 KB   40/50 KB   76/76 KB   48/537 KB   11/11 KB   40/50 KB   76/76 KB   52/537 KB   11/11 KB   40/50 KB   76/76 KB   40/537 KB   11/11 KB   40/50 KB   76/76 KB   52/537 KB   11/11 KB   44/50 KB   76/76 KB   52/537 KB   11/11 KB   48/50 KB   76/76 KB   52/537 KB   11/11 KB   50/50 KB   76/76 KB   56/537 KB   11/11 KB   50/50 KB   76/76 KB   60/537 KB   11/11 KB   50/50 KB   76/76 KB   64/537 KB   11/11 KB   50/50 KB   76/76 KB   68/537 KB   11/11 KB   50/50 KB   72/537 KB   50/50 KB                         76/537 KB   50/50 KB   80/537 KB   50/50 KB                                                Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.jar (11 KB at 132.9 KB/sec)
+                                             Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.jar (76 KB at 834.0 KB/sec)
+84/537 KB   50/50 KB   88/537 KB   50/50 KB   92/537 KB   50/50 KB   96/537 KB   50/50 KB   100/537 KB   50/50 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar (50 KB at 577.0 KB/sec)
+104/537 KB              108/537 KB   112/537 KB   116/537 KB   120/537 KB   124/537 KB   128/537 KB   132/537 KB   136/537 KB   140/537 KB   144/537 KB   148/537 KB   152/537 KB   156/537 KB   160/537 KB   164/537 KB   168/537 KB   172/537 KB   176/537 KB   180/537 KB   184/537 KB   188/537 KB   192/537 KB   196/537 KB   200/537 KB   204/537 KB   208/537 KB   212/537 KB   216/537 KB   220/537 KB   224/537 KB   228/537 KB   232/537 KB   236/537 KB   240/537 KB   244/537 KB   248/537 KB   252/537 KB   256/537 KB   260/537 KB   264/537 KB   268/537 KB   272/537 KB   276/537 KB   280/537 KB   284/537 KB   288/537 KB   292/537 KB   296/537 KB   300/537 KB   304/537 KB   308/537 KB   312/537 KB   316/537 KB   320/537 KB   324/537 KB   328/537 KB   332/537 KB   336/537 KB   340/537 KB   344/537 KB   348/537 KB   352/537 KB   356/537 KB   360/537 KB   364/537 KB   368/537 KB   372/537 KB   376/537 KB   380/537 KB   384/537 KB   388/537 KB   392/537 KB   396/537 KB   400/537 KB   404/537 KB   408/537 KB   412/537 KB   416/537 KB   420/537 KB   424/537 KB   428/537 KB   432/537 KB   436/537 KB   440/537 KB   444/537 KB   448/537 KB   452/537 KB   456/537 KB   460/537 KB   464/537 KB   468/537 KB   472/537 KB   476/537 KB   480/537 KB   484/537 KB   488/537 KB   492/537 KB   496/537 KB   500/537 KB   504/537 KB   508/537 KB   512/537 KB   516/537 KB   520/537 KB   524/537 KB   528/537 KB   532/537 KB   536/537 KB   537/537 KB                Downloaded: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar (537 KB at 2807.7 KB/sec)
+[INFO] Packaging webapp
+[INFO] Assembling webapp [CalculatorApplication] in [/var/lib/jenkins/workspace/Build/CalculatorApplication/target/CalculatorApplication-0.0.1]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/Build/CalculatorApplication/WebContent]
+[INFO] Webapp assembled in [53 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/Build/CalculatorApplication/target/CalculatorApplication-0.0.1.war
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ CalculatorApplication ---
+[INFO] Installing /var/lib/jenkins/workspace/Build/CalculatorApplication/target/CalculatorApplication-0.0.1.war to /var/lib/jenkins/.m2/repository/com/calc/service/CalculatorApplication/0.0.1/CalculatorApplication-0.0.1.war
+[INFO] Installing /var/lib/jenkins/workspace/Build/CalculatorApplication/pom.xml to /var/lib/jenkins/.m2/repository/com/calc/service/CalculatorApplication/0.0.1/CalculatorApplication-0.0.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.259 s
+[INFO] Finished at: 2017-02-23T09:25:34+00:00
+[INFO] Final Memory: 17M/88M
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Finished: SUCCESS

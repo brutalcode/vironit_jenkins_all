@@ -1,0 +1,38 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between 536d6d5cf23722d5bb30562043c62432800a4d4f and 54bfbf93a162b324f0cb61210fa32ac3c4345830
+commit f4e5789ec36e0f70b65461d250664c4f9d7e7f8b
+tree 7bb456106835101af248a19ea3ae70ed5c622caf
+parent aaf825ee7b8f62a5876d754c0cb0eca5a0ec0f23
+author Justin Hammond <justin.hammond@rackspace.com> 1375154089 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375154089 +0000
+
+    Fixed service-start
+
+:100755 100755 637d4086c2c02d68c01077e3620fedb05cd1aed6 2106550856fc725d6843e74f4f62cb0c4c8f7380 M	scripts/service-start.sh
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b and b5c1bccf7325c8bb13535508d35ce71116d7339f
+commit b5c1bccf7325c8bb13535508d35ce71116d7339f
+tree 0a1098a8b3f265ef20aaa1e82ad3547a61151767
+parent 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+author Justin Hammond <justin.hammond@rackspace.com> 1375153664 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375153664 +0000
+
+    Fixed launcher location
+
+:100644 100644 b3038f54de13306d93a83c58403228ec0945ce1e 3b03ba75545457da1a350f33e58a0797806a3d0c M	puppet/modules/faro_api/manifests/init.pp
+Changes in branch origin/HEAD, between 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b and b5c1bccf7325c8bb13535508d35ce71116d7339f
+commit b5c1bccf7325c8bb13535508d35ce71116d7339f
+tree 0a1098a8b3f265ef20aaa1e82ad3547a61151767
+parent 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+author Justin Hammond <justin.hammond@rackspace.com> 1375153664 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375153664 +0000
+
+    Fixed launcher location
+
+:100644 100644 b3038f54de13306d93a83c58403228ec0945ce1e 3b03ba75545457da1a350f33e58a0797806a3d0c M	puppet/modules/faro_api/manifests/init.pp
+]]>
+</sub-log>
+</multi-scm-log>

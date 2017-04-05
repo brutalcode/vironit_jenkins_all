@@ -1,0 +1,20 @@
+<multi-scm-log>
+<sub-log scm="git git@github.com:ct-training/CalculatorService.git">
+<![CDATA[]]>
+</sub-log>
+<sub-log scm="git git@github.com:ct-training/CalculatorApplication.git">
+<![CDATA[commit 5ef0717e6c759923de202b8cf2d34d4e2b74c971
+tree d9745904abe6fb7c2f12be9823c912a222a66bf5
+parent 6a1cdc51154f28e0c70616941049eaddf5f5a709
+author Pratik Ghodekar &lt;pratikg@citiustech.com&gt; 2017-02-23 16:19:58 +0530
+committer Pratik Ghodekar &lt;pratikg@citiustech.com&gt; 2017-02-23 16:19:58 +0530
+
+    code removed
+
+
+
+:100644 100644 25135adc473a443766386ccc7e0acc14fa18bd42 9ee9c1c43d03dd0d30be14968b3edb317b83fc5d M	.classpath
+:100644 100644 03060a7274dc0f628aae0b7864c055d34a4a843d 2edf619e8de67f14b20915547f41625d2955ae01 M	src/main/java/com/calc/servlet/CalculatorServlet.java
+]]>
+</sub-log>
+</multi-scm-log>

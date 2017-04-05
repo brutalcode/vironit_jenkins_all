@@ -1,0 +1,7 @@
+[CI-CD-Pipeline] Running shell script
++ echo 'Multiline shell steps works too'
+Multiline shell steps works too
++ ls -lah
+total 0
+drwxr-xr-x. 2 root root  6 Mar 10 13:21 .
+drwxr-xr-x. 5 root root 67 Mar 10 13:21 ..

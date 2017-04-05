@@ -1,0 +1,42 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson7917933767640825602.sh
++ env
+HUDSON_SERVER_COOKIE=649098343ecd1a60
+SHELL=/bin/bash
+TERM=linux
+BUILD_TAG=jenkins-Deploy-2
+WORKSPACE=/var/lib/jenkins/workspace/Deploy
+RUN_CHANGES_DISPLAY_URL=http://unconfigured-jenkins-location/job/Deploy/2/display/redirect?page=changes
+USER=jenkins
+NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+JENKINS_HOME=/var/lib/jenkins
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+RUN_DISPLAY_URL=http://unconfigured-jenkins-location/job/Deploy/2/display/redirect
+RUNLEVEL=3
+_=/bin/env
+PWD=/var/lib/jenkins/workspace/Deploy
+LANGSH_SOURCED=1
+LANG=en_US.UTF-8
+JOB_NAME=Deploy
+PREVLEVEL=N
+BUILD_DISPLAY_NAME=#2
+previous=N
+XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+BUILD_ID=2
+JOB_BASE_NAME=Deploy
+CONSOLETYPE=serial
+HOME=/var/lib/jenkins
+SHLVL=4
+JENKINS_SERVER_COOKIE=649098343ecd1a60
+EXECUTOR_NUMBER=1
+NODE_LABELS=master
+UPSTART_EVENTS=runlevel
+LOGNAME=jenkins
+HUDSON_HOME=/var/lib/jenkins
+NODE_NAME=master
+JOB_DISPLAY_URL=http://unconfigured-jenkins-location/job/Deploy/display/redirect
+BUILD_NUMBER=2
+UPSTART_JOB=rc
+HUDSON_COOKIE=5ce5caae-7c3e-4709-b402-54eb1905cb2a
+Finished: SUCCESS

@@ -1,0 +1,17 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/ct-training/CalculatorApplication.git
+ > git init /home/jenkins/workspace/CI-CD-Pipeline/CalculatorApplication # timeout=10
+Fetching upstream changes from https://github.com/ct-training/CalculatorApplication.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/ct-training/CalculatorApplication.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ct-training/CalculatorApplication.git # timeout=10
+Fetching upstream changes from https://github.com/ct-training/CalculatorApplication.git
+ > git fetch --tags --progress https://github.com/ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 721ec5c9c1bbc5489c1e287d0e558b8cf521ab4f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 721ec5c9c1bbc5489c1e287d0e558b8cf521ab4f
+First time build. Skipping changelog.

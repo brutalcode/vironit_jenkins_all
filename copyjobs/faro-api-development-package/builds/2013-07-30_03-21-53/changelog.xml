@@ -1,0 +1,20 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between 54bfbf93a162b324f0cb61210fa32ac3c4345830 and 560a66a943e9157cc91bafe7514343475c5bec12
+commit 9580ad90a10a5f806c67174ced3791a739680930
+tree cdfb38037efa4d564d69ce372b7dbe9df7c9b557
+parent f4e5789ec36e0f70b65461d250664c4f9d7e7f8b
+author Justin Hammond <justin.hammond@rackspace.com> 1375154386 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375154386 +0000
+
+    Fixed service-start, again
+
+:100755 100755 2106550856fc725d6843e74f4f62cb0c4c8f7380 a49b1cebbda50c5bf8fdbacc25a21e0017ba2949 M	scripts/service-start.sh
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between b5c1bccf7325c8bb13535508d35ce71116d7339f and b5c1bccf7325c8bb13535508d35ce71116d7339f
+Changes in branch origin/HEAD, between b5c1bccf7325c8bb13535508d35ce71116d7339f and b5c1bccf7325c8bb13535508d35ce71116d7339f
+]]>
+</sub-log>
+</multi-scm-log>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.9">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.5">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.SyntheticStageGraphListener_-GraphListenerAction plugin="pipeline-model-definition@1.0"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.0">
+      <stages plugin="pipeline-model-api@1.0">
+        <stages>
+          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <name>Build</name>
+            <branches>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                <name>default</name>
+                <steps>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <name>sh</name>
+                    <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                      <arguments class="linked-hash-map">
+                        <entry>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <key>script</key>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            <value class="string">echo &quot;Hello World&quot;</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                        </entry>
+                      </arguments>
+                    </args>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <name>sh</name>
+                    <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                      <arguments class="linked-hash-map">
+                        <entry>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <key>script</key>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            <value class="string">
+                    echo &quot;Multiline shell steps works too&quot;
+                    ls -lah
+                </value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                        </entry>
+                      </arguments>
+                    </args>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                </steps>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+            </branches>
+          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+        </stages>
+      </stages>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+  </actions>
+  <queueId>21</queueId>
+  <timestamp>1453151820890</timestamp>
+  <startTime>1453151820891</startTime>
+  <result>FAILURE</result>
+  <duration>7743</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>pipeline {
+    agent { label &apos;build-server&apos; }
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                sh &apos;echo &quot;Hello World&quot;&apos;
+                sh &apos;&apos;&apos;
+                    echo &quot;Multiline shell steps works too&quot;
+                    ls -lah
+                &apos;&apos;&apos;
+            }
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <sandbox>true</sandbox>
+    <iota>5</iota>
+    <head>1:5</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

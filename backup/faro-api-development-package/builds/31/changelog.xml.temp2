@@ -1,0 +1,41 @@
+Changes in branch origin/master, between a5f11addeadf241551b0d77e156680659cc2b999 and 6210177916799fd97f6b2a0c2c526692d8576859
+commit 6210177916799fd97f6b2a0c2c526692d8576859
+tree 5bfd49a0fd3ceb87924105b83835b2ed576a100c
+parent 4523cc160c3d6f46a62c4165060dbd7e29edb021
+author Justin Hammond <justin.hammond@rackspace.com> 1375210890 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375210890 +0000
+
+    Fixed output errors
+
+:100755 100755 42901cfdcdd6e427e906908234c7cdfd271b0227 0857cc44de953a83a45c51f7d703318f3b3390a0 M	scripts/deploy/release-checker.sh
+
+commit 4523cc160c3d6f46a62c4165060dbd7e29edb021
+tree 0e9e892de54dbf26f7c0a3d6be48ff683d152f6e
+parent a5f11addeadf241551b0d77e156680659cc2b999
+author Justin Hammond <justin.hammond@rackspace.com> 1375210581 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375210581 +0000
+
+    removed debug shit breaking all the things
+
+:100755 100755 d005d223d24305a5c2b85100f2778f557c9b0c38 42901cfdcdd6e427e906908234c7cdfd271b0227 M	scripts/deploy/release-checker.sh
+Changes in branch origin/HEAD, between a5f11addeadf241551b0d77e156680659cc2b999 and 6210177916799fd97f6b2a0c2c526692d8576859
+commit 6210177916799fd97f6b2a0c2c526692d8576859
+tree 5bfd49a0fd3ceb87924105b83835b2ed576a100c
+parent 4523cc160c3d6f46a62c4165060dbd7e29edb021
+author Justin Hammond <justin.hammond@rackspace.com> 1375210890 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375210890 +0000
+
+    Fixed output errors
+
+:100755 100755 42901cfdcdd6e427e906908234c7cdfd271b0227 0857cc44de953a83a45c51f7d703318f3b3390a0 M	scripts/deploy/release-checker.sh
+
+commit 4523cc160c3d6f46a62c4165060dbd7e29edb021
+tree 0e9e892de54dbf26f7c0a3d6be48ff683d152f6e
+parent a5f11addeadf241551b0d77e156680659cc2b999
+author Justin Hammond <justin.hammond@rackspace.com> 1375210581 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375210581 +0000
+
+    removed debug shit breaking all the things
+
+:100755 100755 d005d223d24305a5c2b85100f2778f557c9b0c38 42901cfdcdd6e427e906908234c7cdfd271b0227 M	scripts/deploy/release-checker.sh
+

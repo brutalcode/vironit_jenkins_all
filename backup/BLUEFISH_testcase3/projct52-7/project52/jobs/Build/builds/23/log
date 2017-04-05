@@ -1,0 +1,146 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building remotely on [8mha:////4DOAM3qZpPcJ29ciExsSJ+QuC9Z0fcEKzmE0CMRG6XHxAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/eKcxLJUAEnZB8bEAAAA[0mslave in workspace /u01/slave/workspace/CI-CD/Build
+Cloning the remote Git repository
+Cloning repository git@github.com:ct-training/CalculatorService.git
+ > git init /u01/slave/workspace/CI-CD/Build/CalculatorService # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorService.git
+ > git --version # timeout=10
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorService.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:ct-training/CalculatorService.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ct-training/CalculatorService.git # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorService.git
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorService.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9bf2f227d033b1c44ca5e6cfb82f4d90065136e1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9bf2f227d033b1c44ca5e6cfb82f4d90065136e1
+ > git rev-list 9bf2f227d033b1c44ca5e6cfb82f4d90065136e1 # timeout=10
+Cloning the remote Git repository
+Cloning repository git@github.com:ct-training/CalculatorApplication.git
+ > git init /u01/slave/workspace/CI-CD/Build/CalculatorApplication # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorApplication.git
+ > git --version # timeout=10
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:ct-training/CalculatorApplication.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ct-training/CalculatorApplication.git # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorApplication.git
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5ef0717e6c759923de202b8cf2d34d4e2b74c971 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5ef0717e6c759923de202b8cf2d34d4e2b74c971
+ > git rev-list 5ef0717e6c759923de202b8cf2d34d4e2b74c971 # timeout=10
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.3.9/apache-maven-3.3.9-bin.zip to /u01/slave/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9 on slave
+[Build] $ /u01/slave/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn -f CalculatorService/pom.xml clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Calculator 0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Calculator ---
+[INFO] Deleting /u01/slave/workspace/CI-CD/Build/CalculatorService/target
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Calculator ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /u01/slave/workspace/CI-CD/Build/CalculatorService/src/main/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Calculator ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /u01/slave/workspace/CI-CD/Build/CalculatorService/target/classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Calculator ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /u01/slave/workspace/CI-CD/Build/CalculatorService/src/test/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Calculator ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /u01/slave/workspace/CI-CD/Build/CalculatorService/target/test-classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Calculator ---
+[INFO] Surefire report directory: /u01/slave/workspace/CI-CD/Build/CalculatorService/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.calc.service.MyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Calculator ---
+[INFO] Building jar: /u01/slave/workspace/CI-CD/Build/CalculatorService/target/Calculator-0.0.1.jar
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:test-jar (default) @ Calculator ---
+[INFO] Building jar: /u01/slave/workspace/CI-CD/Build/CalculatorService/target/Calculator-0.0.1-tests.jar
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ Calculator ---
+[INFO] Installing /u01/slave/workspace/CI-CD/Build/CalculatorService/target/Calculator-0.0.1.jar to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1.jar
+[INFO] Installing /u01/slave/workspace/CI-CD/Build/CalculatorService/pom.xml to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1.pom
+[INFO] Installing /u01/slave/workspace/CI-CD/Build/CalculatorService/target/Calculator-0.0.1-tests.jar to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.994 s
+[INFO] Finished at: 2017-02-27T07:43:20+00:00
+[INFO] Final Memory: 14M/79M
+[INFO] ------------------------------------------------------------------------
+[Build] $ /u01/slave/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn -f CalculatorApplication/pom.xml clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CalculatorApplication 0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CalculatorApplication ---
+[INFO] Deleting /u01/slave/workspace/CI-CD/Build/CalculatorApplication/target
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CalculatorApplication ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /u01/slave/workspace/CI-CD/Build/CalculatorApplication/src/main/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ CalculatorApplication ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /u01/slave/workspace/CI-CD/Build/CalculatorApplication/target/classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CalculatorApplication ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /u01/slave/workspace/CI-CD/Build/CalculatorApplication/src/test/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ CalculatorApplication ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ CalculatorApplication ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:3.0.0:war (default-war) @ CalculatorApplication ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [CalculatorApplication] in [/u01/slave/workspace/CI-CD/Build/CalculatorApplication/target/CalculatorApplication-0.0.1]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/u01/slave/workspace/CI-CD/Build/CalculatorApplication/WebContent]
+[INFO] Webapp assembled in [78 msecs]
+[INFO] Building war: /u01/slave/workspace/CI-CD/Build/CalculatorApplication/target/CalculatorApplication-0.0.1.war
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ CalculatorApplication ---
+[INFO] Installing /u01/slave/workspace/CI-CD/Build/CalculatorApplication/target/CalculatorApplication-0.0.1.war to /var/lib/jenkins/.m2/repository/com/calc/service/CalculatorApplication/0.0.1/CalculatorApplication-0.0.1.war
+[INFO] Installing /u01/slave/workspace/CI-CD/Build/CalculatorApplication/pom.xml to /var/lib/jenkins/.m2/repository/com/calc/service/CalculatorApplication/0.0.1/CalculatorApplication-0.0.1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.117 s
+[INFO] Finished at: 2017-02-27T07:43:27+00:00
+[INFO] Final Memory: 14M/79M
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+Recording test results
+Finished: SUCCESS

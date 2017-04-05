@@ -1,0 +1,28 @@
+Started by user [8mha:////4GzYkEdYOd+GIEtNxkqbhfJlCs+pK8Swg0U/X/Gu1h02AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:////4BWAKg9/8TIxNbwuYQi6XlGtU1MW7BKMxB14jXiNgW0HAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZZ/eT83ILSktQi/ZLU4hLd4tSistQi3fLMvJT88mIARoS5F9IAAAA=[0mtest-server-windows (test-server) in workspace c:\jenkins_service\workspace\CI-CD\Test
+java.util.concurrent.TimeoutException: Ping started at 1489136265295 hasn't completed by 1489136505296
+Caused: java.io.IOException
+	at hudson.remoting.Channel.close(Channel.java:1292)
+	at hudson.slaves.ChannelPinger$1.onDead(ChannelPinger.java:180)
+	at hudson.remoting.PingThread.ping(PingThread.java:130)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+Caused: hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:605)
+	at hudson.remoting.Request.call(Request.java:130)
+	at hudson.remoting.Channel.call(Channel.java:829)
+	at hudson.FilePath.act(FilePath.java:985)
+Caused: java.io.IOException: remote file operation failed: c:\jenkins_service\workspace\CI-CD\Test at hudson.remoting.Channel@59973826:Channel to /52.229.28.63
+	at hudson.FilePath.act(FilePath.java:992)
+	at hudson.FilePath.act(FilePath.java:974)
+	at hudson.FilePath.mkdirs(FilePath.java:1157)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1276)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:604)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:529)
+	at hudson.model.Run.execute(Run.java:1728)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:405)
+[8mha:////4BMB8yGZqa44AmUj7yuwJJDjnCEgK3/WPvKeOSwjtvMbAAAAoh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLmFQ1E/Ozy0oLUkt0i9JLS7RLU4tKkst0i3PzEvJLy/Wz8lPBwD5fQP2pgAAAA==[0mAgent went offline during the build
+Build step 'Publish TestNG Results' marked build as failure
+Finished: FAILURE

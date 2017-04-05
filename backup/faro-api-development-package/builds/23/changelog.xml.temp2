@@ -1,0 +1,21 @@
+Changes in branch origin/master, between 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b and b5c1bccf7325c8bb13535508d35ce71116d7339f
+commit b5c1bccf7325c8bb13535508d35ce71116d7339f
+tree 0a1098a8b3f265ef20aaa1e82ad3547a61151767
+parent 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+author Justin Hammond <justin.hammond@rackspace.com> 1375153664 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375153664 +0000
+
+    Fixed launcher location
+
+:100644 100644 b3038f54de13306d93a83c58403228ec0945ce1e 3b03ba75545457da1a350f33e58a0797806a3d0c M	puppet/modules/faro_api/manifests/init.pp
+Changes in branch origin/HEAD, between 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b and b5c1bccf7325c8bb13535508d35ce71116d7339f
+commit b5c1bccf7325c8bb13535508d35ce71116d7339f
+tree 0a1098a8b3f265ef20aaa1e82ad3547a61151767
+parent 4a7bbc8e13a652b0fca56e429a8ddc9e086ad42b
+author Justin Hammond <justin.hammond@rackspace.com> 1375153664 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375153664 +0000
+
+    Fixed launcher location
+
+:100644 100644 b3038f54de13306d93a83c58403228ec0945ce1e 3b03ba75545457da1a350f33e58a0797806a3d0c M	puppet/modules/faro_api/manifests/init.pp
+

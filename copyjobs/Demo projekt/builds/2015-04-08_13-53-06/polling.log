@@ -1,0 +1,7 @@
+Started on Apr 8, 2015 1:53:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 306fa3864f722c9c83ea7e7164bc7be4bdb097b3 (refs/remotes/origin/master)
+ > /usr/bin/git ls-remote -h /home/dado/git/game-of-life/ master # timeout=10
+[poll] Latest remote head revision is: aae0187018baf4c50678bbf528633627a8e6bd45
+Done. Took 15 ms
+Changes found

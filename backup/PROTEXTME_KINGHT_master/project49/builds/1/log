@@ -1,0 +1,21 @@
+Started by user [8mha:////4GzYkEdYOd+GIEtNxkqbhfJlCs+pK8Swg0U/X/Gu1h02AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+[8mha:////4Di8d/urrZOsfjaZwvq2Os6Ug4pSYMkElqWA1fYYk5R9AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+[8mha:////4Di8d/urrZOsfjaZwvq2Os6Ug4pSYMkElqWA1fYYk5R9AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4Di8d/urrZOsfjaZwvq2Os6Ug4pSYMkElqWA1fYYk5R9AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:605)
+	at hudson.remoting.Request.call(Request.java:130)
+	at hudson.remoting.Channel.call(Channel.java:829)
+	at hudson.EnvVars.getRemote(EnvVars.java:405)
+	at hudson.model.Computer.getEnvironment(Computer.java:1147)
+	at org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$PlaceholderExecutable.run(ExecutorStepExecution.java:522)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:405)
+Caused by: java.io.IOException
+	at hudson.remoting.Channel.close(Channel.java:1292)
+	at hudson.slaves.ChannelPinger$1.onDead(ChannelPinger.java:180)
+	at hudson.remoting.PingThread.ping(PingThread.java:130)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+Caused by: java.util.concurrent.TimeoutException: Ping started at 1489151113735 hasn't completed by 1489151353735
+	... 2 more
+Finished: FAILURE

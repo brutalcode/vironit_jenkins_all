@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.12">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepEndNode" plugin="workflow-cps@2.26">
+    <parentIds>
+      <string>3</string>
+    </parentIds>
+    <id>4</id>
+    <startId>3</startId>
+  </node>
+  <actions>
+    <org.jenkinsci.plugins.workflow.actions.ErrorAction plugin="workflow-api@2.10">
+      <error class="hudson.remoting.ChannelClosedException">
+        <detailMessage>channel is already closed</detailMessage>
+        <cause class="java.io.IOException">
+          <cause class="java.util.concurrent.TimeoutException">
+            <detailMessage>Ping started at 1489151113735 hasn&apos;t completed by 1489151353735</detailMessage>
+            <stackTrace>
+              <trace>hudson.remoting.PingThread.ping(PingThread.java:130)</trace>
+              <trace>hudson.remoting.PingThread.run(PingThread.java:86)</trace>
+            </stackTrace>
+            <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+              <c class="list"/>
+              <list reference="../c"/>
+            </suppressedExceptions>
+          </cause>
+          <stackTrace>
+            <trace>hudson.remoting.Channel.close(Channel.java:1292)</trace>
+            <trace>hudson.slaves.ChannelPinger$1.onDead(ChannelPinger.java:180)</trace>
+            <trace>hudson.remoting.PingThread.ping(PingThread.java:130)</trace>
+            <trace>hudson.remoting.PingThread.run(PingThread.java:86)</trace>
+          </stackTrace>
+          <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="../cause/suppressedExceptions"/>
+        </cause>
+        <stackTrace>
+          <trace>hudson.remoting.Channel.send(Channel.java:605)</trace>
+          <trace>hudson.remoting.Request.call(Request.java:130)</trace>
+          <trace>hudson.remoting.Channel.call(Channel.java:829)</trace>
+          <trace>hudson.EnvVars.getRemote(EnvVars.java:405)</trace>
+          <trace>hudson.model.Computer.getEnvironment(Computer.java:1147)</trace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution$PlaceholderTask$PlaceholderExecutable.run(ExecutorStepExecution.java:522)</trace>
+          <trace>hudson.model.ResourceController.execute(ResourceController.java:98)</trace>
+          <trace>hudson.model.Executor.run(Executor.java:405)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" reference="../cause/cause/suppressedExceptions"/>
+      </error>
+    </org.jenkinsci.plugins.workflow.actions.ErrorAction>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.10">
+      <startTime>1462151828538</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    <org.jenkinsci.plugins.workflow.actions.ErrorAction plugin="workflow-api@2.10">
+      <error class="hudson.remoting.ChannelClosedException" reference="../../org.jenkinsci.plugins.workflow.actions.ErrorAction/error"/>
+    </org.jenkinsci.plugins.workflow.actions.ErrorAction>
+  </actions>
+</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

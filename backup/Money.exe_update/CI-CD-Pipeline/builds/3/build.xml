@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.9">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.5">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>25</queueId>
+  <timestamp>1402153137134</timestamp>
+  <startTime>1402153137146</startTime>
+  <result>FAILURE</result>
+  <duration>145</duration>
+  <keepLog>false</keepLog>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

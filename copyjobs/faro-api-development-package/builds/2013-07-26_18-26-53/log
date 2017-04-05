@@ -1,0 +1,31 @@
+Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL9ovzE1BIAMCLkW8AAAAA=[0mJustin Hammond
+Building in workspace /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test
+Checkout:faro-api-development-deploy-multi-test / /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test - hudson.remoting.LocalChannel@53cc177d
+Using strategy: Default
+Cloning the remote Git repository
+Cloning repository ssh://git@faro-api.github.com/Wakemakin/faro-api.git
+git --version
+git version 1.8.1.2
+Fetching upstream changes from origin
+Seen branch in repository origin/HEAD
+Seen branch in repository origin/development
+Seen branch in repository origin/master
+Seen 3 remote branches
+Commencing build of Revision e4f36f200969d384de5dc149db436e15ddd27c94 (origin/development)
+Checking out Revision e4f36f200969d384de5dc149db436e15ddd27c94 (origin/development)
+No change to record in branch origin/development
+Checkout:faro-api-development-deploy-multi-test / /var/lib/jenkins/workspace/faro-api-development-deploy-multi-test - hudson.remoting.LocalChannel@53cc177d
+Using strategy: Default
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Seen branch in repository origin/HEAD
+Seen branch in repository origin/development
+Seen branch in repository origin/master
+Seen 3 remote branches
+Multiple candidate revisions
+Scheduling another build to catch up with faro-api-development-deploy-multi-test
+Commencing build of Revision e4f36f200969d384de5dc149db436e15ddd27c94 (origin/development)
+Checking out Revision e4f36f200969d384de5dc149db436e15ddd27c94 (origin/development)
+No change to record in branch origin/development
+IRC notifier plugin: Sending notification to: #wakemakin
+Finished: SUCCESS

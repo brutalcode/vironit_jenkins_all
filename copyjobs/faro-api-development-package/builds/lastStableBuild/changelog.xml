@@ -1,0 +1,11 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between 50f7adec1fd523514792e3e33d49a2ac3e379d31 and 50f7adec1fd523514792e3e33d49a2ac3e379d31
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between 6210177916799fd97f6b2a0c2c526692d8576859 and 6210177916799fd97f6b2a0c2c526692d8576859
+Changes in branch origin/HEAD, between 6210177916799fd97f6b2a0c2c526692d8576859 and 6210177916799fd97f6b2a0c2c526692d8576859
+]]>
+</sub-log>
+</multi-scm-log>

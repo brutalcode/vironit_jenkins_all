@@ -1,0 +1,26 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between c38efae619f7af40d9d31cd0138885760b762b30 and 0ca43f54c748e0d04bd52182420ced45a4b351dd
+commit 111d83068b81027a37b82b63b375167b384b669a
+tree 141f55272ffe427252bef4e72dde964e3ef349e0
+parent a9182d25b6aff6741722cd91c4ac8308764c1351
+author Justin Hammond <justin.hammond@rackspace.com> 1374991147 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1374991147 +0000
+
+    Updated coverage to 97%
+
+:100644 100644 eafbcf125b5500cdd17bd288d7f22602e6128460 877e555e970323e2a7ae70d26d8010ef6ef3abaf M	faro_api/database.py
+:100644 100644 ecccedd8cbba16f6af5323329090013eba13a231 6e009881b5ac308112fecc54eb3667c6be7bf5fc M	faro_api/tests/test_events.py
+:100644 100644 d8f426f176612a68dbe1b5e8e57b0670a5c17267 edf9600d4d57cacbed32ec2536fe079a93e698aa M	faro_api/tests/test_events_and_users.py
+:100644 100644 4dc8bbbb195562efa9ca97ed32c2c35316fbb6e0 6ba492abd60e42a1a45ba4c874e1457eeafe1474 M	faro_api/tests/test_paging.py
+:100644 100644 501a0a6edbed41a6b979fc2f80efdcb134ee85a1 e02bda42c54ef7d861a5af858f51c8fe5ef426b5 M	faro_api/tests/test_users.py
+:100644 100644 0e5c47ee6e1a3fb8aab80ba81e0132f0f02a8b48 74af073d9e560f99d8af6f82d5175d4960354dc0 M	faro_api/views/common.py
+:100644 100644 c2a466e3a22c7404ed85a2fc22da80c20a01bf95 36442e8c5ece81452873208e04557f457380821d M	faro_api/views/events.py
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between 67405c385a177b2b30030091657c8279f585b717 and 67405c385a177b2b30030091657c8279f585b717
+Changes in branch origin/HEAD, between 67405c385a177b2b30030091657c8279f585b717 and 67405c385a177b2b30030091657c8279f585b717
+]]>
+</sub-log>
+</multi-scm-log>

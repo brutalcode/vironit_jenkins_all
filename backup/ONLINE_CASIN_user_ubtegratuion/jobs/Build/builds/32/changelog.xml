@@ -1,0 +1,19 @@
+<multi-scm-log>
+<sub-log scm="git https://github.com/ct-training/CalculatorService.git">
+<![CDATA[]]>
+</sub-log>
+<sub-log scm="git https://github.com/ct-training/CalculatorApplication.git">
+<![CDATA[commit f8556199e5d5b45736900f6eead03c5761cb3620
+tree 4a22e3455640961e02731cd5d5efd66015ba8018
+parent 5ef0717e6c759923de202b8cf2d34d4e2b74c971
+author pratikghodekar &lt;pratikghodekar@gmail.com&gt; 2017-03-07 13:50:17 +0530
+committer GitHub &lt;noreply@github.com&gt; 2017-03-07 13:50:17 +0530
+
+    Update index.jsp
+
+
+
+:100644 100644 01ece975665e4b48e302309c4e9ab65fdca53dcb a4b7326a62279835cc14913d623d40df039bb81f M	WebContent/index.jsp
+]]>
+</sub-log>
+</multi-scm-log>

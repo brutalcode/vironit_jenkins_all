@@ -1,0 +1,9 @@
+commit 89adddd62175355bbeac76c35c096d3fa5de8bcb
+tree adef0813e93a5f0bc2376e6379ad4b32b707962c
+parent a06960819495fc0e57b763ccaede7fd52a10652d
+author Dado <chickenbit@gmail.com> 1421848677 +0000
+committer Dado <chickenbit@gmail.com> 1421848677 +0000
+
+    Fixed a compiler error
+
+:100644 100644 8f74b233a685aa11eab059ea8c8f50cf9bfd6a4e 4553303f93f4b60c5e376e617660042dc1235727 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateAGrid.java

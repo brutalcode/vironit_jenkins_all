@@ -1,0 +1,13 @@
+commit ad4b2fffed91930043900645a9f772196e262c2a
+tree 501899d0fe88393022d39fb2f753dbaf055a16df
+parent 9de0e8152fd4e9165b51ddb8d3b79198b8fb0a86
+author Pratik Ghodekar <pratikg@citiustech.com> 2017-03-10 17:31:54 +0530
+committer Pratik Ghodekar <pratikg@citiustech.com> 2017-03-10 17:31:54 +0530
+
+    commit
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 a01737e89ea543c4b479f06bf724f1b75f42a097 A	.gitignore
+:100644 100644 72c640ef9b7521023a183c340eacd19a42f9fe3d 891a396de447ade5bb8e32618b40683cf7706370 M	src/test/java/com/example/tests/TestCalculator.java
+:100644 100644 f4ead4213258bbed1a4ddaa865817402794ac0cd 8df751dfb3597d6861126e69894cbe01007e402f M	target/classes/META-INF/maven/WebdriverTest/WebdriverTest/pom.properties

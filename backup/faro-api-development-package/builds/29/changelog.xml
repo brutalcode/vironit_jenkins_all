@@ -1,0 +1,162 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between d8966c953769b4d7323814131ad2a7088cd37e78 and 50f7adec1fd523514792e3e33d49a2ac3e379d31
+commit 71bd737dc877308c45c1843c7bfca1979a1bcf4f
+tree 6d31b2e4c870ce93287967f5f53ab59aac7d7b52
+parent e6a4311d6f1f7278e3efd920d6e9f1a9b2efb568
+author Justin Hammond <justin.hammond@rackspace.com> 1375207320 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375207320 +0000
+
+    Added GET /release support for testing
+
+:100644 100644 5430b56bd085d9532abd413b2d0de4c36b78ac9c 67554fc22e2fadd71c0c216457bbd7f8bf98a1cf M	.gitignore
+:100644 100644 82e8e47082df922edc773971660e933b3825161a c9901a3fb3870446a764080d2f69b7e69bed4f9b M	MANIFEST
+:100644 100644 7e18c69a056f371aff84dfd96078f76bcdc4c305 adf8f44c6c6cd4e3340e2abbfcaf7b4d4c5f9c50 M	faro_api/views/endpoint.py
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1 and 18c416de51500b3fe6aa84d2b07113ce3e9a052c
+commit 18c416de51500b3fe6aa84d2b07113ce3e9a052c
+tree 7a2707dab288f4048144f9b9bb046c19554b74f5
+parent 79866f08db56d5e09a8bebf58d899cb365fb9573
+author Justin Hammond <justin.hammond@rackspace.com> 1375207580 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375207580 +0000
+
+    Added release write on deploy
+
+:100755 100755 6ab3d92451a7d2029d3849a62d004f10274e946d f228831e2a7e2129efeb91248ff2429505a7e191 M	scripts/deploy/faro-deploy.sh
+
+commit 79866f08db56d5e09a8bebf58d899cb365fb9573
+tree 0a008202e6bcc7ba7185e62e5aca7a0aa515a07f
+parent 178c2108ca9a1cc4247a9d919ed5f3c38ab6a3fe
+author Justin Hammond <justin.hammond@rackspace.com> 1375206326 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375206326 +0000
+
+    Fixed typo
+
+:100755 100755 2b349fb6bb1e63ceeced766406770a8bab072b29 fb60c0c1c28d7cb4c73024a1348fec4242e01de5 M	scripts/deploy/faro-api-db-reset.sh
+
+commit 178c2108ca9a1cc4247a9d919ed5f3c38ab6a3fe
+tree f80588cd3bf4d41ff3cc97476df9ea83050f9c82
+parent b5c386e3bdef0bf7f93ece6023fea546ee072c05
+author Justin Hammond <justin.hammond@rackspace.com> 1375206278 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375206278 +0000
+
+    fixed while loop
+
+:100755 100755 1e9ade919affb6eed27311424f92cb19ccfc80d5 2b349fb6bb1e63ceeced766406770a8bab072b29 M	scripts/deploy/faro-api-db-reset.sh
+
+commit b5c386e3bdef0bf7f93ece6023fea546ee072c05
+tree daeb9129618e886fb5fdfcda2e36d4c77bba41e3
+parent 6a130edb52a8856173535f35ee43905417ac26ad
+author Justin Hammond <justin.hammond@rackspace.com> 1375206145 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375206145 +0000
+
+    Added more responsive children kill wait
+
+:100755 100755 6c3ef0c0484c9c4f37a053924df1312743b94ac3 1e9ade919affb6eed27311424f92cb19ccfc80d5 M	scripts/deploy/faro-api-db-reset.sh
+
+commit 6a130edb52a8856173535f35ee43905417ac26ad
+tree 824db43241ec6999acc92a384b70c11a38d73272
+parent 31e1f0eb58845f75506a40c7204e98c88556a41a
+author Justin Hammond <justin.hammond@rackspace.com> 1375205616 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375205616 +0000
+
+    Activating the venv
+
+:100755 100755 62c70eb0e07092dffa8913b659885a76165fe096 6c3ef0c0484c9c4f37a053924df1312743b94ac3 M	scripts/deploy/faro-api-db-reset.sh
+
+commit 31e1f0eb58845f75506a40c7204e98c88556a41a
+tree 34459f0ad7e2cad4a36ced9481e9c8b0458d441a
+parent e1e5bf18ea8ba9b0a897f755e44d189e3d8c729a
+author Justin Hammond <justin.hammond@rackspace.com> 1375205415 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375205415 +0000
+
+    Set +x
+
+:100644 100755 62c70eb0e07092dffa8913b659885a76165fe096 62c70eb0e07092dffa8913b659885a76165fe096 M	scripts/deploy/faro-api-db-reset.sh
+:100644 100755 6ab3d92451a7d2029d3849a62d004f10274e946d 6ab3d92451a7d2029d3849a62d004f10274e946d M	scripts/deploy/faro-deploy.sh
+
+commit e1e5bf18ea8ba9b0a897f755e44d189e3d8c729a
+tree 1e31a41799e2606c4343387ba6c9502395ab3f0f
+parent 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+author Justin Hammond <justin.hammond@rackspace.com> 1375205368 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375205368 +0000
+
+    Added faro-api-db-reset script
+
+:000000 100644 0000000000000000000000000000000000000000 62c70eb0e07092dffa8913b659885a76165fe096 A	scripts/deploy/faro-api-db-reset.sh
+Changes in branch origin/HEAD, between 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1 and 18c416de51500b3fe6aa84d2b07113ce3e9a052c
+commit 18c416de51500b3fe6aa84d2b07113ce3e9a052c
+tree 7a2707dab288f4048144f9b9bb046c19554b74f5
+parent 79866f08db56d5e09a8bebf58d899cb365fb9573
+author Justin Hammond <justin.hammond@rackspace.com> 1375207580 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375207580 +0000
+
+    Added release write on deploy
+
+:100755 100755 6ab3d92451a7d2029d3849a62d004f10274e946d f228831e2a7e2129efeb91248ff2429505a7e191 M	scripts/deploy/faro-deploy.sh
+
+commit 79866f08db56d5e09a8bebf58d899cb365fb9573
+tree 0a008202e6bcc7ba7185e62e5aca7a0aa515a07f
+parent 178c2108ca9a1cc4247a9d919ed5f3c38ab6a3fe
+author Justin Hammond <justin.hammond@rackspace.com> 1375206326 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375206326 +0000
+
+    Fixed typo
+
+:100755 100755 2b349fb6bb1e63ceeced766406770a8bab072b29 fb60c0c1c28d7cb4c73024a1348fec4242e01de5 M	scripts/deploy/faro-api-db-reset.sh
+
+commit 178c2108ca9a1cc4247a9d919ed5f3c38ab6a3fe
+tree f80588cd3bf4d41ff3cc97476df9ea83050f9c82
+parent b5c386e3bdef0bf7f93ece6023fea546ee072c05
+author Justin Hammond <justin.hammond@rackspace.com> 1375206278 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375206278 +0000
+
+    fixed while loop
+
+:100755 100755 1e9ade919affb6eed27311424f92cb19ccfc80d5 2b349fb6bb1e63ceeced766406770a8bab072b29 M	scripts/deploy/faro-api-db-reset.sh
+
+commit b5c386e3bdef0bf7f93ece6023fea546ee072c05
+tree daeb9129618e886fb5fdfcda2e36d4c77bba41e3
+parent 6a130edb52a8856173535f35ee43905417ac26ad
+author Justin Hammond <justin.hammond@rackspace.com> 1375206145 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375206145 +0000
+
+    Added more responsive children kill wait
+
+:100755 100755 6c3ef0c0484c9c4f37a053924df1312743b94ac3 1e9ade919affb6eed27311424f92cb19ccfc80d5 M	scripts/deploy/faro-api-db-reset.sh
+
+commit 6a130edb52a8856173535f35ee43905417ac26ad
+tree 824db43241ec6999acc92a384b70c11a38d73272
+parent 31e1f0eb58845f75506a40c7204e98c88556a41a
+author Justin Hammond <justin.hammond@rackspace.com> 1375205616 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375205616 +0000
+
+    Activating the venv
+
+:100755 100755 62c70eb0e07092dffa8913b659885a76165fe096 6c3ef0c0484c9c4f37a053924df1312743b94ac3 M	scripts/deploy/faro-api-db-reset.sh
+
+commit 31e1f0eb58845f75506a40c7204e98c88556a41a
+tree 34459f0ad7e2cad4a36ced9481e9c8b0458d441a
+parent e1e5bf18ea8ba9b0a897f755e44d189e3d8c729a
+author Justin Hammond <justin.hammond@rackspace.com> 1375205415 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375205415 +0000
+
+    Set +x
+
+:100644 100755 62c70eb0e07092dffa8913b659885a76165fe096 62c70eb0e07092dffa8913b659885a76165fe096 M	scripts/deploy/faro-api-db-reset.sh
+:100644 100755 6ab3d92451a7d2029d3849a62d004f10274e946d 6ab3d92451a7d2029d3849a62d004f10274e946d M	scripts/deploy/faro-deploy.sh
+
+commit e1e5bf18ea8ba9b0a897f755e44d189e3d8c729a
+tree 1e31a41799e2606c4343387ba6c9502395ab3f0f
+parent 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+author Justin Hammond <justin.hammond@rackspace.com> 1375205368 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375205368 +0000
+
+    Added faro-api-db-reset script
+
+:000000 100644 0000000000000000000000000000000000000000 62c70eb0e07092dffa8913b659885a76165fe096 A	scripts/deploy/faro-api-db-reset.sh
+]]>
+</sub-log>
+</multi-scm-log>

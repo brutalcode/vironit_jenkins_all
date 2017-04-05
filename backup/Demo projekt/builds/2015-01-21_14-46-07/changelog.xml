@@ -1,0 +1,9 @@
+commit 91789d4a2e37e6b92a8ad3540e33c740460e32b7
+tree 2ff6e974a141f885bea79b46e26fa55afa0f442a
+parent 89adddd62175355bbeac76c35c096d3fa5de8bcb
+author Dado <chickenbit@gmail.com> 1421851536 +0000
+committer Dado <chickenbit@gmail.com> 1421851536 +0000
+
+    Fixed errors in failing TC
+
+:100644 100644 4553303f93f4b60c5e376e617660042dc1235727 c9ac04b2ca7a552008dc121051a3b27e59318da1 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateAGrid.java

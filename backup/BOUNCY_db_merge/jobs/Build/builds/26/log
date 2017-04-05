@@ -1,0 +1,43 @@
+Started by user [8mha:////4GzYkEdYOd+GIEtNxkqbhfJlCs+pK8Swg0U/X/Gu1h02AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:////4Mx0HpboNrU6P1rXwy65oNVMJvKBxOLTtu0tWKRICSv1AAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/eT83ILSktQi/aTSzJwU3eLUorLUIt2ijNQcAEdQ51HQAAAA[0mbuild-server-rhel (build-server) in workspace /var/jenkins_service/workspace/CI-CD/Build
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ct-training/CalculatorService.git # timeout=10
+Fetching upstream changes from https://github.com/ct-training/CalculatorService.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ct-training/CalculatorService.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9bf2f227d033b1c44ca5e6cfb82f4d90065136e1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9bf2f227d033b1c44ca5e6cfb82f4d90065136e1
+First time build. Skipping changelog.
+Cloning the remote Git repository
+Cloning repository https://github.com/ct-training/CalculatorApplication.git
+ > git init /var/jenkins_service/workspace/CI-CD/Build/CalculatorApplication # timeout=10
+Fetching upstream changes from https://github.com/ct-training/CalculatorApplication.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/ct-training/CalculatorApplication.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ct-training/CalculatorApplication.git # timeout=10
+Fetching upstream changes from https://github.com/ct-training/CalculatorApplication.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5ef0717e6c759923de202b8cf2d34d4e2b74c971 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5ef0717e6c759923de202b8cf2d34d4e2b74c971
+First time build. Skipping changelog.
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.3.9/apache-maven-3.3.9-bin.zip to /var/jenkins_service/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9 on build-server-rhel
+[Build] $ /var/jenkins_service/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn -f CalculatorService/pom.xml clean install
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.29.amzn1.x86_64/bin/java
+Build step 'Invoke top-level Maven targets' marked build as failure
+Archiving artifacts
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+[8mha:////4MxtTNLOx3UgohoKPTPfdDGtbhXJ0iQ5Ft8Z5/7FuomCAAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

@@ -1,0 +1,21 @@
+Changes in branch origin/HEAD, between 18c416de51500b3fe6aa84d2b07113ce3e9a052c and a5f11addeadf241551b0d77e156680659cc2b999
+commit a5f11addeadf241551b0d77e156680659cc2b999
+tree f27ea3698e8d638442a9093254bc62357e76f9e7
+parent 18c416de51500b3fe6aa84d2b07113ce3e9a052c
+author Justin Hammond <justin.hammond@rackspace.com> 1375208125 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375208517 +0000
+
+    Added release checker
+
+:000000 100755 0000000000000000000000000000000000000000 d005d223d24305a5c2b85100f2778f557c9b0c38 A	scripts/deploy/release-checker.sh
+Changes in branch origin/master, between 18c416de51500b3fe6aa84d2b07113ce3e9a052c and a5f11addeadf241551b0d77e156680659cc2b999
+commit a5f11addeadf241551b0d77e156680659cc2b999
+tree f27ea3698e8d638442a9093254bc62357e76f9e7
+parent 18c416de51500b3fe6aa84d2b07113ce3e9a052c
+author Justin Hammond <justin.hammond@rackspace.com> 1375208125 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375208517 +0000
+
+    Added release checker
+
+:000000 100755 0000000000000000000000000000000000000000 d005d223d24305a5c2b85100f2778f557c9b0c38 A	scripts/deploy/release-checker.sh
+

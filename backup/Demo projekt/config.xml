@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@2.3.1">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>/home/dado/git/game-of-life/</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <hudson.triggers.SCMTrigger>
+      <spec>* * * * *</spec>
+      <ignorePostCommitHooks>false</ignorePostCommitHooks>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Maven>
+      <targets>clean install</targets>
+      <mavenName>(Default)</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+    </hudson.tasks.Maven>
+    <hudson.tasks.Maven>
+      <targets>javadoc:javadoc</targets>
+      <mavenName>(Default)</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+    </hudson.tasks.Maven>
+    <hudson.tasks.Maven>
+      <targets>verify</targets>
+      <mavenName>(Default)</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+    </hudson.tasks.Maven>
+  </builders>
+  <publishers>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>**/target/*.jar</artifacts>
+      <allowEmptyArchive>false</allowEmptyArchive>
+      <onlyIfSuccessful>false</onlyIfSuccessful>
+      <fingerprint>false</fingerprint>
+      <defaultExcludes>true</defaultExcludes>
+    </hudson.tasks.ArtifactArchiver>
+    <hudson.plugins.logparser.LogParserPublisher plugin="log-parser@1.0.8">
+      <unstableOnWarning>true</unstableOnWarning>
+      <failBuildOnError>true</failBuildOnError>
+      <parsingRulesPath>/home/dado/git/jenkins_files/basic_parse_rule</parsingRulesPath>
+    </hudson.plugins.logparser.LogParserPublisher>
+    <hudson.tasks.junit.JUnitResultArchiver plugin="junit@1.2-beta-4">
+      <testResults>**/target/surefire-reports/*.xml</testResults>
+      <keepLongStdio>false</keepLongStdio>
+      <testDataPublishers/>
+      <healthScaleFactor>1.0</healthScaleFactor>
+    </hudson.tasks.junit.JUnitResultArchiver>
+    <hudson.tasks.JavadocArchiver plugin="javadoc@1.1">
+      <javadocDir>gameoflife-core/target/site/apidocs</javadocDir>
+      <keepAll>false</keepAll>
+    </hudson.tasks.JavadocArchiver>
+    <hudson.plugins.jacoco.JacocoPublisher plugin="jacoco@1.0.18">
+      <execPattern>**/target/*.exec</execPattern>
+      <classPattern>**/target</classPattern>
+      <sourcePattern>**/src/main/java</sourcePattern>
+      <inclusionPattern>**/*.class</inclusionPattern>
+      <exclusionPattern>**/When*</exclusionPattern>
+      <minimumInstructionCoverage>0</minimumInstructionCoverage>
+      <minimumBranchCoverage>0</minimumBranchCoverage>
+      <minimumComplexityCoverage>0</minimumComplexityCoverage>
+      <minimumLineCoverage>0</minimumLineCoverage>
+      <minimumMethodCoverage>0</minimumMethodCoverage>
+      <minimumClassCoverage>0</minimumClassCoverage>
+      <maximumInstructionCoverage>0</maximumInstructionCoverage>
+      <maximumBranchCoverage>0</maximumBranchCoverage>
+      <maximumComplexityCoverage>0</maximumComplexityCoverage>
+      <maximumLineCoverage>0</maximumLineCoverage>
+      <maximumMethodCoverage>0</maximumMethodCoverage>
+      <maximumClassCoverage>0</maximumClassCoverage>
+      <changeBuildStatus>false</changeBuildStatus>
+    </hudson.plugins.jacoco.JacocoPublisher>
+    <hudson.tasks.Mailer plugin="mailer@1.11">
+      <recipients>danijelhir@hotmail.com</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>true</sendToIndividuals>
+    </hudson.tasks.Mailer>
+  </publishers>
+  <buildWrappers/>
+</project>

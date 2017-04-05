@@ -1,0 +1,42 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between 330e1c275709fc45d672723bf82128254adb1776 and 58b7b0435ab30e81907f981040fcda5a1e3ec6d5
+commit f86621d2932ca14278e41b69532fcba29834f898
+tree d9ef54f59329f66d9fb00bd0be67a1f2bbc37fc9
+parent da1f634dadaddc088b09f49725663de222bcd261
+author Justin Hammond <justin.hammond@rackspace.com> 1375148856 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375148856 +0000
+
+    Refactored the get_object methods
+
+:100644 100644 c355b0188edf0f8547eb65e89076c7f7014a9fc6 f381f8f0f3d2912bc6630094a2ee00d3e9c19c98 M	faro_api/database.py
+
+commit da1f634dadaddc088b09f49725663de222bcd261
+tree 38cf739786e0634e5284aed13e6e5cb2198e77ab
+parent b73b6ad2b4b35a1486632f61f2931c9a7cb1046d
+author Justin Hammond <justin.hammond@rackspace.com> 1375071486 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375071486 +0000
+
+    Dataproviders and refactoring
+
+:100644 100644 168ef0d12c772068536633408f6280e09b32561e 65607e3d6af3f1fcfb69e73d86b24d3a6805b135 M	faro_api/__init__.py
+:100644 100644 aea285b6ac8f11235520f094b234e35f3e987680 c355b0188edf0f8547eb65e89076c7f7014a9fc6 M	faro_api/database.py
+:100644 100644 3a3cdd0a36b8dbd9863c7e3962abc4cf0ec5e31f e26b00feda88dacf52e24904e1440a1dc686eba4 M	faro_api/exceptions/common.py
+:000000 100644 0000000000000000000000000000000000000000 90f332f6f7614d0c125384928a88c90124aaf704 A	faro_api/models/dataprovider.py
+:000000 100644 0000000000000000000000000000000000000000 d87b9485746a4f3e9ab07fef8e416a79c3016ed8 A	faro_api/tests/test_dataproviders.py
+:100644 100644 6e009881b5ac308112fecc54eb3667c6be7bf5fc 73039d65f7b14b396316cf6a999d4ec5ccc00d69 M	faro_api/tests/test_events.py
+:100644 100644 edf9600d4d57cacbed32ec2536fe079a93e698aa 131c3742f61b6da362b3828214af0595d6cdd58c M	faro_api/tests/test_events_and_users.py
+:100644 100644 fbe089ff21e94463e59b6c4e36b505c489204334 8243649bd2ec64bc8973d4e5f07ec948ab24241c M	faro_api/tests/test_questions.py
+:100644 100644 74af073d9e560f99d8af6f82d5175d4960354dc0 aaca1e91ec31f575dcc80178203a82c4052d4810 M	faro_api/views/common.py
+:000000 100644 0000000000000000000000000000000000000000 83da71a21f59625ed4f99fa14cc96be655c41a43 A	faro_api/views/dataproviders.py
+:100644 100644 36442e8c5ece81452873208e04557f457380821d 1e30996d5a1b4306333c33cca9596bb02933ff83 M	faro_api/views/events.py
+:100644 100644 ff47ebf2e730040f446269920cd881a10dd6654f f82f3682a8e818d4b3350f58039feaed6b1e116e M	faro_api/views/questions.py
+:100644 100644 740ffee29a6032efedcb8a63e433747e328f5707 d6df781d988dcc69532a71a0eb9f934517eb7df9 M	faro_api/views/users.py
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between c41cc470508b38c414a128b755674d6f4dec499d and c41cc470508b38c414a128b755674d6f4dec499d
+Changes in branch origin/HEAD, between c41cc470508b38c414a128b755674d6f4dec499d and c41cc470508b38c414a128b755674d6f4dec499d
+]]>
+</sub-log>
+</multi-scm-log>

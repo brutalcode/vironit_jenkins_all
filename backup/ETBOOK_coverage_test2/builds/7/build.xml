@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.9">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.5">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.SyntheticStageGraphListener_-GraphListenerAction plugin="pipeline-model-definition@1.0"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.0">
+      <stages plugin="pipeline-model-api@1.0">
+        <stages>
+          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <name>Checkout</name>
+            <branches>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                <name>default</name>
+                <steps>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <name>checkout</name>
+                    <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                      <arguments class="linked-hash-map">
+                        <entry>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <key>scm</key>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-2>
+                            <value class="string">[$class: &apos;GitSCM&apos;, 
+        branches: [[name: &apos;*/master&apos;]], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [[$class: &apos;RelativeTargetDirectory&apos;, 
+            relativeTargetDir: &apos;CalculatorService&apos;]], 
+        submoduleCfg: [], 
+        userRemoteConfigs: [[url: &apos;https://github.com/ct-training/CalculatorService.git&apos;]]]</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-2>
+                        </entry>
+                      </arguments>
+                    </args>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <name>checkout</name>
+                    <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                      <arguments class="linked-hash-map">
+                        <entry>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <key>scm</key>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-2>
+                            <value class="string">[$class: &apos;GitSCM&apos;, 
+        branches: [[name: &apos;*/master&apos;]], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [[$class: &apos;RelativeTargetDirectory&apos;, 
+            relativeTargetDir: &apos;CalculatorApplication&apos;]], 
+        submoduleCfg: [], 
+        userRemoteConfigs: [[url: &apos;https://github.com/ct-training/CalculatorApplication.git&apos;]]]</value>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-2>
+                        </entry>
+                      </arguments>
+                    </args>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                </steps>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+            </branches>
+          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+        </stages>
+      </stages>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>anonymous</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>32</queueId>
+  <timestamp>1453154289531</timestamp>
+  <startTime>1453154289532</startTime>
+  <result>ABORTED</result>
+  <duration>235961</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>pipeline {
+    agent { label &apos;build-server&apos; }
+    stages {
+        stage(&apos;Checkout&apos;) {
+        steps{
+            checkout([$class: &apos;GitSCM&apos;, 
+        branches: [[name: &apos;*/master&apos;]], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [[$class: &apos;RelativeTargetDirectory&apos;, 
+            relativeTargetDir: &apos;CalculatorService&apos;]], 
+        submoduleCfg: [], 
+        userRemoteConfigs: [[url: &apos;https://github.com/ct-training/CalculatorService.git&apos;]]])
+        
+         checkout([$class: &apos;GitSCM&apos;, 
+        branches: [[name: &apos;*/master&apos;]], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [[$class: &apos;RelativeTargetDirectory&apos;, 
+            relativeTargetDir: &apos;CalculatorApplication&apos;]], 
+        submoduleCfg: [], 
+        userRemoteConfigs: [[url: &apos;https://github.com/ct-training/CalculatorApplication.git&apos;]]])
+        }
+        }
+    }
+}
+pipeline {
+    agent { label &apos;build-server&apos; }
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                sh &apos;echo &quot;Hello World&quot;&apos;
+                sh &apos;&apos;&apos;
+                    echo &quot;Multiline shell steps works too&quot;
+                    ls -lah
+                &apos;&apos;&apos;
+            }
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <sandbox>true</sandbox>
+    <iota>12</iota>
+    <head>1:12</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

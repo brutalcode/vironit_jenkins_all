@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>deploy-server</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>rm -f CalculatorApplication.war
+wget http://citius-jenkins.westus2.cloudapp.azure.com/job/CI-CD/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+
+mv CalculatorApplication-0.0.1.war CalculatorApplication.war
+
+cd /opt/tomcat_CalculatorApplication/bin
+./shutdown.sh
+
+rm -rf /opt/tomcat_CalculatorApplication/webapps/CalculatorApplication*
+cp $WORKSPACE/CalculatorApplication.war /opt/tomcat_CalculatorApplication/webapps
+
+nohup ./startup.sh &amp;
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

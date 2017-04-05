@@ -1,0 +1,39 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between c01ea672ab6d547127c8fa056f512dcfc527c0c4 and d8966c953769b4d7323814131ad2a7088cd37e78
+commit e6a4311d6f1f7278e3efd920d6e9f1a9b2efb568
+tree 8ae3c34f662a78160a258bdf9f529c7df0d30dd1
+parent c08442f16cc2f17c966f7009c8538dc698a9ac42
+author Justin Hammond <justin.hammond@rackspace.com> 1375204578 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375204578 +0000
+
+    Added proctitle support to gunicorn
+
+:100644 100644 46253f205d25bc9ff0cca1b9f09027b4dbe43b97 6653abff75399f2a2c872210b5afc47f28bbaffb M	gunicorn/conf.py
+:100644 100644 c1215649237be5dad0b78fd55689f1233932062a 80e4a94c569ce6666a537969ea8051f37ccb754b M	requirements/pip-requirements.txt
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between d1bd288182002962f6cf83c6da853de7db7c3acc and 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+commit 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+tree 1838ebce949f336c3d54e97ea87651c73c19ef0b
+parent d1bd288182002962f6cf83c6da853de7db7c3acc
+author Justin Hammond <justin.hammond@rackspace.com> 1375204044 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375204044 +0000
+
+    Reimplemented auto-restart on update
+
+:100644 100644 e41c35b8d9dbd60dc797f8c260d6e985dc2fe27a 3163beffa075654a6d46a1e60eda947ddaa19c86 M	puppet/modules/faro_api/manifests/init.pp
+Changes in branch origin/HEAD, between d1bd288182002962f6cf83c6da853de7db7c3acc and 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+commit 0da6207a3416d2cdc6a0ef210fd9eededa85e5a1
+tree 1838ebce949f336c3d54e97ea87651c73c19ef0b
+parent d1bd288182002962f6cf83c6da853de7db7c3acc
+author Justin Hammond <justin.hammond@rackspace.com> 1375204044 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375204044 +0000
+
+    Reimplemented auto-restart on update
+
+:100644 100644 e41c35b8d9dbd60dc797f8c260d6e985dc2fe27a 3163beffa075654a6d46a1e60eda947ddaa19c86 M	puppet/modules/faro_api/manifests/init.pp
+]]>
+</sub-log>
+</multi-scm-log>

@@ -1,0 +1,36 @@
+Started by user [8mha:////4GzYkEdYOd+GIEtNxkqbhfJlCs+pK8Swg0U/X/Gu1h02AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:////4Mx0HpboNrU6P1rXwy65oNVMJvKBxOLTtu0tWKRICSv1AAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/eT83ILSktQi/aTSzJwU3eLUorLUIt2ijNQcAEdQ51HQAAAA[0mbuild-server-rhel (build-server) in workspace /home/jenkins/workspace/CI-CD/Build
+Build was aborted
+Aborted by [8mha:////4Mx00bM7Fx7B/mtInjDpyRVrVbqDLkH8OjylS6t2CjxRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL90rzsvPzyPAATbMabwgAAAA==[0munknown
+Archiving artifacts
+ERROR: Failed to archive artifacts: **/target/CalculatorApplication-0.0.1.war
+[8mha:////4MxtTNLOx3UgohoKPTPfdDGtbhXJ0iQ5Ft8Z5/7FuomCAAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.util.concurrent.TimeoutException: Ping started at 1489143627570 hasn't completed by 1489143867571
+Caused: java.io.IOException
+	at hudson.remoting.Channel.close(Channel.java:1292)
+	at hudson.slaves.ChannelPinger$1.onDead(ChannelPinger.java:180)
+	at hudson.remoting.PingThread.ping(PingThread.java:130)
+	at hudson.remoting.PingThread.run(PingThread.java:86)
+Caused: hudson.remoting.ChannelClosedException: channel is already closed
+	at hudson.remoting.Channel.send(Channel.java:605)
+	at hudson.remoting.Request.call(Request.java:130)
+	at hudson.remoting.Channel.call(Channel.java:829)
+	at hudson.EnvVars.getRemote(EnvVars.java:405)
+	at hudson.model.Computer.getEnvironment(Computer.java:1147)
+	at jenkins.model.CoreEnvironmentContributor.buildEnvironmentFor(CoreEnvironmentContributor.java:30)
+	at hudson.model.Run.getEnvironment(Run.java:2267)
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:921)
+	at hudson.tasks.ArtifactArchiver.perform(ArtifactArchiver.java:236)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:779)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:720)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:665)
+	at hudson.model.Run.execute(Run.java:1753)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:405)
+Recording test results
+[8mha:////4KR0DzImG2H+w14DY+rttn2361Zho00RTXAyvljsLIqpAAAAoB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhQLmGQ10/Ozy0oLUkt0k8qzcxJ0S1OLSpLLdItykjN0c/JTwcAdl+1+6QAAAA=[0mAgent went offline during the build
+Build step 'Publish JUnit test result report' marked build as failure
+Finished: ABORTED

@@ -1,0 +1,13 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/CI-CD/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson8919113863374061170.sh
++ rm -f CalculatorApplication.war
++ wget http://ec2-52-42-45-208.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-02-24 12:19:39--  http://ec2-52-42-45-208.us-west-2.compute.amazonaws.com/jenkins/job/Build/lastSuccessfulBuild/artifact/CalculatorApplication/target/CalculatorApplication-0.0.1.war
+Resolving ec2-52-42-45-208.us-west-2.compute.amazonaws.com (ec2-52-42-45-208.us-west-2.compute.amazonaws.com)... 172.31.19.217
+Connecting to ec2-52-42-45-208.us-west-2.compute.amazonaws.com (ec2-52-42-45-208.us-west-2.compute.amazonaws.com)|172.31.19.217|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2017-02-24 12:19:39 ERROR 404: Not Found.
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

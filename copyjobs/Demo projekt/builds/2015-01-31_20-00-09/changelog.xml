@@ -1,0 +1,10 @@
+commit 270a55d8161f1f3edc2ffb17fd5a0d515b438e4d
+tree 48e0a01be3594d4bd4134d388032bb5b99332bd6
+parent c13c562c9c5a02b53f795380b09c76393ca49ec4
+author Dado <dado@hotmail.com> 1422734362 +0000
+committer Dado <dado@hotmail.com> 1422734362 +0000
+
+    Changed line separator in universe
+
+:100644 100644 e4bc7b2963c1482e0a6faf47b4bed9d5626072fd 87b091358f8ff7de345100f04aac318d3c6b607c M	gameoflife-acceptance-tests/src/test/java/com/wakaleo/gameoflife/webtests/WhenTheUserEntersAnInitialGrid.java
+:100644 100644 33e4623f105c40e2045ed4910f457fbf21483769 d9f1019f2ad53fbcf31e04daa553bd56c9c6be24 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateANewUniverse.java

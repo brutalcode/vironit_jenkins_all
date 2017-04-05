@@ -1,0 +1,9 @@
+commit 6b6a3127b041b06985e8af79a3dbcbf8a954978e
+tree c4004eea5cd626dc3e968d0e2cb4596b3c6cbcd7
+parent d635596e82f31012e672eb064354deb71ea25681
+author Dado <chickenbit@gmail.com> 1421852044 +0000
+committer Dado <chickenbit@gmail.com> 1421852044 +0000
+
+    Updated more functions for using the new line separators
+
+:100644 100644 42d2261d535512e8c2e976e329e088ce8c9c93e4 c947d4517b97b454f279f01fc787c86cc3f51891 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateANewUniverse.java

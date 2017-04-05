@@ -1,0 +1,9 @@
+commit aae0187018baf4c50678bbf528633627a8e6bd45
+tree 368e898ac5952ca951850ccfdf99950fe78a0222
+parent 306fa3864f722c9c83ea7e7164bc7be4bdb097b3
+author Dado <dado@hotmail.com> 1428501165 +0000
+committer Dado <dado@hotmail.com> 1428501165 +0000
+
+    Changed line separator
+
+:100644 100644 894b39ee3ab7e9870c83aaa11de538ae9d2698fe 84954edcb777837eddaf532d61e59bc8a6d49026 M	gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateANewUniverse.java

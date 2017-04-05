@@ -1,0 +1,21 @@
+Changes in branch origin/HEAD, between b5c1bccf7325c8bb13535508d35ce71116d7339f and 9ab3b0234f318c0e8a353b8acbd6db7747aa035f
+commit 9ab3b0234f318c0e8a353b8acbd6db7747aa035f
+tree d551171853641d605e5fbfe37e89bc11396eb5d8
+parent b5c1bccf7325c8bb13535508d35ce71116d7339f
+author Justin Hammond <justin.hammond@rackspace.com> 1375196861 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375196861 +0000
+
+    Changes way of running gunicorn
+
+:100644 100644 3b03ba75545457da1a350f33e58a0797806a3d0c e29bd00e76e2e526609ae7ffa919da331dc21f12 M	puppet/modules/faro_api/manifests/init.pp
+Changes in branch origin/master, between b5c1bccf7325c8bb13535508d35ce71116d7339f and 9ab3b0234f318c0e8a353b8acbd6db7747aa035f
+commit 9ab3b0234f318c0e8a353b8acbd6db7747aa035f
+tree d551171853641d605e5fbfe37e89bc11396eb5d8
+parent b5c1bccf7325c8bb13535508d35ce71116d7339f
+author Justin Hammond <justin.hammond@rackspace.com> 1375196861 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375196861 +0000
+
+    Changes way of running gunicorn
+
+:100644 100644 3b03ba75545457da1a350f33e58a0797806a3d0c e29bd00e76e2e526609ae7ffa919da331dc21f12 M	puppet/modules/faro_api/manifests/init.pp
+

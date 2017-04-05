@@ -1,0 +1,51 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between e4f36f200969d384de5dc149db436e15ddd27c94 and e4f36f200969d384de5dc149db436e15ddd27c94
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between 812affb9e1732a4c88ccabea4d6127225b7f5264 and 57c0e7c81753a6bcd1b075b467eacc58c3a969cd
+commit 57c0e7c81753a6bcd1b075b467eacc58c3a969cd
+tree df67bf6d96d7ea2dcb8a891820abe614045a588f
+parent 4c955b06aeaff045747afcf2a2b190f0b9f88281
+author Justin Hammond <justin.hammond@rackspace.com> 1374864049 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1374864049 +0000
+
+    Adding deploy scripts
+
+:100644 000000 f23ff38c0245c5c639d219d1b678bc29b1c0885e 0000000000000000000000000000000000000000 D	scripts/deploy/faro-api-deploy.sh
+:000000 100644 0000000000000000000000000000000000000000 0b2cbf48ee7ebfd634a88f03e11980ff1acd59b7 A	scripts/deploy/faro-deploy.sh
+
+commit 2d6ba37af28e6b50bea1174ff5f1987c3ddda542
+tree fc4b4b79d4a067aa64cd0717f3a83ceacc8d12f0
+parent 50a4583ded81c418d627dcc796a6f0c34b827d75
+author Justin Hammond <justin.hammond@rackspace.com> 1374524595 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1374524595 +0000
+
+    Added scripts
+
+:000000 100644 0000000000000000000000000000000000000000 f23ff38c0245c5c639d219d1b678bc29b1c0885e A	scripts/deploy/faro-api-deploy.sh
+Changes in branch origin/HEAD, between 812affb9e1732a4c88ccabea4d6127225b7f5264 and 57c0e7c81753a6bcd1b075b467eacc58c3a969cd
+commit 57c0e7c81753a6bcd1b075b467eacc58c3a969cd
+tree df67bf6d96d7ea2dcb8a891820abe614045a588f
+parent 4c955b06aeaff045747afcf2a2b190f0b9f88281
+author Justin Hammond <justin.hammond@rackspace.com> 1374864049 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1374864049 +0000
+
+    Adding deploy scripts
+
+:100644 000000 f23ff38c0245c5c639d219d1b678bc29b1c0885e 0000000000000000000000000000000000000000 D	scripts/deploy/faro-api-deploy.sh
+:000000 100644 0000000000000000000000000000000000000000 0b2cbf48ee7ebfd634a88f03e11980ff1acd59b7 A	scripts/deploy/faro-deploy.sh
+
+commit 2d6ba37af28e6b50bea1174ff5f1987c3ddda542
+tree fc4b4b79d4a067aa64cd0717f3a83ceacc8d12f0
+parent 50a4583ded81c418d627dcc796a6f0c34b827d75
+author Justin Hammond <justin.hammond@rackspace.com> 1374524595 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1374524595 +0000
+
+    Added scripts
+
+:000000 100644 0000000000000000000000000000000000000000 f23ff38c0245c5c639d219d1b678bc29b1c0885e A	scripts/deploy/faro-api-deploy.sh
+]]>
+</sub-log>
+</multi-scm-log>

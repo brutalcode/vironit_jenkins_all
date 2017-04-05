@@ -1,0 +1,19 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/hudson6435744936302310251.sh
+++ wget http://ec2-35-167-179-22.us-west-2.compute.amazonaws.com/job/Build/lastStableBuild/buildNumber --http-user=jenkins --http-password=jenkins@123 --auth-no-challenge
+--2017-02-16 12:30:19--  http://ec2-35-167-179-22.us-west-2.compute.amazonaws.com/job/Build/lastStableBuild/buildNumber
+Resolving ec2-35-167-179-22.us-west-2.compute.amazonaws.com (ec2-35-167-179-22.us-west-2.compute.amazonaws.com)... 172.31.19.217
+Connecting to ec2-35-167-179-22.us-west-2.compute.amazonaws.com (ec2-35-167-179-22.us-west-2.compute.amazonaws.com)|172.31.19.217|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1 [text/plain]
+Saving to: ‘buildNumber’
+
+     0K                                                       100%  286K=0s
+
+2017-02-16 12:30:19 (286 KB/s) - ‘buildNumber’ saved [1/1]
+
++ buildNumber=
++ echo
+
+Finished: SUCCESS

@@ -1,0 +1,198 @@
+Started by user [8mha:////4CChqKtRX243ptpgwhyDZ6IpbqZEkwrqY/fYHqsjC5QRAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/lib/jenkins/workspace/Build
+Cloning the remote Git repository
+Cloning repository git@github.com:ct-training/CalculatorService.git
+ > git init /var/lib/jenkins/workspace/Build/CalculatorService # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorService.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorService.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:ct-training/CalculatorService.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ct-training/CalculatorService.git # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorService.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorService.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6a0b95682768e7a7efaec9263925415d46a3ac19 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6a0b95682768e7a7efaec9263925415d46a3ac19
+ > git rev-list 6a0b95682768e7a7efaec9263925415d46a3ac19 # timeout=10
+Cloning the remote Git repository
+Cloning repository git@github.com:ct-training/CalculatorApplication.git
+ > git init /var/lib/jenkins/workspace/Build/CalculatorApplication # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorApplication.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:ct-training/CalculatorApplication.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ct-training/CalculatorApplication.git # timeout=10
+Fetching upstream changes from git@github.com:ct-training/CalculatorApplication.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:ct-training/CalculatorApplication.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 40c2971716f410039b73c6d479ff7eb68b007ec5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 40c2971716f410039b73c6d479ff7eb68b007ec5
+First time build. Skipping changelog.
+[Build] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn -f CalculatorService/pom.xml clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Calculator 0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Calculator ---
+[INFO] Deleting /var/lib/jenkins/workspace/Build/CalculatorService/target
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Calculator ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/CalculatorService/src/main/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Calculator ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/Build/CalculatorService/target/classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Calculator ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/CalculatorService/src/test/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Calculator ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Build/CalculatorService/target/test-classes
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Calculator ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/Build/CalculatorService/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.calc.service.MyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.105 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Calculator ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Build/CalculatorService/target/Calculator-0.0.1.jar
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:test-jar (default) @ Calculator ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Build/CalculatorService/target/Calculator-0.0.1-tests.jar
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ Calculator ---
+[INFO] Installing /var/lib/jenkins/workspace/Build/CalculatorService/target/Calculator-0.0.1.jar to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1.jar
+[INFO] Installing /var/lib/jenkins/workspace/Build/CalculatorService/pom.xml to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1.pom
+[INFO] Installing /var/lib/jenkins/workspace/Build/CalculatorService/target/Calculator-0.0.1-tests.jar to /var/lib/jenkins/.m2/repository/com/calc/service/Calculator/0.0.1/Calculator-0.0.1-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.395 s
+[INFO] Finished at: 2017-02-23T09:19:46+00:00
+[INFO] Final Memory: 14M/78M
+[INFO] ------------------------------------------------------------------------
+[Build] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven-3.3.9/bin/mvn -f CalculatorApplication/pom.xml clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building CalculatorApplication 0.0.1
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.0.0/maven-war-plugin-3.0.0.pom
+3/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.0.0/maven-war-plugin-3.0.0.pom (9 KB at 16.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.0.0/maven-war-plugin-3.0.0.jar
+3/87 KB   5/87 KB   8/87 KB   11/87 KB   13/87 KB   16/87 KB   19/87 KB   21/87 KB   24/87 KB   27/87 KB   29/87 KB   32/87 KB   36/87 KB   40/87 KB   44/87 KB   48/87 KB   52/87 KB   56/87 KB   60/87 KB   64/87 KB   68/87 KB   72/87 KB   76/87 KB   80/87 KB   84/87 KB   87/87 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.0.0/maven-war-plugin-3.0.0.jar (87 KB at 1441.3 KB/sec)
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ CalculatorApplication ---
+[INFO] Deleting /var/lib/jenkins/workspace/Build/CalculatorApplication/target
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CalculatorApplication ---
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/resources
+[INFO] 
+[8mha:////4LYyKn2n/iVEMTyPHQ2BuDt5RA1sbli8Dh6acRDUCqp0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ CalculatorApplication ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4GzYHTvopqtKLDdrEdut90253lBaVUB4mA/qiYKbUtKUAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Build/CalculatorApplication/target/classes
+[INFO] -------------------------------------------------------------
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[6,21] package javax.servlet does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[7,32] package javax.servlet.annotation does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[8,26] package javax.servlet.http does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[9,26] package javax.servlet.http does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[10,26] package javax.servlet.http does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[18,40] cannot find symbol
+  symbol: class HttpServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[17,2] cannot find symbol
+  symbol: class WebServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[35,30] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[35,58] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[36,32] cannot find symbol
+  symbol:   class ServletException
+  location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[55,31] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[55,59] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[56,32] cannot find symbol
+  symbol:   class ServletException
+  location: class com.calc.servlet.CalculatorServlet
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.368 s
+[INFO] Finished at: 2017-02-23T09:19:51+00:00
+[INFO] Final Memory: 15M/36M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project CalculatorApplication: Compilation failure: Compilation failure:
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[6,21] package javax.servlet does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[7,32] package javax.servlet.annotation does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[8,26] package javax.servlet.http does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[9,26] package javax.servlet.http does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[10,26] package javax.servlet.http does not exist
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[18,40] cannot find symbol
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] symbol: class HttpServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[17,2] cannot find symbol
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] symbol: class WebServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[35,30] cannot find symbol
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] symbol:   class HttpServletRequest
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[35,58] cannot find symbol
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] symbol:   class HttpServletResponse
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[36,32] cannot find symbol
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] symbol:   class ServletException
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[55,31] cannot find symbol
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] symbol:   class HttpServletRequest
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[55,59] cannot find symbol
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] symbol:   class HttpServletResponse
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] /var/lib/jenkins/workspace/Build/CalculatorApplication/src/main/java/com/calc/servlet/CalculatorServlet.java:[56,32] cannot find symbol
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] symbol:   class ServletException
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] location: class com.calc.servlet.CalculatorServlet
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4DOsU2qaxEBDOVq6pOO0Ia0pxwsSZbCisV+DhOPmf0PAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Archiving artifacts
+Finished: FAILURE

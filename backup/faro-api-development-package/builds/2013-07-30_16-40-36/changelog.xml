@@ -1,0 +1,79 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between 4cba2b47737cce5890e634e5d665871bba431b0c and c01ea672ab6d547127c8fa056f512dcfc527c0c4
+commit c08442f16cc2f17c966f7009c8538dc698a9ac42
+tree 1aa4029f4b096205df06d53e2dd830fa528e0c0d
+parent fe0bd0148653eeaae0ce300b46313ddedd4f279b
+author Justin Hammond <justin.hammond@rackspace.com> 1375202325 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375202325 +0000
+
+    Changed to eventlet and added multicpu support
+
+:100644 100644 9db5846372e522b78b523bbe80c1abab5ce1b36d 46253f205d25bc9ff0cca1b9f09027b4dbe43b97 M	gunicorn/conf.py
+:100644 100644 90884d549a17c0c9eb5cb1bc1ecddf220766981a c1215649237be5dad0b78fd55689f1233932062a M	requirements/pip-requirements.txt
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/HEAD, between 9ab3b0234f318c0e8a353b8acbd6db7747aa035f and d1bd288182002962f6cf83c6da853de7db7c3acc
+commit d1bd288182002962f6cf83c6da853de7db7c3acc
+tree 6da5eea7efbb74e6a771802e5a1e0bf6ede5f21d
+parent f66a0847fe80d4ef1015ca0b488d3a8534409fbf
+author Justin Hammond <justin.hammond@rackspace.com> 1375200065 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375200065 +0000
+
+    Removed manual killmode
+
+:100644 100644 fc366c51ad3623c8acb80656d306150804509864 e41c35b8d9dbd60dc797f8c260d6e985dc2fe27a M	puppet/modules/faro_api/manifests/init.pp
+
+commit f66a0847fe80d4ef1015ca0b488d3a8534409fbf
+tree e3ad1033bbbe7919236d43f48e4b3b9a9f30da0c
+parent b6960d3a662d5ebfdfbc9ac943b4c999f9ded277
+author Justin Hammond <justin.hammond@rackspace.com> 1375199863 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375199863 +0000
+
+    Added app to gunicorn run
+
+:100644 100644 9691d841c6c8976b5c8ce48d38c3436d6df9a3f1 fc366c51ad3623c8acb80656d306150804509864 M	puppet/modules/faro_api/manifests/init.pp
+
+commit b6960d3a662d5ebfdfbc9ac943b4c999f9ded277
+tree 51db10e57743d1cfa104fa1f1e13198489ae5998
+parent 9ab3b0234f318c0e8a353b8acbd6db7747aa035f
+author Justin Hammond <justin.hammond@rackspace.com> 1375199538 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375199538 +0000
+
+    removed typo
+
+:100644 100644 e29bd00e76e2e526609ae7ffa919da331dc21f12 9691d841c6c8976b5c8ce48d38c3436d6df9a3f1 M	puppet/modules/faro_api/manifests/init.pp
+Changes in branch origin/master, between 9ab3b0234f318c0e8a353b8acbd6db7747aa035f and d1bd288182002962f6cf83c6da853de7db7c3acc
+commit d1bd288182002962f6cf83c6da853de7db7c3acc
+tree 6da5eea7efbb74e6a771802e5a1e0bf6ede5f21d
+parent f66a0847fe80d4ef1015ca0b488d3a8534409fbf
+author Justin Hammond <justin.hammond@rackspace.com> 1375200065 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375200065 +0000
+
+    Removed manual killmode
+
+:100644 100644 fc366c51ad3623c8acb80656d306150804509864 e41c35b8d9dbd60dc797f8c260d6e985dc2fe27a M	puppet/modules/faro_api/manifests/init.pp
+
+commit f66a0847fe80d4ef1015ca0b488d3a8534409fbf
+tree e3ad1033bbbe7919236d43f48e4b3b9a9f30da0c
+parent b6960d3a662d5ebfdfbc9ac943b4c999f9ded277
+author Justin Hammond <justin.hammond@rackspace.com> 1375199863 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375199863 +0000
+
+    Added app to gunicorn run
+
+:100644 100644 9691d841c6c8976b5c8ce48d38c3436d6df9a3f1 fc366c51ad3623c8acb80656d306150804509864 M	puppet/modules/faro_api/manifests/init.pp
+
+commit b6960d3a662d5ebfdfbc9ac943b4c999f9ded277
+tree 51db10e57743d1cfa104fa1f1e13198489ae5998
+parent 9ab3b0234f318c0e8a353b8acbd6db7747aa035f
+author Justin Hammond <justin.hammond@rackspace.com> 1375199538 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375199538 +0000
+
+    removed typo
+
+:100644 100644 e29bd00e76e2e526609ae7ffa919da331dc21f12 9691d841c6c8976b5c8ce48d38c3436d6df9a3f1 M	puppet/modules/faro_api/manifests/init.pp
+]]>
+</sub-log>
+</multi-scm-log>

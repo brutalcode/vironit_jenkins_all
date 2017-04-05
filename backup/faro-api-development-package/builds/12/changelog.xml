@@ -1,0 +1,23 @@
+<multi-scm-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/development, between 0ca43f54c748e0d04bd52182420ced45a4b351dd and e0dfd6272c6f13098e3b674dbe146ae780ca1bdb
+commit aae4bd67f0dcac35b4792b737d832e6bcd66a4c9
+tree 04ff844422c7961686c3b1782f7c0cc1c8c1699f
+parent 111d83068b81027a37b82b63b375167b384b669a
+author Justin Hammond <justin.hammond@rackspace.com> 1375033969 +0000
+committer Justin Hammond <justin.hammond@rackspace.com> 1375033969 +0000
+
+    Increased coverage. Removed case-sensitivity bug
+
+:100644 100644 877e555e970323e2a7ae70d26d8010ef6ef3abaf aea285b6ac8f11235520f094b234e35f3e987680 M	faro_api/database.py
+:100644 100644 3da8ba49e35ee8ee587e05025661ce0002374570 6f3e7d90d23ff4b861cbd5fcf12a8cf991ebaf11 M	faro_api/models/user.py
+:100644 100644 e02bda42c54ef7d861a5af858f51c8fe5ef426b5 c88206537ece4e6dd565d3df438474d55e1f691e M	faro_api/tests/test_users.py
+:100644 100644 ea6fa183bceedd0fdd101453fb1b450af2449577 112c5b623c85d04d1c0a2adc17b2a57ce07485e9 M	faro_api/tests/test_utils.py
+]]>
+</sub-log>
+<sub-log scm="hudson.plugins.git.GitSCM">
+<![CDATA[Changes in branch origin/master, between 67405c385a177b2b30030091657c8279f585b717 and 67405c385a177b2b30030091657c8279f585b717
+Changes in branch origin/HEAD, between 67405c385a177b2b30030091657c8279f585b717 and 67405c385a177b2b30030091657c8279f585b717
+]]>
+</sub-log>
+</multi-scm-log>
